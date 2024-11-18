@@ -1,0 +1,2939 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Gourgeist - #0711 - Serebii.net Pok&eacute;dex</title>
+
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin>
+<link rel="preconnect" href="https://cdn.consentmanager.mgr.consensu.org/" crossorigin>
+<link rel="preconnect" href="https://kumo.network-n.com/" crossorigin>
+<meta http-equiv="imagetoolbar" CONTENT="no">
+	<link rel="stylesheet" type="text/css" href="/style/layout.css" />
+<meta name="viewport" content="width=device-width,initial-scale=1" id="viewport-meta">
+
+<!-- GDPR Compliancy -->
+<style>
+body {
+	--cmpBgColor: #507C36;
+	--cmpTextColor: #000000;
+	--cmpLinkColor: #ffffff;
+	--cmpPurposesColor: #000000;
+	--cmpBrandColor: #000000;
+	--cmpLogo: url('https://www.serebii.net/extralogo.png');
+}
+</style>
+<!-- GDPR Compliancy -->
+
+<link rel="search" href="/serebii-opensearch.xml" type="application/opensearchdescription+xml" title="Serebii Open Search" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128947957-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-128947957-1');
+</script>
+<!-- Place the below code anywhere you like in the <head> (higher is better) -->
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+
+<script async  src="https://kumo.network-n.com/dist/app.js" site="serebii"></script>
+
+<meta name="keywords" content="Pokemon, Pok&eacute;dex, Gourgeist (Pok&eacute;mon), Gourgeist, Gourgeist" />
+<link rel="stylesheet" type="text/css" HREF="/style/dexy-new.css">
+<link rel="canonical" href="https://www.serebii.net/pokemon/gourgeist" />
+
+<meta property="og:image" content="https://www.serebii.net/pokemon/art/711.png">
+<meta property="og:title" content="Gourgeist - Serebii.net Pok&eacute;dex Hub">
+<meta property="og:description" content="Serebii.net Gourgeist Pok&eacute;dex Hub for all Pok&eacute;mon data for all games, anime, movies and Trading Cards">
+<meta name="description" content="Serebii.net Gourgeist Pok&eacute;dex Hub for all Pok&eacute;mon data for all games, anime, movies and Trading Cards">
+<meta name="twitter:card" content="summary_large_image">
+
+<style type="text/css">
+.block_year{
+	display:inline-block;
+	margin: 0 25px 30px 25px;
+}
+.block_year ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+
+</style><script type="text/javascript">function view() {
+    	document.getElementById('spinoffs').setAttribute('style', 'display:block');
+    	document.getElementById('spinoffsvisible').setAttribute('style', 'display:none');
+    }
+	</script>
+
+
+</head>
+<body>
+<script type="text/javascript">
+	var viewport_meta = document.getElementById('viewport-meta');
+	var viewport_timer;
+
+	// these body*Class are reused in the lbar mobile menu
+	function bodyAddClass(className){
+		if(document.body) document.body.classList.add(className);
+	}
+	function bodyRemoveClass(className){
+		if(document.body) document.body.className = document.body.className.replace(className,"");
+	}
+
+	function viewport_set() {
+		// Define our viewport meta values
+		var viewports = {
+			default: viewport_meta.getAttribute('content'),
+			mobileL: 'width=device-width,initial-scale=0.75',
+			mobileM: 'width=device-width,initial-scale=0.5',
+			mobileS: 'width=device-width,initial-scale=0.4'
+		};
+
+		// Change the viewport value based on screen.width
+		if(screen.width < 370){
+			viewport_meta.setAttribute('content', viewports.mobileS);
+			bodyAddClass("nav_mobileS");
+			bodyRemoveClass("nav_mobileM");
+			bodyRemoveClass("nav_mobileL");
+		} else if(screen.width < 505){
+			viewport_meta.setAttribute('content', viewports.mobileM);
+			bodyRemoveClass("nav_mobileS");
+			bodyAddClass("nav_mobileM");
+			bodyRemoveClass("nav_mobileL");
+		} else if (screen.width < 760){
+			viewport_meta.setAttribute('content', viewports.mobileL);
+			bodyRemoveClass("nav_mobileS");
+			bodyRemoveClass("nav_mobileM");
+			bodyAddClass("nav_mobileL");
+		} else{
+			viewport_meta.setAttribute('content', viewports.default);
+			bodyRemoveClass("nav_mobileS");
+			bodyRemoveClass("nav_mobileM");
+			bodyRemoveClass("nav_mobileL");
+		}
+	}
+
+	// Set the correct viewport value on page load
+	viewport_set();
+
+	/* attach listener to (delay) set the correct viewport after device orientation change or resize. also onload so the nav_mobile* class gets added to body AFTER <body> has loaded */
+	if(window.addEventListener){
+		window.addEventListener('load', viewport_set);
+		window.addEventListener('resize', function(){
+			clearTimeout(viewport_timer);
+			viewport_timer = setTimeout(viewport_set, 100);
+		})
+	} else{
+		window.attachEvent('onload', viewport_set)
+		window.attachEvent('onresize', function(){
+			clearTimeout(viewport_timer);
+			viewport_timer = setTimeout(viewport_set, 100);
+		})
+	}
+
+</script>
+
+
+<header id="header">
+	<div class="banner">
+		<a href="/"><img src="/Banner.jpg" alt="Serebii.net Header" style="height:139px"></a>
+	</div>
+
+	<nav class="quicklinks">
+		<ul>
+			<li><b>Quick Links</b></li>
+			<li><a href="/index2.shtml">Home</a></li>
+			<li><a href="https://forums.serebii.net/" target="blank">Forums</a></li>
+			<li><a href="mailto:webmaster@serebii.net">Contact</a></li>
+			<li><a href="/discord.shtml">Discord</a></li>
+			<li><a href="/pokemon">Pokédex Hub</a></li>
+			<li><a href="/pokemongo/pokemon">GO Pokédex</a></li>
+			<li><a href="/pokedex-sv">Scarlet & Violet Pokédex</a></li>
+			<li><a href="/pokearth">Pokéarth</a></li>
+
+			<li class="search">
+				<form id="searchbox_018410473690156091934:6gahkiyodbi" action="/search.shtml" style="margin:0px;">
+					<input type="hidden" name="cx" value="018410473690156091934:6gahkiyodbi" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<input name="q" type="text" size="20" />
+					<input type="submit" name="sa" value="Search" />
+				</form>
+				<script type="text/javascript" src="//www.google.com/coop/cse/brand?form=searchbox_018410473690156091934%3A6gahkiyodbi"></script>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+
+
+
+<div id="wrapper">
+
+<ul id="tbar_sticky">
+	<li>
+		<a href="#lbar" class="navheader" id="tbar_lbar_open"><img src="/hidden/2019-04/burger.svg"></a>
+	</li>
+	<li>
+		<form id="searchbox_018410473690156091934:6gahkiyodbi" action="/search.shtml" style="margin:0px;">
+			<input type="hidden" name="cx" value="018410473690156091934:6gahkiyodbi" />
+			<input type="hidden" name="cof" value="FORID:11" />
+			<input name="q" type="search" placeholder="Search Serebii.net..." />
+		</form>
+	</li>
+	<li>
+		<a href="#rbar" class="navheader" id="tbar_rbar_open" style="padding-right:20px"><img src="/hidden/2019-04/burger.svg"></a>
+	</li>
+</ul>
+<div id="tbar_backdrop"></div>
+
+<nav id="lbar">
+	<ul id="lbar_ul">
+		<li>
+			<a href="/" class="navheader">Databases</a>
+			<ul>
+				<li><a href="/index2.shtml">News</a>
+				<li><a href="/archive.shtml">Archived news</a></li>
+				<li><a href="/pokemon/"><b>Pokédex</b></a></li>
+				<li><a href="/pokedex/">-Red/Blue Pokédex</a></li>
+				<li><a href="/pokedex-gs/">-Gold/Silver Pokédex</a></li>
+				<li><a href="/pokedex-rs/">-Ruby/Sapphire Pokédex</a></li>
+				<li><a href="/pokedex-dp/">-Diamond/Pearl Pokédex</a></li>
+				<li><a href="/pokedex-bw/">-Black/White Pokédex</a></li>
+				<li><a href="/pokedex-xy/">-X & Y Pokédex</a></li>
+				<li><a href="/pokedex-sm/">-Sun & Moon Pokédex</a></li>
+				<li><a href="/pokedex-sm/">-Let's Go Pokédex</a></li>
+				<li><a href="/pokedex-swsh/">-Sword & Shield Pokédex</a></li>
+				<li><a href="/pokedex-swsh/">-BDSP Pokédex</a></li>
+				<li><a href="/pokedex-swsh/">-Legends Pokédex</a></li>
+				<li><a href="/pokemongo/pokemon/">-GO Pokédex</a></li>
+				<li><a href="/pokedex-sv/">-Scarlet & Violet Pokédex</a></li>
+
+				<li><strong>Attackdex</strong></li>
+				<li><a href="/attackdex-rby/">-Gen 1 Attackdex</a></li>
+				<li><a href="/attackdex-gs/">-Gen 2 Attackdex</a></li>
+				<li><a href="/attackdex/">-Gen 3 Attackdex</a></li>
+				<li><a href="/attackdex-dp/">-Gen 4 Attackdex</a></li>
+				<li><a href="/attackdex-bw/">-Gen 5 Attackdex</a></li>
+				<li><a href="/attackdex-xy/">-Gen 6 Attackdex</a></li>
+				<li><a href="/attackdex-sm/">-Gen 7 Attackdex</a></li>
+				<li><a href="/attackdex-swsh/">-Gen 8 Attackdex</a></li>
+				<li><a href="/attackdex-sv/">-Gen 9 Attackdex</a></li>
+				<li><a href="/itemdex/">ItemDex</a></li>
+				<li><a href="/pokearth/">Pokéarth</a></li>
+				<li><a href="/abilitydex/">Abilitydex</a></li>
+				<li><a href="/spindex/">Spin-Off Pokédex</a></li>
+				<li><a href="/spindex-dp/">Spin-Off Pokédex DP</a></li>
+				<li><a href="/spindex-bw/">Spin-Off Pokédex BW</a></li>
+				<li><a href="/card/dex/">Cardex</a></li>
+				<li><a href="/movies/dex/">Cinematic Pokédex</a></li>
+				<li><a href="/games/mechanics.shtml">Game Mechanics</a></li>
+				<li><a href="/games/iv-calcsv.shtml">-Scarlet/Violet IV Calc.</a></li>
+				<li><a href="/potw-sv">Pokémon of the Week</a></li>
+				<li><a href="/potw-sv/">-9th Gen</a></li>
+				<li><a href="/potw-swsh/">-8th Gen</a></li>
+				<li><a href="/potw-sm/">-7th Gen</a></li>
+				<li><a href="/pokemon/timeline.shtml">Pokémon Timeline</a></li>
+				<li><a href="/pokemoncenter/">Pokémon Centers</a></li>
+				<li><a href="/playpokemon">Pokémon Championship Series</a></li>
+				<li><a href="/music/projectvoltage">Hatsune Miku Project Voltage</a></li>
+				<li><a href="/museums/">Pokémon in Museums & Exhibitions</a></li>
+				<li><a href="/pokemon/vangoghmuseum/">-Pokémon x Van Gogh</a></li>
+				<li><a href="/pokemonday/">Pokémon Day</a></li>
+				<li><a href="/presentations">Pokémon Presentations</a></li>
+				<li><a href="/pokemonshirts/">Pokémon Shirts</a></li>
+				<li><a href="/themeparks/">Theme Parks</a></li>
+				<li><a href="https://forums.serebii.net" target="blank">Forums</a></li>
+				<li><a href="/discord.shtml">Discord Chat</a></li>
+				<li><a href="/games/currentevents.shtml">Current & Upcoming Events</a></li>
+				<li><a href="/events">Event Database</a></li>
+				<li><a href="/scarletviolet/pokemon.shtml">9th Generation Pokémon</a></li>
+				<li><a href="/scarletviolet/dlc-pokemon.shtml">-New Pokémon in DLC</a></li>
+				<li><a href="/scarletviolet/paldeanforms.shtml">-Paldean Form Pokémon</a></li>
+
+			</ul>
+		</li>
+
+
+		<li>
+			<a href="/anime/" class="navheader">Anime & TV</a>
+			<ul>
+				<li><a href="/anime/epiguide/">Episode Listings & Pictures</a></li>
+				<li><a href="/anime/dex/">AniméDex</a></li>
+				<li><a href="/anime/characters/">Character Bios</a></li>
+				<li><a href="/anime/epiguide/indigo/">The Indigo League</a></li>
+				<li><a href="/anime/epiguide/orange/">The Orange League</a></li>
+				<li><a href="/anime/epiguide/johto/">The Johto Saga</a></li>
+				<li><a href="/anime/epiguide/houen/">The Saga in Hoenn!</a></li>
+				<li><a href="/anime/epiguide/kanto/">Kanto Battle Frontier Saga!</a></li>
+				<li><a href="/anime/epiguide/shinou/">The Sinnoh Saga!</a></li>
+				<li><a href="/anime/epiguide/bestwishes/">Best Wishes - Unova Saga</a></li>
+				<li><a href="/anime/epiguide/xy/">XY - Kalos Saga</a></li>
+				<li><a href="/anime/epiguide/sunmoon/">Sun & Moon - Alola Saga</a></li>
+				<li><a href="/anime/epiguide/pokemon/">Pokémon Journeys - Galar Saga</a></li>
+				<li><a href="/anime/epiguide/pokemonmaster/">Pokémon Aim To Be A Pokémon Master</a></li>
+				<li><a href="/anime/epiguide/pokemon2023/">Pokémon Horizons - Paldea Saga</a></li>
+				<li><a href="/anime/epiguide/chronicles/">Pokémon Chronicles</a></li>	
+				<li><a href="/anime/epiguide/specials/">The Special Episodes</a></li>
+				<li><a href="/anime/banned.shtml">The Banned Episodes</a></li>
+				<li><a href="/anime/shiny/">Shiny Pokémon</a></li>
+<li><b>Other Web Series</b></li>
+				<li><a href="/anime/epiguide/generations/">Pokémon Generations</a></li>
+				<li><a href="/anime/epiguide/twilightwings/">Pokémon Twilight Wings</a></li>
+				<li><a href="/anime/epiguide/evolutions/">Pokémon Evolutions</a></li>
+				<li><a href="/anime/hisuiansnow/">Pokémon: Hisuian Snow</a></li>
+				<li><a href="/anime/paldeanwinds/">Pokémon: Paldean Winds</a></li>
+				<li><a href="/anime/poketoon/">PokéToon</a></li>
+				<li><a href="/anime/other/pathtothepeak/">Path to the Peak</a></li>
+				<li><a href="/anime/other/pokeminutes/">PokéMinutes</a></li>
+				<li><a href="/anime/other/">Other Animations</a></li>
+				<li><b>Other Series</b></li>
+				<li><a href="/pokemonconcierge/">Pokémon Concierge</a></li>
+
+				<li><b>Live Action</b></li>
+				<li><a href="/poketsume/">PokéTsume</a></li>
+
+
+			</ul>
+		</li>
+
+		<li>
+			<a href="/games/" class="navheader">Video Games</a>
+			<ul>
+				<li><a href="/pokemon/generation9.shtml"><b>Gen IX</b></a></li>
+				<li><a href="/scarletviolet/">Scarlet & Violet</a></li>
+				<li><a href="/legendsz-a/">Legends: Z-A</a></li>
+				<li><a href="/pokemongo/">Pokémon GO</a></li>
+				<li><a href="/cafemix/">Pokémon Café ReMix</a></li>
+				<li><a href="/pokemonmasters/">Pokémon Masters EX</a></li>
+				<li><a href="/pokemonunite/">Pokémon UNITE</a></li>
+				<li><a href="/pokemonsleep/">Pokémon Sleep</a></li>
+				<li><a href="/detectivepikachureturns/">Detective Pikachu Returns</a></li>
+				<li><a href="/tcgpocket/">Pokémon TCG Pocket</a></li>
+
+				<li><a href="/pokemon/generation8.shtml"><b>Gen VIII</b></a></li>
+				<li><a href="/swordshield/">Sword & Shield</a></li>
+				<li><a href="/brilliantdiamondshiningpearl/">Brilliant Diamond & Shining Pearl</a></li>
+				<li><a href="/legendsarceus/">Pokémon Legends: Arceus</a></li>
+				<li><a href="/pokemonhome/">Pokémon HOME</a></li>
+				<li><a href="/pokemongo/">Pokémon GO</a></li>
+				<li><a href="/pokemonmasters/">Pokémon Masters EX</a></li>
+				<li><a href="/dungeonrescueteamdx/">Pokémon Mystery Dungeon Rescue Team DX</a></li>
+				<li><a href="/pokemonsmile/">Pokémon Smile</a></li>
+				<li><a href="/cafemix/">Pokémon Café ReMix</a></li>
+				<li><a href="/newpokemonsnap/">New Pokémon Snap</a></li>
+				<li><a href="/pokemonunite/">Pokémon UNITE</a></li>
+				<li><a href="/tcglive/">Pokémon TCG Live</a></li>
+
+				<li><a href="/pokemon/generation7.shtml"><b>Gen VII</b></a></li>
+				<li><a href="/sunmoon/">Sun & Moon</a></li>
+				<li><a href="/ultrasunultramoon/">Ultra Sun & Ultra Moon</a></li>
+				<li><a href="/letsgopikachueevee/">Let's Go, Pikachu! & Let's Go, Eevee!</a></li>
+				<li><a href="/pokemongo/">Pokémon GO</a></li>
+				<li><a href="/magikarpjump/">Pokémon: Magikarp Jump</a></li>
+				<li><a href="/rumblerush/">Pokémon Rumble Rush</a></li>
+				<li><a href="/pokkendx/">Pokkén Tournament DX</a></li>
+				<li><a href="/detective/">Detective Pikachu</a></li>
+				<li><a href="/quest/">Pokémon Quest</a></li>
+				<li><a href="/smashbrosultimate/">Super Smash Bros. Ultimate</a></li>
+				<li><a href="/pokemon/generation6.shtml"><b>Gen VI</b></a></li>
+				<li><a href="/xy/">X & Y</a></li>
+				<li><a href="/omegarubyalphasapphire/">Omega Ruby & Alpha Sapphire</a></li>
+				<li><a href="/bank/">Pokémon Bank</a></li>
+				<li><a href="/battletrozei/">Pokémon Battle TrozeiPokémon Link: Battle</a></li>
+				<li><a href="/artacademy/">Pokémon Art Academy</a></li>
+				<li><a href="/bandofthieves/">The Band of Thieves & 1000 Pokémon</a></li>
+				<li><a href="/shuffle/">Pokémon Shuffle</a></li>
+				<li><a href="/rumbleworld/">Pokémon Rumble World</a></li>
+				<li><a href="/supermysterydungeon/">Pokémon Super Mystery Dungeon</a></li>
+				<li><a href="/picross/">Pokémon Picross</a></li>
+				<li><a href="/detective/">Detective Pikachu</a></li>
+				<li><a href="/pokken/">Pokkén Tournament</a></li>
+				<li><a href="/duel/">Pokémon Duel</a></li>
+				<li><a href="/smashbros3dswiiu/">Smash Bros for 3DS/Wii U</a></li>
+				<li><a href="/games/badge/">Nintendo Badge Arcade</a></li>
+				<li><a href="/pokemon/generation5.shtml"><b>Gen V</b></a></li>
+				<li><a href="/blackwhite/">Black & White</a></li>
+				<li><a href="/black2white2/">Black 2 & White 2</a></li>
+				<li><a href="/dreamradar/">Pokémon Dream Radar</a></li>
+				<li><a href="/trettalab/">Pokémon Tretta Lab</a></li>
+				<li><a href="/rumbleu/">Pokémon Rumble U</a></li>
+				<li><a href="/dungeoninfinity/">Mystery Dungeon: Gates to Infinity</a></li>
+				<li><a href="/conquest/">Pokémon Conquest</a></li>
+				<li><a href="/pokepark2/">PokéPark 2: Wonders Beyond</a></li>
+				<li><a href="/rumble2/">Pokémon Rumble Blast</a></li>
+				<li><a href="/pokedex3d/">Pokédex 3D</a></li>
+				<li><a href="/pokedex3dpro/">Pokédex 3D Pro</a></li>
+				<li><a href="/typingds/">Learn With Pokémon: Typing Adventure</a></li>
+				<li><a href="/card/howtoplayds/">TCG How to Play DS</a></li>
+				<li><a href="/pokedexios/">Pokédex for iOS</a></li>
+				<li><a href="/pokemon/generation4.shtml"><b>Gen IV</b></a></li>
+				<li><a href="/diamondpearl/">Diamond & Pearl</a></li>
+				<li><a href="/platinum/">Platinum</a></li>
+				<li><a href="/heartgoldsoulsilver/">Heart Gold & Soul Silver</a></li>
+				<li><a href="/ranger3/">Pokémon Ranger: Guardian Signs</a></li>
+				<li><a href="/melee/">Pokémon Rumble</a></li>
+				<li><a href="/dungeon3/">Mystery Dungeon: Blazing, Stormy & Light Adventure Squad</a></li>
+				<li><a href="/pokepark/">PokéPark Wii - Pikachu's  Adventure</a></li>
+				<li><a href="/battle/">Pokémon Battle Revolution</a></li>
+				<li><a href="/dungeonsky/">Mystery Dungeon - Explorers of Sky</a></li>
+				<li><a href="/ranger2/">Pokémon Ranger: Shadows of Almia</a></li>
+				<li><a href="/dungeon2/">Mystery Dungeon - Explorers of Time & Darkness</a></li>
+				<li><a href="/ranch/">My Pokémon Ranch</a></li>
+				<li><a href="/ssbb/">Smash Bros Brawl</a></li>
+				<li><a href="/pokemon/generation3.shtml"><b>Gen III</b></a></li>
+				<li><a href="/rubysapphire/">Ruby & Sapphire</a></li>
+				<li><a href="/fireredleafgreen/">Fire Red & Leaf Green</a></li>
+				<li><a href="/emerald/">Emerald</a></li>
+				<li><a href="/colosseum/">Pokémon Colosseum</a></li>
+				<li><a href="/xd/">Pokémon XD: Gale of Darkness</a></li>
+				<li><a href="/dash/">Pokémon Dash</a></li>
+				<li><a href="/pokemon_channel/">Pokémon Channel</a></li>
+				<li><a href="/pokemon_box/">Pokémon Box: RS</a></li>
+				<li><a href="/pinball_rs/">Pokémon Pinball RS</a></li>
+				<li><a href="/ranger/">Pokémon Ranger</a></li>
+				<li><a href="/mysteriousdungeon/">Mystery Dungeon Red & Blue</a></li>
+				<li><a href="/torouze/">PokémonTrozei</a></li>
+				<li><a href="/pikachu/">Pikachu DS Tech Demo</a></li>
+				<li><a href="/pokeparkfish/">PokéPark Fishing Rally</a></li>
+				<li><a href="/e-reader/">The E-Reader</a></li>
+				<li><a href="/pokemate/">PokéMate</a></li>
+				<li><a href="/pokemon/generation2.shtml"><b>Gen II</b></a></li>
+				<li><a href="/gs/">Gold/Silver</a></li>
+				<li><a href="/crystal/">Crystal</a></li>
+				<li><a href="/stadium2/">Pokémon Stadium 2</a></li>
+				<li><a href="/puzzlechallenge/">Pokémon Puzzle Challenge</a></li>
+				<li><a href="/mini/">Pokémon Mini</a></li>
+				<li><a href="/smash_bros_2/">Super Smash Bros. Melee</a></li>
+				<li><a href="/pokemon/generation1.shtml"><b>Gen I</b></a></li>
+				<li><a href="/rb/">Red, Blue & Green</a></li>
+				<li><a href="/yellow/">Yellow</a></li>
+				<li><a href="/puzzleleague/">Pokémon Puzzle League</a></li>
+				<li><a href="/snap/">Pokémon Snap</a></li>
+				<li><a href="/pinball/">Pokémon Pinball</a></li>
+				<li><a href="/stadiumjp/">Pokémon Stadium (Japanese)</a></li>
+				<li><a href="/stadium/">Pokémon Stadium</a></li>
+				<li><a href="/tradingcardgamegb/">Pokémon Trading Card Game GB</a></li>
+				<li><a href="/smash_bros/">Super Smash Bros.</a></li>
+
+				<li><strong>Miscellaneous</strong></li>
+				<li><a href="/games/mechanics.shtml">Game Mechanics</a></li>
+				<li><a href="/playpokemon">Pokémon Championship Series</a></li>
+				<li><a href="/games/others.shtml">In Other Games</a></li>
+				<li><a href="/games/virtualconsole.shtml">Virtual Console</a></li>
+				<li><a href="/games/consoles.shtml">Special Edition Consoles</a></li>
+				<li><a href="/games/themes.shtml">Pokémon 3DS Themes</a></li>
+				<li><a href="/apps">Smartphone & Tablet Apps</a></li>
+				<li><a href="/virtualpet">Virtual Pets</a></li>
+				<li><a href="/amiibo">amiibo</a></li>
+				<li><strong>Arcade</strong></li>
+				<li><a href="/frienda">Pokémon FRIENDA</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/manga/" class="navheader">Manga</a>
+			<ul>
+				<li><a href="/manga/">General Information</a>
+				<li><a href="/manga/dex">MangaDex</a></li>
+				<li><a href="/manga/characters">Character BIOs</a></li>
+				<li><a href="/manga/characters-new">Detailed BIOs</a></li>
+				<li><a href="/manga/chapter.shtml">Chapter Guides</a></li>
+				<li><a href="/manga/volume.shtml">Volume Guides</a></li>
+				<li><a href="/manga/rby/">RBG Series</a></li>
+				<li><a href="/manga/yellow/">Yellow Series</a></li>
+				<li><a href="/manga/gsc/">GSC Series</a></li>
+				<li><a href="/manga/rs/">RS Series</a></li>
+				<li><a href="/manga/frlg/">FRLG Series</a></li>
+				<li><a href="/manga/bf/">Emerald Series</a></li>
+				<li><a href="/manga/dp/">DP Series</a></li>
+				<li><a href="/manga/pt/">Platinum Series</a></li>
+				<li><a href="/manga/hgss/">HGSS Series</a></li>
+				<li><a href="/manga/bw/">BW Series</a></li>
+				<li><a href="/manga/b2w2/">B2W2 Series</a></li>
+				<li><a href="/manga/xy/">XY Series</a></li>
+				<li><a href="/manga/oras/">ORAS Series</a></li>
+				<li><a href="/manga/sunmoon/">SM Series</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/movies/" class="navheader">Movies</a>
+			<ul>
+				<li><strong>Anime</strong></li>
+				<li><a href="/movies/mewtwo/origin/">The Origin of Mewtwo</a></li>
+				<li><a href="/movies/mewtwo/">Mewtwo Strikes Back</a></li>
+				<li><a href="/movies/lugia/">The Power of One</a></li>
+				<li><a href="/movies/entei/">Spell Of The Unown</a></li>
+				<li><a href="/anime/epiguide/specials/002.shtml">Mewtwo Returns</a></li>
+				<li><a href="/movies/serebii/">Celebi: Voice of the Forest</a></li>
+				<li><a href="/movies/latias_latios/">Pokémon Heroes</a></li>
+				<li><a href="/movies/jirachi/">Jirachi - Wish Maker</a></li>
+				<li><a href="/movies/deoxys/">Destiny Deoxys!</a></li>
+				<li><a href="/movies/mew/">Lucario and the Mystery of Mew!</a></li>
+				<li><a href="/movies/kyogre/">Pokémon Ranger & The Temple of the Sea!</a></li>
+				<li><a href="/movies/dp/">The Rise of Darkrai!</a></li>
+				<li><a href="/movies/giratina/">Giratina & The Sky Warrior!</a></li>
+				<li><a href="/movies/arceus/">Arceus and the Jewel of Life</a></li>
+				<li><a href="/movies/celebi/">Zoroark - Master of Illusions</a></li>
+				<li><a href="/movies/victini/">Black: Victini & ReshiramWhite: Victini & Zekrom</a></li>
+				<li><a href="/movies/kyurem/">Kyurem VS The Sword of Justice</a></li>
+				<li><a href="/movies/meloetta/">-Meloetta's Midnight Serenade</a></li>
+				<li><a href="/movies/genesect/">Genesect and the Legend Awakened</a></li>
+				<li><a href="/movies/xy/">Diancie & The Cocoon of Destruction</a></li>
+				<li><a href="/movies/hoopa/">Hoopa & The Clash of Ages</a></li>
+				<li><a href="/movies/volcanion/">Volcanion and the Mechanical Marvel</a></li>
+				<li><a href="/movies/pokemon20/">Pokémon I Choose You!</a></li>
+				<li><a href="/movies/thepowerofus/">Pokémon The Power of Us</a></li>
+				<li><a href="/movies/mewtwoevolution/">Mewtwo Strikes Back Evolution</a></li>
+				<li><a href="/movies/secretsofthejungle/">Secrets of the Jungle</a></li>
+				<li><strong>Live Action</strong></li>
+				<li><a href="/movies/detectivepikachu/">Pokémon Detective Pikachu</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/movies/" class="navheader">Pikachu Shorts</a>
+			<ul>
+				<li><a href="/movies/pikachu1/">Pikachu's Summer Vacation</a></li>
+				<li><a href="/movies/pikachureturns/">Pikachu's Rescue Adventure</a></li>
+				<li><a href="/movies/pikachu3/">Pikachu And Pichu</a></li>
+				<li><a href="/movies/pikachu4/">Pikachu's PikaBoo</a></li>
+				<li><a href="/movies/pikachu5/">Camp Pikachu!</a></li>
+				<li><a href="/movies/pikachu6/">Gotta Dance!!</a></li>
+				<li><a href="/movies/pikachu7/">Pikachu's Summer Festival!</a></li>
+				<li><a href="/movies/pikachu8/">Pikachu's Ghost Festival!</a></li>
+				<li><a href="/movies/pikachu9/">Pikachu's Island Adventure!</a></li>
+				<li><a href="/movies/pikachu10/">Pikachu's Exploration Club</a></li>
+				<li><a href="/movies/pikachu11/">Pikachu's Great Ice Adventure</a></li>
+				<li><a href="/movies/pikachu12/">Pikachu's Sparkling Search</a></li>
+				<li><a href="/movies/pikachu13/">Pikachu's Really Mysterious Adventure</a></li>
+				<li><a href="/movies/eevee/">Eevee & Friends</a></li>
+				<li><a href="/movies/klefki/">Pikachu, What's This Key?</a></li>
+				<li><a href="/movies/pikachumusic/">Pikachu & The Pokémon Music Squad</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/card/" class="navheader">Trading Cards</a>
+			<ul>
+				<li><a href="/tcglive/">Pokémon TCG Live</a></li>
+				<li><a href="/card/dex/">Cardex</a></li>
+				<li><a href="/card/dex/extra">-Extra Pokémon Types</a></li>
+				<li><a href="/card/dex/trainers">Trainer Cards</a></li>
+				<li><a href="/card/dex/energy">Energy Cards</a></li>
+				<li><a href="/card/dex/extra/altart.shtml">Alternate Art Cards</a></li>
+				<li><a href="/card/raidbattles">Raid Battles</a></li>
+				<li><a href="/card/classic/">Pokémon TCG Classic</a></li>
+				<li><a href="/card/english.shtml"><b>English Sets</b></a></li>
+				<li><a href="/card/surgingsparks/">-Surging Sparks</a></li>
+				<li><a href="/card/stellarcrown/">-Stellar Crown</a></li>
+				<li><a href="/card/shroudedfable/">-Shrouded Fable</a></li>
+				<li><a href="/card/twilightmasquerade/">-Twilight Masquerade</a></li>
+				<li><a href="/card/temporalforces/">-Temporal Forces</a></li>
+				<li><a href="/card/paldeanfates/">-Paldean Fates</a></li>
+				<li><a href="/card/paradoxrift/">-Paradox Rift</a></li>
+				<li><a href="/card/151/">-151</a></li>
+				<li><a href="/card/obsidianflames/">-Obsidian Flames</a></li>
+				<li><a href="/card/paldeaevolved/">-Paldea Evolved</a></li>
+				<li><a href="/card/scarletviolet/">-Scarlet Violet</a></li>
+				<li><a href="/card/crownzenith/">-Crown Zenith</a></li>
+				<li><a href="/card/silvertempest/">-Silver Tempest</a></li>
+				<li><a href="/card/lostorigin/">-Lost Origin</a></li>
+				<li><a href="/card/pokemongo">-Pokémon GO x Pokémon TCG</a></li>
+				<li><a href="/card/astralradiance">-Astral Radiance</a></li>
+				<li><a href="/card/brilliantstars">-Brilliant Stars</a></li>
+				<li><a href="/card/sm.shtml">-SM Series</a></li>
+				<li><a href="/card/xy.shtml">-XY Series</a></li>
+				<li><a href="/card/bw.shtml">-BW Series</a></li>
+				<li><a href="/card/dpt.shtml">-DPtHS Series</a></li>
+				<li><a href="/card/ex.shtml">-EX Series</a></li>
+				<li><a href="/card/neo.shtml">-Neo/eSeries</a></li>
+				<li><a href="/card/first.shtml">-First Gen Series</a></li>
+				<li><a href="/card/engpromo.shtml"><b>English Promos</b></a></li>
+				<li><a href="/card/svpromos">-SV Promos</a></li>
+				<li><a href="/card/swshpromos">-SWSH Promos</a></li>
+				<li><a href="/card/smpromos">-SM Promos</a></li>
+				<li><a href="/card/xypromos">-XY Promos</a></li>
+				<li><a href="/card/popseries.shtml">-POP Series</a></li>
+				<li><a href="/card/japanese.shtml"><b>Japanese Sets</b></a></li>
+				<li><a href="/card/superelectricbreaker/">-Super Electric Breaker</a></li>
+				<li><a href="/card/paradisedragona/">-Paradise Dragona</a></li>
+				<li><a href="/card/stellarmiracle/">-Stellar Miracle</a></li>
+				<li><a href="/card/nightwanderer/">-Night Wanderer</a></li>
+				<li><a href="/card/maskofchange/">-Mask of Change</a></li>
+				<li><a href="/card/crimsonhaze/">-Crimson Haze</a></li>
+				<li><a href="/card/wildforce/">-Wild Force</a></li>
+				<li><a href="/card/cyberjudge/">-Cyber Judge</a></li>
+				<li><a href="/card/shinytreasureex/">-Shiny Treasure ex</a></li>
+				<li><a href="/card/futureflash/">-Future Flash</a></li>
+				<li><a href="/card/ancientroar/">-Ancient Roar</a></li>
+				<li><a href="/card/ragingsurf/">-Raging Surf</a></li>
+				<li><a href="/card/pokemoncard151/">-Pokémon Card 151</a></li>
+				<li><a href="/card/snowhazard/">-Snow Hazard</a></li>
+				<li><a href="/card/clayburst/">-Clay Burst</a></li>
+				<li><a href="/card/tripletbeat/">-Triplet Beat</a></li>
+				<li><a href="/card/scarletex/">-Scarlet ex</a></li>
+				<li><a href="/card/violetex/">-Violet ex</a></li>
+				<li><a href="/card/vstaruniverse/">-VSTAR Universe</a></li>
+				<li><a href="/card/vs">-Pokémon VS</a></li>
+				<li><a href="/card/jppromo.shtml"><b>Japanese Promos</b></a></li>
+				<li><a href="/card/svpromo">-SV Promos</a></li>
+				<li><a href="/card/spromo">-S Promos</a></li>
+				<li><a href="/card/smpromo">-SM Promos</a></li>
+
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+
+<script type="text/javascript">
+
+function loadMobileLbar(){
+	var tbar_lbar_open=document.getElementById('tbar_lbar_open'),
+		tbar_backdrop=document.getElementById('tbar_backdrop'),
+		lbar=document.getElementById('lbar'),
+		lbarLIs=document.querySelectorAll("#lbar_ul>li .navheader"),
+		lbarLIULs=document.querySelectorAll("#lbar_ul>li>ul");
+
+	/* lbar display/hide */
+	tbar_lbar_open.onclick=function() {
+		if (lbar.className.indexOf("show") > -1){//hide
+			lbar.className = lbar.className.replace("show","");
+			bodyRemoveClass("nav_modal");
+		} else{//show
+			lbar.classList.add("show");
+			bodyAddClass("nav_modal");
+		}
+
+		return false;
+	}
+
+
+	/* background clicked when bar shown */
+	tbar_backdrop.onclick=function() {// if the backdrop is clicked, hide menus
+		lbar.className = lbar.className.replace("show","");
+		rbar.className = rbar.className.replace("show","");
+		bodyRemoveClass("nav_modal");
+		return false;
+	}
+
+	/* handle expand/collapse sub-menus in lbar by attaching click events */
+	for(i=0; i<lbarLIs.length; i++){
+		lbarLIs[i].onclick=function(i) {
+			var elem=this.parentNode.getElementsByTagName("UL")[0];
+			var elemDisp=(elem.className.indexOf("show") === -1)
+
+			// hide all ul, then open one if clicked
+			for(i2=0; i2<lbarLIULs.length; i2++){
+				lbarLIULs[i2].className = lbarLIULs[i2].className.replace("show","");
+			}
+
+			if(elemDisp){
+				elem.classList.add("show");
+			}
+
+			return false;
+		}
+	}
+}
+function loadMobileRbar(){
+	var tbar_rbar_open=document.getElementById('tbar_rbar_open'),
+		rbar=document.getElementById('rbar');
+
+	/* rbar display/hide */
+	tbar_rbar_open.onclick=function() {
+		if (rbar.className.indexOf("show") > -1){//hide
+			rbar.className = rbar.className.replace("show","");
+			bodyRemoveClass("nav_modal");
+		} else{//show
+			rbar.classList.add("show");
+			bodyAddClass("nav_modal");
+		}
+
+		return false;
+	}
+}
+
+loadMobileLbar();
+
+/* attach listener to for rbar events AFTER page loads (because #rbar hasn't loaded at this point in page ) */
+if(window.addEventListener){
+	window.addEventListener('load', loadMobileRbar)
+} else{
+	window.attachEvent('onload', loadMobileRbar)
+}
+</script>
+
+
+
+<div id="content">
+		<div class="center" style="margin-top:16px;height:100px"><div id="nn_lb1"></div><div id="nn_mobile_lb1"></div></div>
+<main>
+
+
+<div align=center><table align=center width="95%" border="0" cellspacing="0" cellpadding="4">
+
+<tr>
+
+<td align="center" width="25%"><FORM NAME="nav">
+
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav.SelectURL.options[document.nav.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+
+<option value="#">Kanto: 001 - 151</option>
+
+<option value="/pokemon/bulbasaur/">001 Bulbasaur</option>
+<option value="/pokemon/ivysaur/">002 Ivysaur</option>
+<option value="/pokemon/venusaur/">003 Venusaur</option>
+<option value="/pokemon/charmander/">004 Charmander</option>
+<option value="/pokemon/charmeleon/">005 Charmeleon</option>
+<option value="/pokemon/charizard/">006 Charizard</option>
+<option value="/pokemon/squirtle/">007 Squirtle</option>
+<option value="/pokemon/wartortle/">008 Wartortle</option>
+<option value="/pokemon/blastoise/">009 Blastoise</option>
+<option value="/pokemon/caterpie/">010 Caterpie</option>
+<option value="/pokemon/metapod/">011 Metapod</option>
+<option value="/pokemon/butterfree/">012 Butterfree</option>
+<option value="/pokemon/weedle/">013 Weedle</option>
+<option value="/pokemon/kakuna/">014 Kakuna</option>
+<option value="/pokemon/beedrill/">015 Beedrill</option>
+<option value="/pokemon/pidgey/">016 Pidgey</option>
+<option value="/pokemon/pidgeotto/">017 Pidgeotto</option>
+<option value="/pokemon/pidgeot/">018 Pidgeot</option>
+<option value="/pokemon/rattata/">019 Rattata</option>
+<option value="/pokemon/raticate/">020 Raticate</option>
+<option value="/pokemon/spearow/">021 Spearow</option>
+<option value="/pokemon/fearow/">022 Fearow</option>
+<option value="/pokemon/ekans/">023 Ekans</option>
+<option value="/pokemon/arbok/">024 Arbok</option>
+<option value="/pokemon/pikachu/">025 Pikachu</option>
+<option value="/pokemon/raichu/">026 Raichu</option>
+<option value="/pokemon/sandshrew/">027 Sandshrew</option>
+<option value="/pokemon/sandslash/">028 Sandslash</option>
+<option value="/pokemon/nidoranf/">029 Nidoran&#9792;</option>
+<option value="/pokemon/nidorina/">030 Nidorina</option>
+<option value="/pokemon/nidoqueen/">031 Nidoqueen</option>
+<option value="/pokemon/nidoranm/">032 Nidoran&#9794;</option>
+<option value="/pokemon/nidorino/">033 Nidorino</option>
+<option value="/pokemon/nidoking/">034 Nidoking</option>
+<option value="/pokemon/clefairy/">035 Clefairy</option>
+<option value="/pokemon/clefable/">036 Clefable</option>
+<option value="/pokemon/vulpix/">037 Vulpix</option>
+<option value="/pokemon/ninetales/">038 Ninetales</option>
+<option value="/pokemon/jigglypuff/">039 Jigglypuff</option>
+<option value="/pokemon/wigglytuff/">040 Wigglytuff</option>
+<option value="/pokemon/zubat/">041 Zubat</option>
+<option value="/pokemon/golbat/">042 Golbat</option>
+<option value="/pokemon/oddish/">043 Oddish</option>
+<option value="/pokemon/gloom/">044 Gloom</option>
+<option value="/pokemon/vileplume/">045 Vileplume</option>
+<option value="/pokemon/paras/">046 Paras</option>
+<option value="/pokemon/parasect/">047 Parasect</option>
+<option value="/pokemon/venonat/">048 Venonat</option>
+<option value="/pokemon/venomoth/">049 Venomoth</option>
+<option value="/pokemon/diglett/">050 Diglett</option>
+<option value="/pokemon/dugtrio/">051 Dugtrio</option>
+<option value="/pokemon/meowth/">052 Meowth</option>
+<option value="/pokemon/persian/">053 Persian</option>
+<option value="/pokemon/psyduck/">054 Psyduck</option>
+<option value="/pokemon/golduck/">055 Golduck</option>
+<option value="/pokemon/mankey/">056 Mankey</option>
+<option value="/pokemon/primeape/">057 Primeape</option>
+<option value="/pokemon/growlithe/">058 Growlithe</option>
+<option value="/pokemon/arcanine/">059 Arcanine</option>
+<option value="/pokemon/poliwag/">060 Poliwag</option>
+<option value="/pokemon/poliwhirl/">061 Poliwhirl</option>
+<option value="/pokemon/poliwrath/">062 Poliwrath</option>
+<option value="/pokemon/abra/">063 Abra</option>
+<option value="/pokemon/kadabra/">064 Kadabra</option>
+<option value="/pokemon/alakazam/">065 Alakazam</option>
+<option value="/pokemon/machop/">066 Machop</option>
+<option value="/pokemon/machoke/">067 Machoke</option>
+<option value="/pokemon/machamp/">068 Machamp</option>
+<option value="/pokemon/bellsprout/">069 Bellsprout</option>
+<option value="/pokemon/weepinbell/">070 Weepinbell</option>
+<option value="/pokemon/victreebel/">071 Victreebel</option>
+<option value="/pokemon/tentacool/">072 Tentacool</option>
+<option value="/pokemon/tentacruel/">073 Tentacruel</option>
+<option value="/pokemon/geodude/">074 Geodude</option>
+<option value="/pokemon/graveler/">075 Graveler</option>
+<option value="/pokemon/golem/">076 Golem</option>
+<option value="/pokemon/ponyta/">077 Ponyta</option>
+<option value="/pokemon/rapidash/">078 Rapidash</option>
+<option value="/pokemon/slowpoke/">079 Slowpoke</option>
+<option value="/pokemon/slowbro/">080 Slowbro</option>
+<option value="/pokemon/magnemite/">081 Magnemite</option>
+<option value="/pokemon/magneton/">082 Magneton</option>
+<option value="/pokemon/farfetch'd/">083 Farfetch'd</option>
+<option value="/pokemon/doduo/">084 Doduo</option>
+<option value="/pokemon/dodrio/">085 Dodrio</option>
+<option value="/pokemon/seel/">086 Seel</option>
+<option value="/pokemon/dewgong/">087 Dewgong</option>
+<option value="/pokemon/grimer/">088 Grimer</option>
+<option value="/pokemon/muk/">089 Muk</option>
+<option value="/pokemon/shellder/">090 Shellder</option>
+<option value="/pokemon/cloyster/">091 Cloyster</option>
+<option value="/pokemon/gastly/">092 Gastly</option>
+<option value="/pokemon/haunter/">093 Haunter</option>
+<option value="/pokemon/gengar/">094 Gengar</option>
+<option value="/pokemon/onix/">095 Onix</option>
+<option value="/pokemon/drowzee/">096 Drowzee</option>
+<option value="/pokemon/hypno/">097 Hypno</option>
+<option value="/pokemon/krabby/">098 Krabby</option>
+<option value="/pokemon/kingler/">099 Kingler</option>
+<option value="/pokemon/voltorb/">100 Voltorb</option>
+<option value="/pokemon/electrode/">101 Electrode</option>
+<option value="/pokemon/exeggcute/">102 Exeggcute</option>
+<option value="/pokemon/exeggutor/">103 Exeggutor</option>
+<option value="/pokemon/cubone/">104 Cubone</option>
+<option value="/pokemon/marowak/">105 Marowak</option>
+<option value="/pokemon/hitmonlee/">106 Hitmonlee</option>
+<option value="/pokemon/hitmonchan/">107 Hitmonchan</option>
+<option value="/pokemon/lickitung/">108 Lickitung</option>
+<option value="/pokemon/koffing/">109 Koffing</option>
+<option value="/pokemon/weezing/">110 Weezing</option>
+<option value="/pokemon/rhyhorn/">111 Rhyhorn</option>
+<option value="/pokemon/rhydon/">112 Rhydon</option>
+<option value="/pokemon/chansey/">113 Chansey</option>
+<option value="/pokemon/tangela/">114 Tangela</option>
+<option value="/pokemon/kangaskhan/">115 Kangaskhan</option>
+<option value="/pokemon/horsea/">116 Horsea</option>
+<option value="/pokemon/seadra/">117 Seadra</option>
+<option value="/pokemon/goldeen/">118 Goldeen</option>
+<option value="/pokemon/seaking/">119 Seaking</option>
+<option value="/pokemon/staryu/">120 Staryu</option>
+<option value="/pokemon/starmie/">121 Starmie</option>
+<option value="/pokemon/mr.mime/">122 Mr. Mime</option>
+<option value="/pokemon/scyther/">123 Scyther</option>
+<option value="/pokemon/jynx/">124 Jynx</option>
+<option value="/pokemon/electabuzz/">125 Electabuzz</option>
+<option value="/pokemon/magmar/">126 Magmar</option>
+<option value="/pokemon/pinsir/">127 Pinsir</option>
+<option value="/pokemon/tauros/">128 Tauros</option>
+<option value="/pokemon/magikarp/">129 Magikarp</option>
+<option value="/pokemon/gyarados/">130 Gyarados</option>
+<option value="/pokemon/lapras/">131 Lapras</option>
+<option value="/pokemon/ditto/">132 Ditto</option>
+<option value="/pokemon/eevee/">133 Eevee</option>
+<option value="/pokemon/vaporeon/">134 Vaporeon</option>
+<option value="/pokemon/jolteon/">135 Jolteon</option>
+<option value="/pokemon/flareon/">136 Flareon</option>
+<option value="/pokemon/porygon/">137 Porygon</option>
+<option value="/pokemon/omanyte/">138 Omanyte</option>
+<option value="/pokemon/omastar/">139 Omastar</option>
+<option value="/pokemon/kabuto/">140 Kabuto</option>
+<option value="/pokemon/kabutops/">141 Kabutops</option>
+<option value="/pokemon/aerodactyl/">142 Aerodactyl</option>
+<option value="/pokemon/snorlax/">143 Snorlax</option>
+<option value="/pokemon/articuno/">144 Articuno</option>
+<option value="/pokemon/zapdos/">145 Zapdos</option>
+<option value="/pokemon/moltres/">146 Moltres</option>
+<option value="/pokemon/dratini/">147 Dratini</option>
+<option value="/pokemon/dragonair/">148 Dragonair</option>
+<option value="/pokemon/dragonite/">149 Dragonite</option>
+<option value="/pokemon/mewtwo/">150 Mewtwo</option>
+<option value="/pokemon/mew/">151 Mew</option>
+</SELECT> </FORM></td>
+
+<td align="center" width="25%">
+
+<FORM NAME="nav2">
+
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav2.SelectURL.options[document.nav2.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+
+<option value="#">Johto: 152 - 251</option>
+
+<option value="/pokemon/chikorita/">152 Chikorita</option>
+<option value="/pokemon/bayleef/">153 Bayleef</option>
+<option value="/pokemon/meganium/">154 Meganium</option>
+<option value="/pokemon/cyndaquil/">155 Cyndaquil</option>
+<option value="/pokemon/quilava/">156 Quilava</option>
+<option value="/pokemon/typhlosion/">157 Typhlosion</option>
+<option value="/pokemon/totodile/">158 Totodile</option>
+<option value="/pokemon/croconaw/">159 Croconaw</option>
+<option value="/pokemon/feraligatr/">160 Feraligatr</option>
+<option value="/pokemon/sentret/">161 Sentret</option>
+<option value="/pokemon/furret/">162 Furret</option>
+<option value="/pokemon/hoothoot/">163 Hoothoot</option>
+<option value="/pokemon/noctowl/">164 Noctowl</option>
+<option value="/pokemon/ledyba/">165 Ledyba</option>
+<option value="/pokemon/ledian/">166 Ledian</option>
+<option value="/pokemon/spinarak/">167 Spinarak</option>
+<option value="/pokemon/ariados/">168 Ariados</option>
+<option value="/pokemon/crobat/">169 Crobat</option>
+<option value="/pokemon/chinchou/">170 Chinchou</option>
+<option value="/pokemon/lanturn/">171 Lanturn</option>
+<option value="/pokemon/pichu/">172 Pichu</option>
+<option value="/pokemon/cleffa/">173 Cleffa</option>
+<option value="/pokemon/igglybuff/">174 Igglybuff</option>
+<option value="/pokemon/togepi/">175 Togepi</option>
+<option value="/pokemon/togetic/">176 Togetic</option>
+<option value="/pokemon/natu/">177 Natu</option>
+<option value="/pokemon/xatu/">178 Xatu</option>
+<option value="/pokemon/mareep/">179 Mareep</option>
+<option value="/pokemon/flaaffy/">180 Flaaffy</option>
+<option value="/pokemon/ampharos/">181 Ampharos</option>
+<option value="/pokemon/bellossom/">182 Bellossom</option>
+<option value="/pokemon/marill/">183 Marill</option>
+<option value="/pokemon/azumarill/">184 Azumarill</option>
+<option value="/pokemon/sudowoodo/">185 Sudowoodo</option>
+<option value="/pokemon/politoed/">186 Politoed</option>
+<option value="/pokemon/hoppip/">187 Hoppip</option>
+<option value="/pokemon/skiploom/">188 Skiploom</option>
+<option value="/pokemon/jumpluff/">189 Jumpluff</option>
+<option value="/pokemon/aipom/">190 Aipom</option>
+<option value="/pokemon/sunkern/">191 Sunkern</option>
+<option value="/pokemon/sunflora/">192 Sunflora</option>
+<option value="/pokemon/yanma/">193 Yanma</option>
+<option value="/pokemon/wooper/">194 Wooper</option>
+<option value="/pokemon/quagsire/">195 Quagsire</option>
+<option value="/pokemon/espeon/">196 Espeon</option>
+<option value="/pokemon/umbreon/">197 Umbreon</option>
+<option value="/pokemon/murkrow/">198 Murkrow</option>
+<option value="/pokemon/slowking/">199 Slowking</option>
+<option value="/pokemon/misdreavus/">200 Misdreavus</option>
+<option value="/pokemon/unown/">201 Unown</option>
+<option value="/pokemon/wobbuffet/">202 Wobbuffet</option>
+<option value="/pokemon/girafarig/">203 Girafarig</option>
+<option value="/pokemon/pineco/">204 Pineco</option>
+<option value="/pokemon/forretress/">205 Forretress</option>
+<option value="/pokemon/dunsparce/">206 Dunsparce</option>
+<option value="/pokemon/gligar/">207 Gligar</option>
+<option value="/pokemon/steelix/">208 Steelix</option>
+<option value="/pokemon/snubbull/">209 Snubbull</option>
+<option value="/pokemon/granbull/">210 Granbull</option>
+<option value="/pokemon/qwilfish/">211 Qwilfish</option>
+<option value="/pokemon/scizor/">212 Scizor</option>
+<option value="/pokemon/shuckle/">213 Shuckle</option>
+<option value="/pokemon/heracross/">214 Heracross</option>
+<option value="/pokemon/sneasel/">215 Sneasel</option>
+<option value="/pokemon/teddiursa/">216 Teddiursa</option>
+<option value="/pokemon/ursaring/">217 Ursaring</option>
+<option value="/pokemon/slugma/">218 Slugma</option>
+<option value="/pokemon/magcargo/">219 Magcargo</option>
+<option value="/pokemon/swinub/">220 Swinub</option>
+<option value="/pokemon/piloswine/">221 Piloswine</option>
+<option value="/pokemon/corsola/">222 Corsola</option>
+<option value="/pokemon/remoraid/">223 Remoraid</option>
+<option value="/pokemon/octillery/">224 Octillery</option>
+<option value="/pokemon/delibird/">225 Delibird</option>
+<option value="/pokemon/mantine/">226 Mantine</option>
+<option value="/pokemon/skarmory/">227 Skarmory</option>
+<option value="/pokemon/houndour/">228 Houndour</option>
+<option value="/pokemon/houndoom/">229 Houndoom</option>
+<option value="/pokemon/kingdra/">230 Kingdra</option>
+<option value="/pokemon/phanpy/">231 Phanpy</option>
+<option value="/pokemon/donphan/">232 Donphan</option>
+<option value="/pokemon/porygon2/">233 Porygon2</option>
+<option value="/pokemon/stantler/">234 Stantler</option>
+<option value="/pokemon/smeargle/">235 Smeargle</option>
+<option value="/pokemon/tyrogue/">236 Tyrogue</option>
+<option value="/pokemon/hitmontop/">237 Hitmontop</option>
+<option value="/pokemon/smoochum/">238 Smoochum</option>
+<option value="/pokemon/elekid/">239 Elekid</option>
+<option value="/pokemon/magby/">240 Magby</option>
+<option value="/pokemon/miltank/">241 Miltank</option>
+<option value="/pokemon/blissey/">242 Blissey</option>
+<option value="/pokemon/raikou/">243 Raikou</option>
+<option value="/pokemon/entei/">244 Entei</option>
+<option value="/pokemon/suicune/">245 Suicune</option>
+<option value="/pokemon/larvitar/">246 Larvitar</option>
+<option value="/pokemon/pupitar/">247 Pupitar</option>
+<option value="/pokemon/tyranitar/">248 Tyranitar</option>
+<option value="/pokemon/lugia/">249 Lugia</option>
+<option value="/pokemon/ho-oh/">250 Ho-Oh</option>
+<option value="/pokemon/celebi/">251 Celebi</option>
+</SELECT> </FORM></td>
+
+<td align="center" width="25%"> <FORM NAME="nav4">
+
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav4.SelectURL.options[document.nav4.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+
+<option value="#">Hoenn: 252-386</option>
+
+<option value="/pokemon/treecko/">252 Treecko</option>
+<option value="/pokemon/grovyle/">253 Grovyle</option>
+<option value="/pokemon/sceptile/">254 Sceptile</option>
+<option value="/pokemon/torchic/">255 Torchic</option>
+<option value="/pokemon/combusken/">256 Combusken</option>
+<option value="/pokemon/blaziken/">257 Blaziken</option>
+<option value="/pokemon/mudkip/">258 Mudkip</option>
+<option value="/pokemon/marshtomp/">259 Marshtomp</option>
+<option value="/pokemon/swampert/">260 Swampert</option>
+<option value="/pokemon/poochyena/">261 Poochyena</option>
+<option value="/pokemon/mightyena/">262 Mightyena</option>
+<option value="/pokemon/zigzagoon/">263 Zigzagoon</option>
+<option value="/pokemon/linoone/">264 Linoone</option>
+<option value="/pokemon/wurmple/">265 Wurmple</option>
+<option value="/pokemon/silcoon/">266 Silcoon</option>
+<option value="/pokemon/beautifly/">267 Beautifly</option>
+<option value="/pokemon/cascoon/">268 Cascoon</option>
+<option value="/pokemon/dustox/">269 Dustox</option>
+<option value="/pokemon/lotad/">270 Lotad</option>
+<option value="/pokemon/lombre/">271 Lombre</option>
+<option value="/pokemon/ludicolo/">272 Ludicolo</option>
+<option value="/pokemon/seedot/">273 Seedot</option>
+<option value="/pokemon/nuzleaf/">274 Nuzleaf</option>
+<option value="/pokemon/shiftry/">275 Shiftry</option>
+<option value="/pokemon/taillow/">276 Taillow</option>
+<option value="/pokemon/swellow/">277 Swellow</option>
+<option value="/pokemon/wingull/">278 Wingull</option>
+<option value="/pokemon/pelipper/">279 Pelipper</option>
+<option value="/pokemon/ralts/">280 Ralts</option>
+<option value="/pokemon/kirlia/">281 Kirlia</option>
+<option value="/pokemon/gardevoir/">282 Gardevoir</option>
+<option value="/pokemon/surskit/">283 Surskit</option>
+<option value="/pokemon/masquerain/">284 Masquerain</option>
+<option value="/pokemon/shroomish/">285 Shroomish</option>
+<option value="/pokemon/breloom/">286 Breloom</option>
+<option value="/pokemon/slakoth/">287 Slakoth</option>
+<option value="/pokemon/vigoroth/">288 Vigoroth</option>
+<option value="/pokemon/slaking/">289 Slaking</option>
+<option value="/pokemon/nincada/">290 Nincada</option>
+<option value="/pokemon/ninjask/">291 Ninjask</option>
+<option value="/pokemon/shedinja/">292 Shedinja</option>
+<option value="/pokemon/whismur/">293 Whismur</option>
+<option value="/pokemon/loudred/">294 Loudred</option>
+<option value="/pokemon/exploud/">295 Exploud</option>
+<option value="/pokemon/makuhita/">296 Makuhita</option>
+<option value="/pokemon/hariyama/">297 Hariyama</option>
+<option value="/pokemon/azurill/">298 Azurill</option>
+<option value="/pokemon/nosepass/">299 Nosepass</option>
+<option value="/pokemon/skitty/">300 Skitty</option>
+<option value="/pokemon/delcatty/">301 Delcatty</option>
+<option value="/pokemon/sableye/">302 Sableye</option>
+<option value="/pokemon/mawile/">303 Mawile</option>
+<option value="/pokemon/aron/">304 Aron</option>
+<option value="/pokemon/lairon/">305 Lairon</option>
+<option value="/pokemon/aggron/">306 Aggron</option>
+<option value="/pokemon/meditite/">307 Meditite</option>
+<option value="/pokemon/medicham/">308 Medicham</option>
+<option value="/pokemon/electrike/">309 Electrike</option>
+<option value="/pokemon/manectric/">310 Manectric</option>
+<option value="/pokemon/plusle/">311 Plusle</option>
+<option value="/pokemon/minun/">312 Minun</option>
+<option value="/pokemon/volbeat/">313 Volbeat</option>
+<option value="/pokemon/illumise/">314 Illumise</option>
+<option value="/pokemon/roselia/">315 Roselia</option>
+<option value="/pokemon/gulpin/">316 Gulpin</option>
+<option value="/pokemon/swalot/">317 Swalot</option>
+<option value="/pokemon/carvanha/">318 Carvanha</option>
+<option value="/pokemon/sharpedo/">319 Sharpedo</option>
+<option value="/pokemon/wailmer/">320 Wailmer</option>
+<option value="/pokemon/wailord/">321 Wailord</option>
+<option value="/pokemon/numel/">322 Numel</option>
+<option value="/pokemon/camerupt/">323 Camerupt</option>
+<option value="/pokemon/torkoal/">324 Torkoal</option>
+<option value="/pokemon/spoink/">325 Spoink</option>
+<option value="/pokemon/grumpig/">326 Grumpig</option>
+<option value="/pokemon/spinda/">327 Spinda</option>
+<option value="/pokemon/trapinch/">328 Trapinch</option>
+<option value="/pokemon/vibrava/">329 Vibrava</option>
+<option value="/pokemon/flygon/">330 Flygon</option>
+<option value="/pokemon/cacnea/">331 Cacnea</option>
+<option value="/pokemon/cacturne/">332 Cacturne</option>
+<option value="/pokemon/swablu/">333 Swablu</option>
+<option value="/pokemon/altaria/">334 Altaria</option>
+<option value="/pokemon/zangoose/">335 Zangoose</option>
+<option value="/pokemon/seviper/">336 Seviper</option>
+<option value="/pokemon/lunatone/">337 Lunatone</option>
+<option value="/pokemon/solrock/">338 Solrock</option>
+<option value="/pokemon/barboach/">339 Barboach</option>
+<option value="/pokemon/whiscash/">340 Whiscash</option>
+<option value="/pokemon/corphish/">341 Corphish</option>
+<option value="/pokemon/crawdaunt/">342 Crawdaunt</option>
+<option value="/pokemon/baltoy/">343 Baltoy</option>
+<option value="/pokemon/claydol/">344 Claydol</option>
+<option value="/pokemon/lileep/">345 Lileep</option>
+<option value="/pokemon/cradily/">346 Cradily</option>
+<option value="/pokemon/anorith/">347 Anorith</option>
+<option value="/pokemon/armaldo/">348 Armaldo</option>
+<option value="/pokemon/feebas/">349 Feebas</option>
+<option value="/pokemon/milotic/">350 Milotic</option>
+<option value="/pokemon/castform/">351 Castform</option>
+<option value="/pokemon/kecleon/">352 Kecleon</option>
+<option value="/pokemon/shuppet/">353 Shuppet</option>
+<option value="/pokemon/banette/">354 Banette</option>
+<option value="/pokemon/duskull/">355 Duskull</option>
+<option value="/pokemon/dusclops/">356 Dusclops</option>
+<option value="/pokemon/tropius/">357 Tropius</option>
+<option value="/pokemon/chimecho/">358 Chimecho</option>
+<option value="/pokemon/absol/">359 Absol</option>
+<option value="/pokemon/wynaut/">360 Wynaut</option>
+<option value="/pokemon/snorunt/">361 Snorunt</option>
+<option value="/pokemon/glalie/">362 Glalie</option>
+<option value="/pokemon/spheal/">363 Spheal</option>
+<option value="/pokemon/sealeo/">364 Sealeo</option>
+<option value="/pokemon/walrein/">365 Walrein</option>
+<option value="/pokemon/clamperl/">366 Clamperl</option>
+<option value="/pokemon/huntail/">367 Huntail</option>
+<option value="/pokemon/gorebyss/">368 Gorebyss</option>
+<option value="/pokemon/relicanth/">369 Relicanth</option>
+<option value="/pokemon/luvdisc/">370 Luvdisc</option>
+<option value="/pokemon/bagon/">371 Bagon</option>
+<option value="/pokemon/shelgon/">372 Shelgon</option>
+<option value="/pokemon/salamence/">373 Salamence</option>
+<option value="/pokemon/beldum/">374 Beldum</option>
+<option value="/pokemon/metang/">375 Metang</option>
+<option value="/pokemon/metagross/">376 Metagross</option>
+<option value="/pokemon/regirock/">377 Regirock</option>
+<option value="/pokemon/regice/">378 Regice</option>
+<option value="/pokemon/registeel/">379 Registeel</option>
+<option value="/pokemon/latias/">380 Latias</option>
+<option value="/pokemon/latios/">381 Latios</option>
+<option value="/pokemon/kyogre/">382 Kyogre</option>
+<option value="/pokemon/groudon/">383 Groudon</option>
+<option value="/pokemon/rayquaza/">384 Rayquaza</option>
+<option value="/pokemon/jirachi/">385 Jirachi</option>
+<option value="/pokemon/deoxys/">386 Deoxys</option>
+</SELECT> </FORM></td>
+
+<td width="25%" align="center"> <FORM NAME="nav5">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav5.SelectURL.options[document.nav5.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+<option value="#">Sinnoh: 387-493</option>
+
+<option value="/pokemon/turtwig/">387 Turtwig</option>
+<option value="/pokemon/grotle/">388 Grotle</option>
+<option value="/pokemon/torterra/">389 Torterra</option>
+<option value="/pokemon/chimchar/">390 Chimchar</option>
+<option value="/pokemon/monferno/">391 Monferno</option>
+<option value="/pokemon/infernape/">392 Infernape</option>
+<option value="/pokemon/piplup/">393 Piplup</option>
+<option value="/pokemon/prinplup/">394 Prinplup</option>
+<option value="/pokemon/empoleon/">395 Empoleon</option>
+<option value="/pokemon/starly/">396 Starly</option>
+<option value="/pokemon/staravia/">397 Staravia</option>
+<option value="/pokemon/staraptor/">398 Staraptor</option>
+<option value="/pokemon/bidoof/">399 Bidoof</option>
+<option value="/pokemon/bibarel/">400 Bibarel</option>
+<option value="/pokemon/kricketot/">401 Kricketot</option>
+<option value="/pokemon/kricketune/">402 Kricketune</option>
+<option value="/pokemon/shinx/">403 Shinx</option>
+<option value="/pokemon/luxio/">404 Luxio</option>
+<option value="/pokemon/luxray/">405 Luxray</option>
+<option value="/pokemon/budew/">406 Budew</option>
+<option value="/pokemon/roserade/">407 Roserade</option>
+<option value="/pokemon/cranidos/">408 Cranidos</option>
+<option value="/pokemon/rampardos/">409 Rampardos</option>
+<option value="/pokemon/shieldon/">410 Shieldon</option>
+<option value="/pokemon/bastiodon/">411 Bastiodon</option>
+<option value="/pokemon/burmy/">412 Burmy</option>
+<option value="/pokemon/wormadam/">413 Wormadam</option>
+<option value="/pokemon/mothim/">414 Mothim</option>
+<option value="/pokemon/combee/">415 Combee</option>
+<option value="/pokemon/vespiquen/">416 Vespiquen</option>
+<option value="/pokemon/pachirisu/">417 Pachirisu</option>
+<option value="/pokemon/buizel/">418 Buizel</option>
+<option value="/pokemon/floatzel/">419 Floatzel</option>
+<option value="/pokemon/cherubi/">420 Cherubi</option>
+<option value="/pokemon/cherrim/">421 Cherrim</option>
+<option value="/pokemon/shellos/">422 Shellos</option>
+<option value="/pokemon/gastrodon/">423 Gastrodon</option>
+<option value="/pokemon/ambipom/">424 Ambipom</option>
+<option value="/pokemon/drifloon/">425 Drifloon</option>
+<option value="/pokemon/drifblim/">426 Drifblim</option>
+<option value="/pokemon/buneary/">427 Buneary</option>
+<option value="/pokemon/lopunny/">428 Lopunny</option>
+<option value="/pokemon/mismagius/">429 Mismagius</option>
+<option value="/pokemon/honchkrow/">430 Honchkrow</option>
+<option value="/pokemon/glameow/">431 Glameow</option>
+<option value="/pokemon/purugly/">432 Purugly</option>
+<option value="/pokemon/chingling/">433 Chingling</option>
+<option value="/pokemon/stunky/">434 Stunky</option>
+<option value="/pokemon/skuntank/">435 Skuntank</option>
+<option value="/pokemon/bronzor/">436 Bronzor</option>
+<option value="/pokemon/bronzong/">437 Bronzong</option>
+<option value="/pokemon/bonsly/">438 Bonsly</option>
+<option value="/pokemon/mimejr./">439 Mime Jr.</option>
+<option value="/pokemon/happiny/">440 Happiny</option>
+<option value="/pokemon/chatot/">441 Chatot</option>
+<option value="/pokemon/spiritomb/">442 Spiritomb</option>
+<option value="/pokemon/gible/">443 Gible</option>
+<option value="/pokemon/gabite/">444 Gabite</option>
+<option value="/pokemon/garchomp/">445 Garchomp</option>
+<option value="/pokemon/munchlax/">446 Munchlax</option>
+<option value="/pokemon/riolu/">447 Riolu</option>
+<option value="/pokemon/lucario/">448 Lucario</option>
+<option value="/pokemon/hippopotas/">449 Hippopotas</option>
+<option value="/pokemon/hippowdon/">450 Hippowdon</option>
+<option value="/pokemon/skorupi/">451 Skorupi</option>
+<option value="/pokemon/drapion/">452 Drapion</option>
+<option value="/pokemon/croagunk/">453 Croagunk</option>
+<option value="/pokemon/toxicroak/">454 Toxicroak</option>
+<option value="/pokemon/carnivine/">455 Carnivine</option>
+<option value="/pokemon/finneon/">456 Finneon</option>
+<option value="/pokemon/lumineon/">457 Lumineon</option>
+<option value="/pokemon/mantyke/">458 Mantyke</option>
+<option value="/pokemon/snover/">459 Snover</option>
+<option value="/pokemon/abomasnow/">460 Abomasnow</option>
+<option value="/pokemon/weavile/">461 Weavile</option>
+<option value="/pokemon/magnezone/">462 Magnezone</option>
+<option value="/pokemon/lickilicky/">463 Lickilicky</option>
+<option value="/pokemon/rhyperior/">464 Rhyperior</option>
+<option value="/pokemon/tangrowth/">465 Tangrowth</option>
+<option value="/pokemon/electivire/">466 Electivire</option>
+<option value="/pokemon/magmortar/">467 Magmortar</option>
+<option value="/pokemon/togekiss/">468 Togekiss</option>
+<option value="/pokemon/yanmega/">469 Yanmega</option>
+<option value="/pokemon/leafeon/">470 Leafeon</option>
+<option value="/pokemon/glaceon/">471 Glaceon</option>
+<option value="/pokemon/gliscor/">472 Gliscor</option>
+<option value="/pokemon/mamoswine/">473 Mamoswine</option>
+<option value="/pokemon/porygon-z/">474 Porygon-Z</option>
+<option value="/pokemon/gallade/">475 Gallade</option>
+<option value="/pokemon/probopass/">476 Probopass</option>
+<option value="/pokemon/dusknoir/">477 Dusknoir</option>
+<option value="/pokemon/froslass/">478 Froslass</option>
+<option value="/pokemon/rotom/">479 Rotom</option>
+<option value="/pokemon/uxie/">480 Uxie</option>
+<option value="/pokemon/mesprit/">481 Mesprit</option>
+<option value="/pokemon/azelf/">482 Azelf</option>
+<option value="/pokemon/dialga/">483 Dialga</option>
+<option value="/pokemon/palkia/">484 Palkia</option>
+<option value="/pokemon/heatran/">485 Heatran</option>
+<option value="/pokemon/regigigas/">486 Regigigas</option>
+<option value="/pokemon/giratina/">487 Giratina</option>
+<option value="/pokemon/cresselia/">488 Cresselia</option>
+<option value="/pokemon/phione/">489 Phione</option>
+<option value="/pokemon/manaphy/">490 Manaphy</option>
+<option value="/pokemon/darkrai/">491 Darkrai</option>
+<option value="/pokemon/shaymin/">492 Shaymin</option>
+<option value="/pokemon/arceus/">493 Arceus</option>
+</SELECT> </FORM></td></tr><tr>
+<td width="25%" align="center"> <FORM NAME="nav6">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav6.SelectURL.options[document.nav6.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+<option value="#">Unova: 494-649</option>
+
+<option value="/pokemon/victini/">494 Victini</option>
+<option value="/pokemon/snivy/">495 Snivy</option>
+<option value="/pokemon/servine/">496 Servine</option>
+<option value="/pokemon/serperior/">497 Serperior</option>
+<option value="/pokemon/tepig/">498 Tepig</option>
+<option value="/pokemon/pignite/">499 Pignite</option>
+<option value="/pokemon/emboar/">500 Emboar</option>
+<option value="/pokemon/oshawott/">501 Oshawott</option>
+<option value="/pokemon/dewott/">502 Dewott</option>
+<option value="/pokemon/samurott/">503 Samurott</option>
+<option value="/pokemon/patrat/">504 Patrat</option>
+<option value="/pokemon/watchog/">505 Watchog</option>
+<option value="/pokemon/lillipup/">506 Lillipup</option>
+<option value="/pokemon/herdier/">507 Herdier</option>
+<option value="/pokemon/stoutland/">508 Stoutland</option>
+<option value="/pokemon/purrloin/">509 Purrloin</option>
+<option value="/pokemon/liepard/">510 Liepard</option>
+<option value="/pokemon/pansage/">511 Pansage</option>
+<option value="/pokemon/simisage/">512 Simisage</option>
+<option value="/pokemon/pansear/">513 Pansear</option>
+<option value="/pokemon/simisear/">514 Simisear</option>
+<option value="/pokemon/panpour/">515 Panpour</option>
+<option value="/pokemon/simipour/">516 Simipour</option>
+<option value="/pokemon/munna/">517 Munna</option>
+<option value="/pokemon/musharna/">518 Musharna</option>
+<option value="/pokemon/pidove/">519 Pidove</option>
+<option value="/pokemon/tranquill/">520 Tranquill</option>
+<option value="/pokemon/unfezant/">521 Unfezant</option>
+<option value="/pokemon/blitzle/">522 Blitzle</option>
+<option value="/pokemon/zebstrika/">523 Zebstrika</option>
+<option value="/pokemon/roggenrola/">524 Roggenrola</option>
+<option value="/pokemon/boldore/">525 Boldore</option>
+<option value="/pokemon/gigalith/">526 Gigalith</option>
+<option value="/pokemon/woobat/">527 Woobat</option>
+<option value="/pokemon/swoobat/">528 Swoobat</option>
+<option value="/pokemon/drilbur/">529 Drilbur</option>
+<option value="/pokemon/excadrill/">530 Excadrill</option>
+<option value="/pokemon/audino/">531 Audino</option>
+<option value="/pokemon/timburr/">532 Timburr</option>
+<option value="/pokemon/gurdurr/">533 Gurdurr</option>
+<option value="/pokemon/conkeldurr/">534 Conkeldurr</option>
+<option value="/pokemon/tympole/">535 Tympole</option>
+<option value="/pokemon/palpitoad/">536 Palpitoad</option>
+<option value="/pokemon/seismitoad/">537 Seismitoad</option>
+<option value="/pokemon/throh/">538 Throh</option>
+<option value="/pokemon/sawk/">539 Sawk</option>
+<option value="/pokemon/sewaddle/">540 Sewaddle</option>
+<option value="/pokemon/swadloon/">541 Swadloon</option>
+<option value="/pokemon/leavanny/">542 Leavanny</option>
+<option value="/pokemon/venipede/">543 Venipede</option>
+<option value="/pokemon/whirlipede/">544 Whirlipede</option>
+<option value="/pokemon/scolipede/">545 Scolipede</option>
+<option value="/pokemon/cottonee/">546 Cottonee</option>
+<option value="/pokemon/whimsicott/">547 Whimsicott</option>
+<option value="/pokemon/petilil/">548 Petilil</option>
+<option value="/pokemon/lilligant/">549 Lilligant</option>
+<option value="/pokemon/basculin/">550 Basculin</option>
+<option value="/pokemon/sandile/">551 Sandile</option>
+<option value="/pokemon/krokorok/">552 Krokorok</option>
+<option value="/pokemon/krookodile/">553 Krookodile</option>
+<option value="/pokemon/darumaka/">554 Darumaka</option>
+<option value="/pokemon/darmanitan/">555 Darmanitan</option>
+<option value="/pokemon/maractus/">556 Maractus</option>
+<option value="/pokemon/dwebble/">557 Dwebble</option>
+<option value="/pokemon/crustle/">558 Crustle</option>
+<option value="/pokemon/scraggy/">559 Scraggy</option>
+<option value="/pokemon/scrafty/">560 Scrafty</option>
+<option value="/pokemon/sigilyph/">561 Sigilyph</option>
+<option value="/pokemon/yamask/">562 Yamask</option>
+<option value="/pokemon/cofagrigus/">563 Cofagrigus</option>
+<option value="/pokemon/tirtouga/">564 Tirtouga</option>
+<option value="/pokemon/carracosta/">565 Carracosta</option>
+<option value="/pokemon/archen/">566 Archen</option>
+<option value="/pokemon/archeops/">567 Archeops</option>
+<option value="/pokemon/trubbish/">568 Trubbish</option>
+<option value="/pokemon/garbodor/">569 Garbodor</option>
+<option value="/pokemon/zorua/">570 Zorua</option>
+<option value="/pokemon/zoroark/">571 Zoroark</option>
+<option value="/pokemon/minccino/">572 Minccino</option>
+<option value="/pokemon/cinccino/">573 Cinccino</option>
+<option value="/pokemon/gothita/">574 Gothita</option>
+<option value="/pokemon/gothorita/">575 Gothorita</option>
+<option value="/pokemon/gothitelle/">576 Gothitelle</option>
+<option value="/pokemon/solosis/">577 Solosis</option>
+<option value="/pokemon/duosion/">578 Duosion</option>
+<option value="/pokemon/reuniclus/">579 Reuniclus</option>
+<option value="/pokemon/ducklett/">580 Ducklett</option>
+<option value="/pokemon/swanna/">581 Swanna</option>
+<option value="/pokemon/vanillite/">582 Vanillite</option>
+<option value="/pokemon/vanillish/">583 Vanillish</option>
+<option value="/pokemon/vanilluxe/">584 Vanilluxe</option>
+<option value="/pokemon/deerling/">585 Deerling</option>
+<option value="/pokemon/sawsbuck/">586 Sawsbuck</option>
+<option value="/pokemon/emolga/">587 Emolga</option>
+<option value="/pokemon/karrablast/">588 Karrablast</option>
+<option value="/pokemon/escavalier/">589 Escavalier</option>
+<option value="/pokemon/foongus/">590 Foongus</option>
+<option value="/pokemon/amoonguss/">591 Amoonguss</option>
+<option value="/pokemon/frillish/">592 Frillish</option>
+<option value="/pokemon/jellicent/">593 Jellicent</option>
+<option value="/pokemon/alomomola/">594 Alomomola</option>
+<option value="/pokemon/joltik/">595 Joltik</option>
+<option value="/pokemon/galvantula/">596 Galvantula</option>
+<option value="/pokemon/ferroseed/">597 Ferroseed</option>
+<option value="/pokemon/ferrothorn/">598 Ferrothorn</option>
+<option value="/pokemon/klink/">599 Klink</option>
+<option value="/pokemon/klang/">600 Klang</option>
+<option value="/pokemon/klinklang/">601 Klinklang</option>
+<option value="/pokemon/tynamo/">602 Tynamo</option>
+<option value="/pokemon/eelektrik/">603 Eelektrik</option>
+<option value="/pokemon/eelektross/">604 Eelektross</option>
+<option value="/pokemon/elgyem/">605 Elgyem</option>
+<option value="/pokemon/beheeyem/">606 Beheeyem</option>
+<option value="/pokemon/litwick/">607 Litwick</option>
+<option value="/pokemon/lampent/">608 Lampent</option>
+<option value="/pokemon/chandelure/">609 Chandelure</option>
+<option value="/pokemon/axew/">610 Axew</option>
+<option value="/pokemon/fraxure/">611 Fraxure</option>
+<option value="/pokemon/haxorus/">612 Haxorus</option>
+<option value="/pokemon/cubchoo/">613 Cubchoo</option>
+<option value="/pokemon/beartic/">614 Beartic</option>
+<option value="/pokemon/cryogonal/">615 Cryogonal</option>
+<option value="/pokemon/shelmet/">616 Shelmet</option>
+<option value="/pokemon/accelgor/">617 Accelgor</option>
+<option value="/pokemon/stunfisk/">618 Stunfisk</option>
+<option value="/pokemon/mienfoo/">619 Mienfoo</option>
+<option value="/pokemon/mienshao/">620 Mienshao</option>
+<option value="/pokemon/druddigon/">621 Druddigon</option>
+<option value="/pokemon/golett/">622 Golett</option>
+<option value="/pokemon/golurk/">623 Golurk</option>
+<option value="/pokemon/pawniard/">624 Pawniard</option>
+<option value="/pokemon/bisharp/">625 Bisharp</option>
+<option value="/pokemon/bouffalant/">626 Bouffalant</option>
+<option value="/pokemon/rufflet/">627 Rufflet</option>
+<option value="/pokemon/braviary/">628 Braviary</option>
+<option value="/pokemon/vullaby/">629 Vullaby</option>
+<option value="/pokemon/mandibuzz/">630 Mandibuzz</option>
+<option value="/pokemon/heatmor/">631 Heatmor</option>
+<option value="/pokemon/durant/">632 Durant</option>
+<option value="/pokemon/deino/">633 Deino</option>
+<option value="/pokemon/zweilous/">634 Zweilous</option>
+<option value="/pokemon/hydreigon/">635 Hydreigon</option>
+<option value="/pokemon/larvesta/">636 Larvesta</option>
+<option value="/pokemon/volcarona/">637 Volcarona</option>
+<option value="/pokemon/cobalion/">638 Cobalion</option>
+<option value="/pokemon/terrakion/">639 Terrakion</option>
+<option value="/pokemon/virizion/">640 Virizion</option>
+<option value="/pokemon/tornadus/">641 Tornadus</option>
+<option value="/pokemon/thundurus/">642 Thundurus</option>
+<option value="/pokemon/reshiram/">643 Reshiram</option>
+<option value="/pokemon/zekrom/">644 Zekrom</option>
+<option value="/pokemon/landorus/">645 Landorus</option>
+<option value="/pokemon/kyurem/">646 Kyurem</option>
+<option value="/pokemon/keldeo/">647 Keldeo</option>
+<option value="/pokemon/meloetta/">648 Meloetta</option>
+<option value="/pokemon/genesect/">649 Genesect</option>
+
+</SELECT> </FORM></td>
+<td width="25%" align="center"> <FORM NAME="nav7">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav7.SelectURL.options[document.nav7.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+<option value="#">Kalos: 650-721</option>
+
+<option value="/pokemon/chespin/">650 Chespin</option>
+<option value="/pokemon/quilladin/">651 Quilladin</option>
+<option value="/pokemon/chesnaught/">652 Chesnaught</option>
+<option value="/pokemon/fennekin/">653 Fennekin</option>
+<option value="/pokemon/braixen/">654 Braixen</option>
+<option value="/pokemon/delphox/">655 Delphox</option>
+<option value="/pokemon/froakie/">656 Froakie</option>
+<option value="/pokemon/frogadier/">657 Frogadier</option>
+<option value="/pokemon/greninja/">658 Greninja</option>
+<option value="/pokemon/bunnelby/">659 Bunnelby</option>
+<option value="/pokemon/diggersby/">660 Diggersby</option>
+<option value="/pokemon/fletchling/">661 Fletchling</option>
+<option value="/pokemon/fletchinder/">662 Fletchinder</option>
+<option value="/pokemon/talonflame/">663 Talonflame</option>
+<option value="/pokemon/scatterbug/">664 Scatterbug</option>
+<option value="/pokemon/spewpa/">665 Spewpa</option>
+<option value="/pokemon/vivillon/">666 Vivillon</option>
+<option value="/pokemon/litleo/">667 Litleo</option>
+<option value="/pokemon/pyroar/">668 Pyroar</option>
+<option value="/pokemon/flabebe/">669 Flab&eacute;b&eacute;</option>
+<option value="/pokemon/floette/">670 Floette</option>
+<option value="/pokemon/florges/">671 Florges</option>
+<option value="/pokemon/skiddo/">672 Skiddo</option>
+<option value="/pokemon/gogoat/">673 Gogoat</option>
+<option value="/pokemon/pancham/">674 Pancham</option>
+<option value="/pokemon/pangoro/">675 Pangoro</option>
+<option value="/pokemon/furfrou/">676 Furfrou</option>
+<option value="/pokemon/espurr/">677 Espurr</option>
+<option value="/pokemon/meowstic/">678 Meowstic</option>
+<option value="/pokemon/honedge/">679 Honedge</option>
+<option value="/pokemon/doublade/">680 Doublade</option>
+<option value="/pokemon/aegislash/">681 Aegislash</option>
+<option value="/pokemon/spritzee/">682 Spritzee</option>
+<option value="/pokemon/aromatisse/">683 Aromatisse</option>
+<option value="/pokemon/swirlix/">684 Swirlix</option>
+<option value="/pokemon/slurpuff/">685 Slurpuff</option>
+<option value="/pokemon/inkay/">686 Inkay</option>
+<option value="/pokemon/malamar/">687 Malamar</option>
+<option value="/pokemon/binacle/">688 Binacle</option>
+<option value="/pokemon/barbaracle/">689 Barbaracle</option>
+<option value="/pokemon/skrelp/">690 Skrelp</option>
+<option value="/pokemon/dragalge/">691 Dragalge</option>
+<option value="/pokemon/clauncher/">692 Clauncher</option>
+<option value="/pokemon/clawitzer/">693 Clawitzer</option>
+<option value="/pokemon/helioptile/">694 Helioptile</option>
+<option value="/pokemon/heliolisk/">695 Heliolisk</option>
+<option value="/pokemon/tyrunt/">696 Tyrunt</option>
+<option value="/pokemon/tyrantrum/">697 Tyrantrum</option>
+<option value="/pokemon/amaura/">698 Amaura</option>
+<option value="/pokemon/aurorus/">699 Aurorus</option>
+<option value="/pokemon/sylveon/">700 Sylveon</option>
+<option value="/pokemon/hawlucha/">701 Hawlucha</option>
+<option value="/pokemon/dedenne/">702 Dedenne</option>
+<option value="/pokemon/carbink/">703 Carbink</option>
+<option value="/pokemon/goomy/">704 Goomy</option>
+<option value="/pokemon/sliggoo/">705 Sliggoo</option>
+<option value="/pokemon/goodra/">706 Goodra</option>
+<option value="/pokemon/klefki/">707 Klefki</option>
+<option value="/pokemon/phantump/">708 Phantump</option>
+<option value="/pokemon/trevenant/">709 Trevenant</option>
+<option value="/pokemon/pumpkaboo/">710 Pumpkaboo</option>
+<option value="/pokemon/gourgeist/">711 Gourgeist</option>
+<option value="/pokemon/bergmite/">712 Bergmite</option>
+<option value="/pokemon/avalugg/">713 Avalugg</option>
+<option value="/pokemon/noibat/">714 Noibat</option>
+<option value="/pokemon/noivern/">715 Noivern</option>
+<option value="/pokemon/xerneas/">716 Xerneas</option>
+<option value="/pokemon/yveltal/">717 Yveltal</option>
+<option value="/pokemon/zygarde/">718 Zygarde</option>
+<option value="/pokemon/diancie/">719 Diancie</option>
+<option value="/pokemon/hoopa/">720 Hoopa</option>
+<option value="/pokemon/volcanion/">721 Volcanion</option>
+</SELECT> </FORM></td><td width="25%" align="center"> <FORM NAME="nav8">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav8.SelectURL.options[document.nav8.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+<option value="#">Alola: 722-809</option>
+<option value="/pokemon/rowlet/">722 Rowlet</option>
+<option value="/pokemon/dartrix/">723 Dartrix</option>
+<option value="/pokemon/decidueye/">724 Decidueye</option>
+<option value="/pokemon/litten/">725 Litten</option>
+<option value="/pokemon/torracat/">726 Torracat</option>
+<option value="/pokemon/incineroar/">727 Incineroar</option>
+<option value="/pokemon/popplio/">728 Popplio</option>
+<option value="/pokemon/brionne/">729 Brionne</option>
+<option value="/pokemon/primarina/">730 Primarina</option>
+<option value="/pokemon/pikipek/">731 Pikipek</option>
+<option value="/pokemon/trumbeak/">732 Trumbeak</option>
+<option value="/pokemon/toucannon/">733 Toucannon</option>
+<option value="/pokemon/yungoos/">734 Yungoos</option>
+<option value="/pokemon/gumshoos/">735 Gumshoos</option>
+<option value="/pokemon/grubbin/">736 Grubbin</option>
+<option value="/pokemon/charjabug/">737 Charjabug</option>
+<option value="/pokemon/vikavolt/">738 Vikavolt</option>
+<option value="/pokemon/crabrawler/">739 Crabrawler</option>
+<option value="/pokemon/crabominable/">740 Crabominable</option>
+<option value="/pokemon/oricorio/">741 Oricorio</option>
+<option value="/pokemon/cutiefly/">742 Cutiefly</option>
+<option value="/pokemon/ribombee/">743 Ribombee</option>
+<option value="/pokemon/rockruff/">744 Rockruff</option>
+<option value="/pokemon/lycanroc/">745 Lycanroc</option>
+<option value="/pokemon/wishiwashi/">746 Wishiwashi</option>
+<option value="/pokemon/mareanie/">747 Mareanie</option>
+<option value="/pokemon/toxapex/">748 Toxapex</option>
+<option value="/pokemon/mudbray/">749 Mudbray</option>
+<option value="/pokemon/mudsdale/">750 Mudsdale</option>
+<option value="/pokemon/dewpider/">751 Dewpider</option>
+<option value="/pokemon/araquanid/">752 Araquanid</option>
+<option value="/pokemon/fomantis/">753 Fomantis</option>
+<option value="/pokemon/lurantis/">754 Lurantis</option>
+<option value="/pokemon/morelull/">755 Morelull</option>
+<option value="/pokemon/shiinotic/">756 Shiinotic</option>
+<option value="/pokemon/salandit/">757 Salandit</option>
+<option value="/pokemon/salazzle/">758 Salazzle</option>
+<option value="/pokemon/stufful/">759 Stufful</option>
+<option value="/pokemon/bewear/">760 Bewear</option>
+<option value="/pokemon/bounsweet/">761 Bounsweet</option>
+<option value="/pokemon/steenee/">762 Steenee</option>
+<option value="/pokemon/tsareena/">763 Tsareena</option>
+<option value="/pokemon/comfey/">764 Comfey</option>
+<option value="/pokemon/oranguru/">765 Oranguru</option>
+<option value="/pokemon/passimian/">766 Passimian</option>
+<option value="/pokemon/wimpod/">767 Wimpod</option>
+<option value="/pokemon/golisopod/">768 Golisopod</option>
+<option value="/pokemon/sandygast/">769 Sandygast</option>
+<option value="/pokemon/palossand/">770 Palossand</option>
+<option value="/pokemon/pyukumuku/">771 Pyukumuku</option>
+<option value="/pokemon/type:null/">772 Type: Null</option>
+<option value="/pokemon/silvally/">773 Silvally</option>
+<option value="/pokemon/minior/">774 Minior</option>
+<option value="/pokemon/komala/">775 Komala</option>
+<option value="/pokemon/turtonator/">776 Turtonator</option>
+<option value="/pokemon/togedemaru/">777 Togedemaru</option>
+<option value="/pokemon/mimikyu/">778 Mimikyu</option>
+<option value="/pokemon/bruxish/">779 Bruxish</option>
+<option value="/pokemon/drampa/">780 Drampa</option>
+<option value="/pokemon/dhelmise/">781 Dhelmise</option>
+<option value="/pokemon/jangmo-o/">782 Jangmo-o</option>
+<option value="/pokemon/hakamo-o/">783 Hakamo-o</option>
+<option value="/pokemon/kommo-o/">784 Kommo-o</option>
+<option value="/pokemon/tapukoko/">785 Tapu Koko</option>
+<option value="/pokemon/tapulele/">786 Tapu Lele</option>
+<option value="/pokemon/tapubulu/">787 Tapu Bulu</option>
+<option value="/pokemon/tapufini/">788 Tapu Fini</option>
+<option value="/pokemon/cosmog/">789 Cosmog</option>
+<option value="/pokemon/cosmoem/">790 Cosmoem</option>
+<option value="/pokemon/solgaleo/">791 Solgaleo</option>
+<option value="/pokemon/lunala/">792 Lunala</option>
+<option value="/pokemon/nihilego/">793 Nihilego</option>
+<option value="/pokemon/buzzwole/">794 Buzzwole</option>
+<option value="/pokemon/pheromosa/">795 Pheromosa</option>
+<option value="/pokemon/xurkitree/">796 Xurkitree</option>
+<option value="/pokemon/celesteela/">797 Celesteela</option>
+<option value="/pokemon/kartana/">798 Kartana</option>
+<option value="/pokemon/guzzlord/">799 Guzzlord</option>
+<option value="/pokemon/necrozma/">800 Necrozma</option>
+<option value="/pokemon/magearna/">801 Magearna</option>
+<option value="/pokemon/marshadow/">802 Marshadow</option>
+<option value="/pokemon/poipole/">803 Poipole</option>
+<option value="/pokemon/naganadel/">804 Naganadel</option>
+<option value="/pokemon/stakataka/">805 Stakataka</option>
+<option value="/pokemon/blacephalon/">806 Blacephalon</option>
+<option value="/pokemon/zeraora/">807 Zeraora</option>
+<option value="/pokemon/meltan/">808 Meltan</option>
+<option value="/pokemon/melmetal/">809 Melmetal</option>
+
+</SELECT> </FORM></td><td width="25%" align="center"> <FORM NAME="nav9">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav9.SelectURL.options[document.nav9.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+<option value="#">Galar/Hisui: 810-905</option>
+<option value="/pokemon/grookey/">810 Grookey</option>
+<option value="/pokemon/thwackey/">811 Thwackey</option>
+<option value="/pokemon/rillaboom/">812 Rillaboom</option>
+<option value="/pokemon/scorbunny/">813 Scorbunny</option>
+<option value="/pokemon/raboot/">814 Raboot</option>
+<option value="/pokemon/cinderace/">815 Cinderace</option>
+<option value="/pokemon/sobble/">816 Sobble</option>
+<option value="/pokemon/drizzile/">817 Drizzile</option>
+<option value="/pokemon/inteleon/">818 Inteleon</option>
+<option value="/pokemon/skwovet/">819 Skwovet</option>
+<option value="/pokemon/greedent/">820 Greedent</option>
+<option value="/pokemon/rookidee/">821 Rookidee</option>
+<option value="/pokemon/corvisquire/">822 Corvisquire</option>
+<option value="/pokemon/corviknight/">823 Corviknight</option>
+<option value="/pokemon/blipbug/">824 Blipbug</option>
+<option value="/pokemon/dottler/">825 Dottler</option>
+<option value="/pokemon/orbeetle/">826 Orbeetle</option>
+<option value="/pokemon/nickit/">827 Nickit</option>
+<option value="/pokemon/thievul/">828 Thievul</option>
+<option value="/pokemon/gossifleur/">829 Gossifleur</option>
+<option value="/pokemon/eldegoss/">830 Eldegoss</option>
+<option value="/pokemon/wooloo/">831 Wooloo</option>
+<option value="/pokemon/dubwool/">832 Dubwool</option>
+<option value="/pokemon/chewtle/">833 Chewtle</option>
+<option value="/pokemon/drednaw/">834 Drednaw</option>
+<option value="/pokemon/yamper/">835 Yamper</option>
+<option value="/pokemon/boltund/">836 Boltund</option>
+<option value="/pokemon/rolycoly/">837 Rolycoly</option>
+<option value="/pokemon/carkol/">838 Carkol</option>
+<option value="/pokemon/coalossal/">839 Coalossal</option>
+<option value="/pokemon/applin/">840 Applin</option>
+<option value="/pokemon/flapple/">841 Flapple</option>
+<option value="/pokemon/appletun/">842 Appletun</option>
+<option value="/pokemon/silicobra/">843 Silicobra</option>
+<option value="/pokemon/sandaconda/">844 Sandaconda</option>
+<option value="/pokemon/cramorant/">845 Cramorant</option>
+<option value="/pokemon/arrokuda/">846 Arrokuda</option>
+<option value="/pokemon/barraskewda/">847 Barraskewda</option>
+<option value="/pokemon/toxel/">848 Toxel</option>
+<option value="/pokemon/toxtricity/">849 Toxtricity</option>
+<option value="/pokemon/sizzlipede/">850 Sizzlipede</option>
+<option value="/pokemon/centiskorch/">851 Centiskorch</option>
+<option value="/pokemon/clobbopus/">852 Clobbopus</option>
+<option value="/pokemon/grapploct/">853 Grapploct</option>
+<option value="/pokemon/sinistea/">854 Sinistea</option>
+<option value="/pokemon/polteageist/">855 Polteageist</option>
+<option value="/pokemon/hatenna/">856 Hatenna</option>
+<option value="/pokemon/hattrem/">857 Hattrem</option>
+<option value="/pokemon/hatterene/">858 Hatterene</option>
+<option value="/pokemon/impidimp/">859 Impidimp</option>
+<option value="/pokemon/morgrem/">860 Morgrem</option>
+<option value="/pokemon/grimmsnarl/">861 Grimmsnarl</option>
+<option value="/pokemon/obstagoon/">862 Obstagoon</option>
+<option value="/pokemon/perrserker/">863 Perrserker</option>
+<option value="/pokemon/cursola/">864 Cursola</option>
+<option value="/pokemon/sirfetch'd/">865 Sirfetch'd</option>
+<option value="/pokemon/mr.rime/">866 Mr. Rime</option>
+<option value="/pokemon/runerigus/">867 Runerigus</option>
+<option value="/pokemon/milcery/">868 Milcery</option>
+<option value="/pokemon/alcremie/">869 Alcremie</option>
+<option value="/pokemon/falinks/">870 Falinks</option>
+<option value="/pokemon/pincurchin/">871 Pincurchin</option>
+<option value="/pokemon/snom/">872 Snom</option>
+<option value="/pokemon/frosmoth/">873 Frosmoth</option>
+<option value="/pokemon/stonjourner/">874 Stonjourner</option>
+<option value="/pokemon/eiscue/">875 Eiscue</option>
+<option value="/pokemon/indeedee/">876 Indeedee</option>
+<option value="/pokemon/morpeko/">877 Morpeko</option>
+<option value="/pokemon/cufant/">878 Cufant</option>
+<option value="/pokemon/copperajah/">879 Copperajah</option>
+<option value="/pokemon/dracozolt/">880 Dracozolt</option>
+<option value="/pokemon/arctozolt/">881 Arctozolt</option>
+<option value="/pokemon/dracovish/">882 Dracovish</option>
+<option value="/pokemon/arctovish/">883 Arctovish</option>
+<option value="/pokemon/duraludon/">884 Duraludon</option>
+<option value="/pokemon/dreepy/">885 Dreepy</option>
+<option value="/pokemon/drakloak/">886 Drakloak</option>
+<option value="/pokemon/dragapult/">887 Dragapult</option>
+<option value="/pokemon/zacian/">888 Zacian</option>
+<option value="/pokemon/zamazenta/">889 Zamazenta</option>
+<option value="/pokemon/eternatus/">890 Eternatus</option>
+
+<option value="/pokemon/kubfu/">891 Kubfu</option>
+<option value="/pokemon/urshifu/">892 Urshifu</option>
+<option value="/pokemon/zarude/">893 Zarude</option>
+<option value="/pokemon/regieleki/">894 Regieleki</option>
+<option value="/pokemon/regidrago/">895 Regidrago</option>
+<option value="/pokemon/glastrier/">896 Glastrier</option>
+<option value="/pokemon/spectrier/">897 Spectrier</option>
+<option value="/pokemon/calyrex/">898 Calyrex</option>
+<option value="/pokemon/wyrdeer/">899 Wyrdeer</option>
+<option value="/pokemon/kleavor/">900 Kleavor</option>
+<option value="/pokemon/ursaluna/">901 Ursaluna</option>
+<option value="/pokemon/basculegion/">902 Basculegion</option>
+<option value="/pokemon/sneasler/">903 Sneasler</option>
+<option value="/pokemon/overqwil/">904 Overqwil</option>
+<option value="/pokemon/enamorus/">905 Enamorus</option>
+
+</SELECT> </FORM></td></tr><tr>
+<td colspan="4" align="center"> <FORM NAME="nav10">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.nav10.SelectURL.options[document.nav10.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+<option value="#">Paldea: 906 - 1025</option>
+<option value="/pokemon/sprigatito/">906 Sprigatito</option>
+<option value="/pokemon/floragato/">907 Floragato</option>
+<option value="/pokemon/meowscarada/">908 Meowscarada</option>
+<option value="/pokemon/fuecoco/">909 Fuecoco</option>
+<option value="/pokemon/crocalor/">910 Crocalor</option>
+<option value="/pokemon/skeledirge/">911 Skeledirge</option>
+<option value="/pokemon/quaxly/">912 Quaxly</option>
+<option value="/pokemon/quaxwell/">913 Quaxwell</option>
+<option value="/pokemon/quaquaval/">914 Quaquaval</option>
+<option value="/pokemon/lechonk/">915 Lechonk</option>
+<option value="/pokemon/oinkologne/">916 Oinkologne</option>
+<option value="/pokemon/tarountula/">917 Tarountula</option>
+<option value="/pokemon/spidops/">918 Spidops</option>
+<option value="/pokemon/nymble/">919 Nymble</option>
+<option value="/pokemon/lokix/">920 Lokix</option>
+<option value="/pokemon/pawmi/">921 Pawmi</option>
+<option value="/pokemon/pawmo/">922 Pawmo</option>
+<option value="/pokemon/pawmot/">923 Pawmot</option>
+<option value="/pokemon/tandemaus/">924 Tandemaus</option>
+<option value="/pokemon/maushold/">925 Maushold</option>
+<option value="/pokemon/fidough/">926 Fidough</option>
+<option value="/pokemon/dachsbun/">927 Dachsbun</option>
+<option value="/pokemon/smoliv/">928 Smoliv</option>
+<option value="/pokemon/dolliv/">929 Dolliv</option>
+<option value="/pokemon/arboliva/">930 Arboliva</option>
+<option value="/pokemon/squawkabilly/">931 Squawkabilly</option>
+<option value="/pokemon/nacli/">932 Nacli</option>
+<option value="/pokemon/naclstack/">933 Naclstack</option>
+<option value="/pokemon/garganacl/">934 Garganacl</option>
+<option value="/pokemon/charcadet/">935 Charcadet</option>
+<option value="/pokemon/armarouge/">936 Armarouge</option>
+<option value="/pokemon/ceruledge/">937 Ceruledge</option>
+<option value="/pokemon/tadbulb/">938 Tadbulb</option>
+<option value="/pokemon/bellibolt/">939 Bellibolt</option>
+<option value="/pokemon/wattrel/">940 Wattrel</option>
+<option value="/pokemon/kilowattrel/">941 Kilowattrel</option>
+<option value="/pokemon/maschiff/">942 Maschiff</option>
+<option value="/pokemon/mabosstiff/">943 Mabosstiff</option>
+<option value="/pokemon/shroodle/">944 Shroodle</option>
+<option value="/pokemon/grafaiai/">945 Grafaiai</option>
+<option value="/pokemon/bramblin/">946 Bramblin</option>
+<option value="/pokemon/brambleghast/">947 Brambleghast</option>
+<option value="/pokemon/toedscool/">948 Toedscool</option>
+<option value="/pokemon/toedscruel/">949 Toedscruel</option>
+<option value="/pokemon/klawf/">950 Klawf</option>
+<option value="/pokemon/capsakid/">951 Capsakid</option>
+<option value="/pokemon/scovillain/">952 Scovillain</option>
+<option value="/pokemon/rellor/">953 Rellor</option>
+<option value="/pokemon/rabsca/">954 Rabsca</option>
+<option value="/pokemon/flittle/">955 Flittle</option>
+<option value="/pokemon/espathra/">956 Espathra</option>
+<option value="/pokemon/tinkatink/">957 Tinkatink</option>
+<option value="/pokemon/tinkatuff/">958 Tinkatuff</option>
+<option value="/pokemon/tinkaton/">959 Tinkaton</option>
+<option value="/pokemon/wiglett/">960 Wiglett</option>
+<option value="/pokemon/wugtrio/">961 Wugtrio</option>
+<option value="/pokemon/bombirdier/">962 Bombirdier</option>
+<option value="/pokemon/finizen/">963 Finizen</option>
+<option value="/pokemon/palafin/">964 Palafin</option>
+<option value="/pokemon/varoom/">965 Varoom</option>
+<option value="/pokemon/revavroom/">966 Revavroom</option>
+<option value="/pokemon/cyclizar/">967 Cyclizar</option>
+<option value="/pokemon/orthworm/">968 Orthworm</option>
+<option value="/pokemon/glimmet/">969 Glimmet</option>
+<option value="/pokemon/glimmora/">970 Glimmora</option>
+<option value="/pokemon/greavard/">971 Greavard</option>
+<option value="/pokemon/houndstone/">972 Houndstone</option>
+<option value="/pokemon/flamigo/">973 Flamigo</option>
+<option value="/pokemon/cetoddle/">974 Cetoddle</option>
+<option value="/pokemon/cetitan/">975 Cetitan</option>
+<option value="/pokemon/veluza/">976 Veluza</option>
+<option value="/pokemon/dondozo/">977 Dondozo</option>
+<option value="/pokemon/tatsugiri/">978 Tatsugiri</option>
+<option value="/pokemon/annihilape/">979 Annihilape</option>
+<option value="/pokemon/clodsire/">980 Clodsire</option>
+<option value="/pokemon/farigiraf/">981 Farigiraf</option>
+<option value="/pokemon/dudunsparce/">982 Dudunsparce</option>
+<option value="/pokemon/kingambit/">983 Kingambit</option>
+<option value="/pokemon/greattusk/">984 Great Tusk</option>
+<option value="/pokemon/screamtail/">985 Scream Tail</option>
+<option value="/pokemon/brutebonnet/">986 Brute Bonnet</option>
+<option value="/pokemon/fluttermane/">987 Flutter Mane</option>
+<option value="/pokemon/slitherwing/">988 Slither Wing</option>
+<option value="/pokemon/sandyshocks/">989 Sandy Shocks</option>
+<option value="/pokemon/irontreads/">990 Iron Treads</option>
+<option value="/pokemon/ironbundle/">991 Iron Bundle</option>
+<option value="/pokemon/ironhands/">992 Iron Hands</option>
+<option value="/pokemon/ironjugulis/">993 Iron Jugulis</option>
+<option value="/pokemon/ironmoth/">994 Iron Moth</option>
+<option value="/pokemon/ironthorns/">995 Iron Thorns</option>
+<option value="/pokemon/frigibax/">996 Frigibax</option>
+<option value="/pokemon/arctibax/">997 Arctibax</option>
+<option value="/pokemon/baxcalibur/">998 Baxcalibur</option>
+<option value="/pokemon/gimmighoul/">999 Gimmighoul</option>
+<option value="/pokemon/gholdengo/">1000 Gholdengo</option>
+<option value="/pokemon/wo-chien/">1001 Wo-Chien</option>
+<option value="/pokemon/chien-pao/">1002 Chien-Pao</option>
+<option value="/pokemon/ting-lu/">1003 Ting-Lu</option>
+<option value="/pokemon/chi-yu/">1004 Chi-Yu</option>
+<option value="/pokemon/roaringmoon/">1005 Roaring Moon</option>
+<option value="/pokemon/ironvaliant/">1006 Iron Valiant</option>
+<option value="/pokemon/koraidon/">1007 Koraidon</option>
+<option value="/pokemon/miraidon/">1008 Miraidon</option>
+<option value="/pokemon/walkingwake/">1009 Walking Wake</option>
+<option value="/pokemon/ironleaves/">1010 Iron Leaves</option>
+<option value="/pokemon/dipplin/">1011 Dipplin</option>
+<option value="/pokemon/poltchageist/">1012 Poltchageist</option>
+<option value="/pokemon/sinistcha/">1013 Sinistcha</option>
+<option value="/pokemon/okidogi/">1014 Okidogi</option>
+<option value="/pokemon/munkidori/">1015 Munkidori</option>
+<option value="/pokemon/fezandipiti/">1016 Fezandipiti</option>
+<option value="/pokemon/ogerpon/">1017 Ogerpon</option>
+<option value="/pokemon/archaludon/">1018 Archaludon</option>
+<option value="/pokemon/hydrapple/">1019 Hydrapple</option>
+<option value="/pokemon/gougingfire/">1020 Gouging Fire</option>
+<option value="/pokemon/ragingbolt/">1021 Raging Bolt</option>
+<option value="/pokemon/ironboulder/">1022 Iron Boulder</option>
+<option value="/pokemon/ironcrown/">1023 Iron Crown</option>
+<option value="/pokemon/terapagos/">1024 Terapagos</option>
+<option value="/pokemon/pecharunt/">1025 Pecharunt</option></SELECT> </FORM></td></tr></table><table align=center width="95%" border="0" cellspacing="0" cellpadding="4">
+<tr>
+<td colspan="2" align="center"> <FORM NAME="cent">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.cent.SelectURL.options[document.cent.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+ <option value="#">Pokédex: A - G</option>
+
+<option value="/pokemon/abomasnow/">Abomasnow</option>
+<option value="/pokemon/abra/">Abra</option>
+<option value="/pokemon/absol/">Absol</option>
+<option value="/pokemon/accelgor/">Accelgor</option>
+<option value="/pokemon/aegislash/">Aegislash</option>
+<option value="/pokemon/aerodactyl/">Aerodactyl</option>
+<option value="/pokemon/aggron/">Aggron</option>
+<option value="/pokemon/aipom/">Aipom</option>
+<option value="/pokemon/alakazam/">Alakazam</option>
+<option value="/pokemon/alcremie/">Alcremie</option>
+<option value="/pokemon/alomomola/">Alomomola</option>
+<option value="/pokemon/altaria/">Altaria</option>
+<option value="/pokemon/amaura/">Amaura</option>
+<option value="/pokemon/ambipom/">Ambipom</option>
+<option value="/pokemon/amoonguss/">Amoonguss</option>
+<option value="/pokemon/ampharos/">Ampharos</option>
+<option value="/pokemon/annihilape/">Annihilape</option>
+<option value="/pokemon/anorith/">Anorith</option>
+<option value="/pokemon/appletun/">Appletun</option>
+<option value="/pokemon/applin/">Applin</option>
+<option value="/pokemon/araquanid/">Araquanid</option>
+<option value="/pokemon/arbok/">Arbok</option>
+<option value="/pokemon/arboliva/">Arboliva</option>
+<option value="/pokemon/arcanine/">Arcanine</option>
+<option value="/pokemon/arceus/">Arceus</option>
+<option value="/pokemon/archen/">Archen</option>
+<option value="/pokemon/archeops/">Archeops</option>
+<option value="/pokemon/arctibax/">Arctibax</option>
+<option value="/pokemon/arctovish/">Arctovish</option>
+<option value="/pokemon/arctozolt/">Arctozolt</option>
+<option value="/pokemon/ariados/">Ariados</option>
+<option value="/pokemon/armaldo/">Armaldo</option>
+<option value="/pokemon/armarouge/">Armarouge</option>
+<option value="/pokemon/aromatisse/">Aromatisse</option>
+<option value="/pokemon/aron/">Aron</option>
+<option value="/pokemon/arrokuda/">Arrokuda</option>
+<option value="/pokemon/articuno/">Articuno</option>
+<option value="/pokemon/audino/">Audino</option>
+<option value="/pokemon/aurorus/">Aurorus</option>
+<option value="/pokemon/avalugg/">Avalugg</option>
+<option value="/pokemon/axew/">Axew</option>
+<option value="/pokemon/azelf/">Azelf</option>
+<option value="/pokemon/azumarill/">Azumarill</option>
+<option value="/pokemon/azurill/">Azurill</option>
+<option value="/pokemon/bagon/">Bagon</option>
+<option value="/pokemon/baltoy/">Baltoy</option>
+<option value="/pokemon/banette/">Banette</option>
+<option value="/pokemon/barbaracle/">Barbaracle</option>
+<option value="/pokemon/barboach/">Barboach</option>
+<option value="/pokemon/barraskewda/">Barraskewda</option>
+<option value="/pokemon/basculin/">Basculin</option>
+<option value="/pokemon/bastiodon/">Bastiodon</option>
+<option value="/pokemon/baxcalibur/">Baxcalibur</option>
+<option value="/pokemon/bayleef/">Bayleef</option>
+<option value="/pokemon/beartic/">Beartic</option>
+<option value="/pokemon/beautifly/">Beautifly</option>
+<option value="/pokemon/beedrill/">Beedrill</option>
+<option value="/pokemon/beheeyem/">Beheeyem</option>
+<option value="/pokemon/beldum/">Beldum</option>
+<option value="/pokemon/bellibolt/">Bellibolt</option>
+<option value="/pokemon/bellossom/">Bellossom</option>
+<option value="/pokemon/bellsprout/">Bellsprout</option>
+<option value="/pokemon/bergmite/">Bergmite</option>
+<option value="/pokemon/bewear/">Bewear</option>
+<option value="/pokemon/bibarel/">Bibarel</option>
+<option value="/pokemon/bidoof/">Bidoof</option>
+<option value="/pokemon/binacle/">Binacle</option>
+<option value="/pokemon/bisharp/">Bisharp</option>
+<option value="/pokemon/blacephalon/">Blacephalon</option>
+<option value="/pokemon/blastoise/">Blastoise</option>
+<option value="/pokemon/blaziken/">Blaziken</option>
+<option value="/pokemon/blipbug/">Blipbug</option>
+<option value="/pokemon/blissey/">Blissey</option>
+<option value="/pokemon/blitzle/">Blitzle</option>
+<option value="/pokemon/boldore/">Boldore</option>
+<option value="/pokemon/boltund/">Boltund</option>
+<option value="/pokemon/bombirdier/">Bombirdier</option>
+<option value="/pokemon/bonsly/">Bonsly</option>
+<option value="/pokemon/bouffalant/">Bouffalant</option>
+<option value="/pokemon/bounsweet/">Bounsweet</option>
+<option value="/pokemon/braixen/">Braixen</option>
+<option value="/pokemon/brambleghast/">Brambleghast</option>
+<option value="/pokemon/bramblin/">Bramblin</option>
+<option value="/pokemon/braviary/">Braviary</option>
+<option value="/pokemon/breloom/">Breloom</option>
+<option value="/pokemon/brionne/">Brionne</option>
+<option value="/pokemon/bronzong/">Bronzong</option>
+<option value="/pokemon/bronzor/">Bronzor</option>
+<option value="/pokemon/brutebonnet/">Brute Bonnet</option>
+<option value="/pokemon/bruxish/">Bruxish</option>
+<option value="/pokemon/budew/">Budew</option>
+<option value="/pokemon/buizel/">Buizel</option>
+<option value="/pokemon/bulbasaur/">Bulbasaur</option>
+<option value="/pokemon/buneary/">Buneary</option>
+<option value="/pokemon/bunnelby/">Bunnelby</option>
+<option value="/pokemon/burmy/">Burmy</option>
+<option value="/pokemon/butterfree/">Butterfree</option>
+<option value="/pokemon/buzzwole/">Buzzwole</option>
+<option value="/pokemon/cacnea/">Cacnea</option>
+<option value="/pokemon/cacturne/">Cacturne</option>
+<option value="/pokemon/calyrex/">Calyrex</option>
+<option value="/pokemon/camerupt/">Camerupt</option>
+<option value="/pokemon/capsakid/">Capsakid</option>
+<option value="/pokemon/carbink/">Carbink</option>
+<option value="/pokemon/carkol/">Carkol</option>
+<option value="/pokemon/carnivine/">Carnivine</option>
+<option value="/pokemon/carracosta/">Carracosta</option>
+<option value="/pokemon/carvanha/">Carvanha</option>
+<option value="/pokemon/cascoon/">Cascoon</option>
+<option value="/pokemon/castform/">Castform</option>
+<option value="/pokemon/caterpie/">Caterpie</option>
+<option value="/pokemon/celebi/">Celebi</option>
+<option value="/pokemon/celesteela/">Celesteela</option>
+<option value="/pokemon/centiskorch/">Centiskorch</option>
+<option value="/pokemon/ceruledge/">Ceruledge</option>
+<option value="/pokemon/cetitan/">Cetitan</option>
+<option value="/pokemon/cetoddle/">Cetoddle</option>
+<option value="/pokemon/chandelure/">Chandelure</option>
+<option value="/pokemon/chansey/">Chansey</option>
+<option value="/pokemon/charcadet/">Charcadet</option>
+<option value="/pokemon/charizard/">Charizard</option>
+<option value="/pokemon/charjabug/">Charjabug</option>
+<option value="/pokemon/charmander/">Charmander</option>
+<option value="/pokemon/charmeleon/">Charmeleon</option>
+<option value="/pokemon/chatot/">Chatot</option>
+<option value="/pokemon/cherrim/">Cherrim</option>
+<option value="/pokemon/cherubi/">Cherubi</option>
+<option value="/pokemon/chesnaught/">Chesnaught</option>
+<option value="/pokemon/chespin/">Chespin</option>
+<option value="/pokemon/chewtle/">Chewtle</option>
+<option value="/pokemon/chien-pao/">Chien-Pao</option>
+<option value="/pokemon/chikorita/">Chikorita</option>
+<option value="/pokemon/chimchar/">Chimchar</option>
+<option value="/pokemon/chimecho/">Chimecho</option>
+<option value="/pokemon/chinchou/">Chinchou</option>
+<option value="/pokemon/chingling/">Chingling</option>
+<option value="/pokemon/chi-yu/">Chi-Yu</option>
+<option value="/pokemon/cinccino/">Cinccino</option>
+<option value="/pokemon/cinderace/">Cinderace</option>
+<option value="/pokemon/clamperl/">Clamperl</option>
+<option value="/pokemon/clauncher/">Clauncher</option>
+<option value="/pokemon/clawitzer/">Clawitzer</option>
+<option value="/pokemon/claydol/">Claydol</option>
+<option value="/pokemon/clefable/">Clefable</option>
+<option value="/pokemon/clefairy/">Clefairy</option>
+<option value="/pokemon/cleffa/">Cleffa</option>
+<option value="/pokemon/clobbopus/">Clobbopus</option>
+<option value="/pokemon/clodsire/">Clodsire</option>
+<option value="/pokemon/cloyster/">Cloyster</option>
+<option value="/pokemon/coalossal/">Coalossal</option>
+<option value="/pokemon/cobalion/">Cobalion</option>
+<option value="/pokemon/cofagrigus/">Cofagrigus</option>
+<option value="/pokemon/combee/">Combee</option>
+<option value="/pokemon/combusken/">Combusken</option>
+<option value="/pokemon/comfey/">Comfey</option>
+<option value="/pokemon/conkeldurr/">Conkeldurr</option>
+<option value="/pokemon/copperajah/">Copperajah</option>
+<option value="/pokemon/corphish/">Corphish</option>
+<option value="/pokemon/corsola/">Corsola</option>
+<option value="/pokemon/corviknight/">Corviknight</option>
+<option value="/pokemon/corvisquire/">Corvisquire</option>
+<option value="/pokemon/cosmoem/">Cosmoem</option>
+<option value="/pokemon/cosmog/">Cosmog</option>
+<option value="/pokemon/cottonee/">Cottonee</option>
+<option value="/pokemon/crabominable/">Crabominable</option>
+<option value="/pokemon/crabrawler/">Crabrawler</option>
+<option value="/pokemon/cradily/">Cradily</option>
+<option value="/pokemon/cramorant/">Cramorant</option>
+<option value="/pokemon/cranidos/">Cranidos</option>
+<option value="/pokemon/crawdaunt/">Crawdaunt</option>
+<option value="/pokemon/cresselia/">Cresselia</option>
+<option value="/pokemon/croagunk/">Croagunk</option>
+<option value="/pokemon/crobat/">Crobat</option>
+<option value="/pokemon/crocalor/">Crocalor</option>
+<option value="/pokemon/croconaw/">Croconaw</option>
+<option value="/pokemon/crustle/">Crustle</option>
+<option value="/pokemon/cryogonal/">Cryogonal</option>
+<option value="/pokemon/cubchoo/">Cubchoo</option>
+<option value="/pokemon/cubone/">Cubone</option>
+<option value="/pokemon/cufant/">Cufant</option>
+<option value="/pokemon/cursola/">Cursola</option>
+<option value="/pokemon/cutiefly/">Cutiefly</option>
+<option value="/pokemon/cyclizar/">Cyclizar</option>
+<option value="/pokemon/cyndaquil/">Cyndaquil</option>
+<option value="/pokemon/dachsbun/">Dachsbun</option>
+<option value="/pokemon/darkrai/">Darkrai</option>
+<option value="/pokemon/darmanitan/">Darmanitan</option>
+<option value="/pokemon/dartrix/">Dartrix</option>
+<option value="/pokemon/darumaka/">Darumaka</option>
+<option value="/pokemon/decidueye/">Decidueye</option>
+<option value="/pokemon/dedenne/">Dedenne</option>
+<option value="/pokemon/deerling/">Deerling</option>
+<option value="/pokemon/deino/">Deino</option>
+<option value="/pokemon/delcatty/">Delcatty</option>
+<option value="/pokemon/delibird/">Delibird</option>
+<option value="/pokemon/delphox/">Delphox</option>
+<option value="/pokemon/deoxys/">Deoxys</option>
+<option value="/pokemon/dewgong/">Dewgong</option>
+<option value="/pokemon/dewott/">Dewott</option>
+<option value="/pokemon/dewpider/">Dewpider</option>
+<option value="/pokemon/dhelmise/">Dhelmise</option>
+<option value="/pokemon/dialga/">Dialga</option>
+<option value="/pokemon/diancie/">Diancie</option>
+<option value="/pokemon/diggersby/">Diggersby</option>
+<option value="/pokemon/diglett/">Diglett</option>
+<option value="/pokemon/ditto/">Ditto</option>
+<option value="/pokemon/dodrio/">Dodrio</option>
+<option value="/pokemon/doduo/">Doduo</option>
+<option value="/pokemon/dolliv/">Dolliv</option>
+<option value="/pokemon/dondozo/">Dondozo</option>
+<option value="/pokemon/donphan/">Donphan</option>
+<option value="/pokemon/dottler/">Dottler</option>
+<option value="/pokemon/doublade/">Doublade</option>
+<option value="/pokemon/dracovish/">Dracovish</option>
+<option value="/pokemon/dracozolt/">Dracozolt</option>
+<option value="/pokemon/dragalge/">Dragalge</option>
+<option value="/pokemon/dragapult/">Dragapult</option>
+<option value="/pokemon/dragonair/">Dragonair</option>
+<option value="/pokemon/dragonite/">Dragonite</option>
+<option value="/pokemon/drakloak/">Drakloak</option>
+<option value="/pokemon/drampa/">Drampa</option>
+<option value="/pokemon/drapion/">Drapion</option>
+<option value="/pokemon/dratini/">Dratini</option>
+<option value="/pokemon/drednaw/">Drednaw</option>
+<option value="/pokemon/dreepy/">Dreepy</option>
+<option value="/pokemon/drifblim/">Drifblim</option>
+<option value="/pokemon/drifloon/">Drifloon</option>
+<option value="/pokemon/drilbur/">Drilbur</option>
+<option value="/pokemon/drizzile/">Drizzile</option>
+<option value="/pokemon/drowzee/">Drowzee</option>
+<option value="/pokemon/druddigon/">Druddigon</option>
+<option value="/pokemon/dubwool/">Dubwool</option>
+<option value="/pokemon/ducklett/">Ducklett</option>
+<option value="/pokemon/dudunsparce/">Dudunsparce</option>
+<option value="/pokemon/dugtrio/">Dugtrio</option>
+<option value="/pokemon/dunsparce/">Dunsparce</option>
+<option value="/pokemon/duosion/">Duosion</option>
+<option value="/pokemon/duraludon/">Duraludon</option>
+<option value="/pokemon/durant/">Durant</option>
+<option value="/pokemon/dusclops/">Dusclops</option>
+<option value="/pokemon/dusknoir/">Dusknoir</option>
+<option value="/pokemon/duskull/">Duskull</option>
+<option value="/pokemon/dustox/">Dustox</option>
+<option value="/pokemon/dwebble/">Dwebble</option>
+<option value="/pokemon/eelektrik/">Eelektrik</option>
+<option value="/pokemon/eelektross/">Eelektross</option>
+<option value="/pokemon/eevee/">Eevee</option>
+<option value="/pokemon/eiscue/">Eiscue</option>
+<option value="/pokemon/ekans/">Ekans</option>
+<option value="/pokemon/eldegoss/">Eldegoss</option>
+<option value="/pokemon/electabuzz/">Electabuzz</option>
+<option value="/pokemon/electivire/">Electivire</option>
+<option value="/pokemon/electrike/">Electrike</option>
+<option value="/pokemon/electrode/">Electrode</option>
+<option value="/pokemon/elekid/">Elekid</option>
+<option value="/pokemon/elgyem/">Elgyem</option>
+<option value="/pokemon/emboar/">Emboar</option>
+<option value="/pokemon/emolga/">Emolga</option>
+<option value="/pokemon/empoleon/">Empoleon</option>
+<option value="/pokemon/entei/">Entei</option>
+<option value="/pokemon/escavalier/">Escavalier</option>
+<option value="/pokemon/espathra/">Espathra</option>
+<option value="/pokemon/espeon/">Espeon</option>
+<option value="/pokemon/espurr/">Espurr</option>
+<option value="/pokemon/eternatus/">Eternatus</option>
+<option value="/pokemon/excadrill/">Excadrill</option>
+<option value="/pokemon/exeggcute/">Exeggcute</option>
+<option value="/pokemon/exeggutor/">Exeggutor</option>
+<option value="/pokemon/exploud/">Exploud</option>
+<option value="/pokemon/falinks/">Falinks</option>
+<option value="/pokemon/farfetch'd/">Farfetch'd</option>
+<option value="/pokemon/farigiraf/">Farigiraf</option>
+<option value="/pokemon/fearow/">Fearow</option>
+<option value="/pokemon/feebas/">Feebas</option>
+<option value="/pokemon/fennekin/">Fennekin</option>
+<option value="/pokemon/feraligatr/">Feraligatr</option>
+<option value="/pokemon/ferroseed/">Ferroseed</option>
+<option value="/pokemon/ferrothorn/">Ferrothorn</option>
+<option value="/pokemon/fidough/">Fidough</option>
+<option value="/pokemon/finizen/">Finizen</option>
+<option value="/pokemon/finneon/">Finneon</option>
+<option value="/pokemon/flaaffy/">Flaaffy</option>
+<option value="/pokemon/flabebe/">Flab&eacute;b&eacute;</option>
+<option value="/pokemon/flamigo/">Flamigo</option>
+<option value="/pokemon/flapple/">Flapple</option>
+<option value="/pokemon/flareon/">Flareon</option>
+<option value="/pokemon/fletchinder/">Fletchinder</option>
+<option value="/pokemon/fletchling/">Fletchling</option>
+<option value="/pokemon/flittle/">Flittle</option>
+<option value="/pokemon/floatzel/">Floatzel</option>
+<option value="/pokemon/floette/">Floette</option>
+<option value="/pokemon/floragato/">Floragato</option>
+<option value="/pokemon/florges/">Florges</option>
+<option value="/pokemon/fluttermane/">Flutter Mane</option>
+<option value="/pokemon/flygon/">Flygon</option>
+<option value="/pokemon/fomantis/">Fomantis</option>
+<option value="/pokemon/foongus/">Foongus</option>
+<option value="/pokemon/forretress/">Forretress</option>
+<option value="/pokemon/fraxure/">Fraxure</option>
+<option value="/pokemon/frigibax/">Frigibax</option>
+<option value="/pokemon/frillish/">Frillish</option>
+<option value="/pokemon/froakie/">Froakie</option>
+<option value="/pokemon/frogadier/">Frogadier</option>
+<option value="/pokemon/froslass/">Froslass</option>
+<option value="/pokemon/frosmoth/">Frosmoth</option>
+<option value="/pokemon/fuecoco/">Fuecoco</option>
+<option value="/pokemon/furfrou/">Furfrou</option>
+<option value="/pokemon/furret/">Furret</option>
+<option value="/pokemon/gabite/">Gabite</option>
+<option value="/pokemon/gallade/">Gallade</option>
+<option value="/pokemon/galvantula/">Galvantula</option>
+<option value="/pokemon/garbodor/">Garbodor</option>
+<option value="/pokemon/garchomp/">Garchomp</option>
+<option value="/pokemon/gardevoir/">Gardevoir</option>
+<option value="/pokemon/garganacl/">Garganacl</option>
+<option value="/pokemon/gastly/">Gastly</option>
+<option value="/pokemon/gastrodon/">Gastrodon</option>
+<option value="/pokemon/genesect/">Genesect</option>
+<option value="/pokemon/gengar/">Gengar</option>
+<option value="/pokemon/geodude/">Geodude</option>
+<option value="/pokemon/gholdengo/">Gholdengo</option>
+<option value="/pokemon/gible/">Gible</option>
+<option value="/pokemon/gigalith/">Gigalith</option>
+<option value="/pokemon/gimmighoul/">Gimmighoul</option>
+<option value="/pokemon/girafarig/">Girafarig</option>
+<option value="/pokemon/giratina/">Giratina</option>
+<option value="/pokemon/glaceon/">Glaceon</option>
+<option value="/pokemon/glalie/">Glalie</option>
+<option value="/pokemon/glameow/">Glameow</option>
+<option value="/pokemon/glastrier/">Glastrier</option>
+<option value="/pokemon/gligar/">Gligar</option>
+<option value="/pokemon/glimmet/">Glimmet</option>
+<option value="/pokemon/glimmora/">Glimmora</option>
+<option value="/pokemon/gliscor/">Gliscor</option>
+<option value="/pokemon/gloom/">Gloom</option>
+<option value="/pokemon/gogoat/">Gogoat</option>
+<option value="/pokemon/golbat/">Golbat</option>
+<option value="/pokemon/goldeen/">Goldeen</option>
+<option value="/pokemon/golduck/">Golduck</option>
+<option value="/pokemon/golem/">Golem</option>
+<option value="/pokemon/golett/">Golett</option>
+<option value="/pokemon/golisopod/">Golisopod</option>
+<option value="/pokemon/golurk/">Golurk</option>
+<option value="/pokemon/goodra/">Goodra</option>
+<option value="/pokemon/goomy/">Goomy</option>
+<option value="/pokemon/gorebyss/">Gorebyss</option>
+<option value="/pokemon/gossifleur/">Gossifleur</option>
+<option value="/pokemon/gothita/">Gothita</option>
+<option value="/pokemon/gothitelle/">Gothitelle</option>
+<option value="/pokemon/gothorita/">Gothorita</option>
+<option value="/pokemon/gourgeist/">Gourgeist</option>
+<option value="/pokemon/grafaiai/">Grafaiai</option>
+<option value="/pokemon/granbull/">Granbull</option>
+<option value="/pokemon/grapploct/">Grapploct</option>
+<option value="/pokemon/graveler/">Graveler</option>
+<option value="/pokemon/greattusk/">Great Tusk</option>
+<option value="/pokemon/greavard/">Greavard</option>
+<option value="/pokemon/greedent/">Greedent</option>
+<option value="/pokemon/greninja/">Greninja</option>
+<option value="/pokemon/grimer/">Grimer</option>
+<option value="/pokemon/grimmsnarl/">Grimmsnarl</option>
+<option value="/pokemon/grookey/">Grookey</option>
+<option value="/pokemon/grotle/">Grotle</option>
+<option value="/pokemon/groudon/">Groudon</option>
+<option value="/pokemon/grovyle/">Grovyle</option>
+<option value="/pokemon/growlithe/">Growlithe</option>
+<option value="/pokemon/grubbin/">Grubbin</option>
+<option value="/pokemon/grumpig/">Grumpig</option>
+<option value="/pokemon/gulpin/">Gulpin</option>
+<option value="/pokemon/gumshoos/">Gumshoos</option>
+<option value="/pokemon/gurdurr/">Gurdurr</option>
+<option value="/pokemon/guzzlord/">Guzzlord</option>
+<option value="/pokemon/gyarados/">Gyarados</option>
+</SELECT> </FORM></td>
+<td colspan="2" align="center"> <FORM NAME="coast">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.coast.SelectURL.options[document.coast.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+ <option value="#">Pokédex: H - R</option>
+
+<option value="/pokemon/hakamo-o/">Hakamo-o</option>
+<option value="/pokemon/happiny/">Happiny</option>
+<option value="/pokemon/hariyama/">Hariyama</option>
+<option value="/pokemon/hatenna/">Hatenna</option>
+<option value="/pokemon/hatterene/">Hatterene</option>
+<option value="/pokemon/hattrem/">Hattrem</option>
+<option value="/pokemon/haunter/">Haunter</option>
+<option value="/pokemon/hawlucha/">Hawlucha</option>
+<option value="/pokemon/haxorus/">Haxorus</option>
+<option value="/pokemon/heatmor/">Heatmor</option>
+<option value="/pokemon/heatran/">Heatran</option>
+<option value="/pokemon/heliolisk/">Heliolisk</option>
+<option value="/pokemon/helioptile/">Helioptile</option>
+<option value="/pokemon/heracross/">Heracross</option>
+<option value="/pokemon/herdier/">Herdier</option>
+<option value="/pokemon/hippopotas/">Hippopotas</option>
+<option value="/pokemon/hippowdon/">Hippowdon</option>
+<option value="/pokemon/hitmonchan/">Hitmonchan</option>
+<option value="/pokemon/hitmonlee/">Hitmonlee</option>
+<option value="/pokemon/hitmontop/">Hitmontop</option>
+<option value="/pokemon/honchkrow/">Honchkrow</option>
+<option value="/pokemon/honedge/">Honedge</option>
+<option value="/pokemon/ho-oh/">Ho-Oh</option>
+<option value="/pokemon/hoopa/">Hoopa</option>
+<option value="/pokemon/hoothoot/">Hoothoot</option>
+<option value="/pokemon/hoppip/">Hoppip</option>
+<option value="/pokemon/horsea/">Horsea</option>
+<option value="/pokemon/houndoom/">Houndoom</option>
+<option value="/pokemon/houndour/">Houndour</option>
+<option value="/pokemon/houndstone/">Houndstone</option>
+<option value="/pokemon/huntail/">Huntail</option>
+<option value="/pokemon/hydreigon/">Hydreigon</option>
+<option value="/pokemon/hypno/">Hypno</option>
+<option value="/pokemon/igglybuff/">Igglybuff</option>
+<option value="/pokemon/illumise/">Illumise</option>
+<option value="/pokemon/impidimp/">Impidimp</option>
+<option value="/pokemon/incineroar/">Incineroar</option>
+<option value="/pokemon/indeedee/">Indeedee</option>
+<option value="/pokemon/infernape/">Infernape</option>
+<option value="/pokemon/inkay/">Inkay</option>
+<option value="/pokemon/inteleon/">Inteleon</option>
+<option value="/pokemon/ironbundle/">Iron Bundle</option>
+<option value="/pokemon/ironhands/">Iron Hands</option>
+<option value="/pokemon/ironjugulis/">Iron Jugulis</option>
+<option value="/pokemon/ironmoth/">Iron Moth</option>
+<option value="/pokemon/ironthorns/">Iron Thorns</option>
+<option value="/pokemon/irontreads/">Iron Treads</option>
+<option value="/pokemon/ironvaliant/">Iron Valiant</option>
+<option value="/pokemon/ivysaur/">Ivysaur</option>
+<option value="/pokemon/jangmo-o/">Jangmo-o</option>
+<option value="/pokemon/jellicent/">Jellicent</option>
+<option value="/pokemon/jigglypuff/">Jigglypuff</option>
+<option value="/pokemon/jirachi/">Jirachi</option>
+<option value="/pokemon/jolteon/">Jolteon</option>
+<option value="/pokemon/joltik/">Joltik</option>
+<option value="/pokemon/jumpluff/">Jumpluff</option>
+<option value="/pokemon/jynx/">Jynx</option>
+<option value="/pokemon/kabuto/">Kabuto</option>
+<option value="/pokemon/kabutops/">Kabutops</option>
+<option value="/pokemon/kadabra/">Kadabra</option>
+<option value="/pokemon/kakuna/">Kakuna</option>
+<option value="/pokemon/kangaskhan/">Kangaskhan</option>
+<option value="/pokemon/karrablast/">Karrablast</option>
+<option value="/pokemon/kartana/">Kartana</option>
+<option value="/pokemon/kecleon/">Kecleon</option>
+<option value="/pokemon/keldeo/">Keldeo</option>
+<option value="/pokemon/kilowattrel/">Kilowattrel</option>
+<option value="/pokemon/kingambit/">Kingambit</option>
+<option value="/pokemon/kingdra/">Kingdra</option>
+<option value="/pokemon/kingler/">Kingler</option>
+<option value="/pokemon/kirlia/">Kirlia</option>
+<option value="/pokemon/klang/">Klang</option>
+<option value="/pokemon/klawf/">Klawf</option>
+<option value="/pokemon/klefki/">Klefki</option>
+<option value="/pokemon/klink/">Klink</option>
+<option value="/pokemon/klinklang/">Klinklang</option>
+<option value="/pokemon/koffing/">Koffing</option>
+<option value="/pokemon/komala/">Komala</option>
+<option value="/pokemon/kommo-o/">Kommo-o</option>
+<option value="/pokemon/koraidon/">Koraidon</option>
+<option value="/pokemon/krabby/">Krabby</option>
+<option value="/pokemon/kricketot/">Kricketot</option>
+<option value="/pokemon/kricketune/">Kricketune</option>
+<option value="/pokemon/krokorok/">Krokorok</option>
+<option value="/pokemon/krookodile/">Krookodile</option>
+<option value="/pokemon/kubfu/">Kubfu</option>
+<option value="/pokemon/kyogre/">Kyogre</option>
+<option value="/pokemon/kyurem/">Kyurem</option>
+<option value="/pokemon/lairon/">Lairon</option>
+<option value="/pokemon/lampent/">Lampent</option>
+<option value="/pokemon/landorus/">Landorus</option>
+<option value="/pokemon/lanturn/">Lanturn</option>
+<option value="/pokemon/lapras/">Lapras</option>
+<option value="/pokemon/larvesta/">Larvesta</option>
+<option value="/pokemon/larvitar/">Larvitar</option>
+<option value="/pokemon/latias/">Latias</option>
+<option value="/pokemon/latios/">Latios</option>
+<option value="/pokemon/leafeon/">Leafeon</option>
+<option value="/pokemon/leavanny/">Leavanny</option>
+<option value="/pokemon/lechonk/">Lechonk</option>
+<option value="/pokemon/ledian/">Ledian</option>
+<option value="/pokemon/ledyba/">Ledyba</option>
+<option value="/pokemon/lickilicky/">Lickilicky</option>
+<option value="/pokemon/lickitung/">Lickitung</option>
+<option value="/pokemon/liepard/">Liepard</option>
+<option value="/pokemon/lileep/">Lileep</option>
+<option value="/pokemon/lilligant/">Lilligant</option>
+<option value="/pokemon/lillipup/">Lillipup</option>
+<option value="/pokemon/linoone/">Linoone</option>
+<option value="/pokemon/litleo/">Litleo</option>
+<option value="/pokemon/litten/">Litten</option>
+<option value="/pokemon/litwick/">Litwick</option>
+<option value="/pokemon/lokix/">Lokix</option>
+<option value="/pokemon/lombre/">Lombre</option>
+<option value="/pokemon/lopunny/">Lopunny</option>
+<option value="/pokemon/lotad/">Lotad</option>
+<option value="/pokemon/loudred/">Loudred</option>
+<option value="/pokemon/lucario/">Lucario</option>
+<option value="/pokemon/ludicolo/">Ludicolo</option>
+<option value="/pokemon/lugia/">Lugia</option>
+<option value="/pokemon/lumineon/">Lumineon</option>
+<option value="/pokemon/lunala/">Lunala</option>
+<option value="/pokemon/lunatone/">Lunatone</option>
+<option value="/pokemon/lurantis/">Lurantis</option>
+<option value="/pokemon/luvdisc/">Luvdisc</option>
+<option value="/pokemon/luxio/">Luxio</option>
+<option value="/pokemon/luxray/">Luxray</option>
+<option value="/pokemon/lycanroc/">Lycanroc</option>
+<option value="/pokemon/mabosstiff/">Mabosstiff</option>
+<option value="/pokemon/machamp/">Machamp</option>
+<option value="/pokemon/machoke/">Machoke</option>
+<option value="/pokemon/machop/">Machop</option>
+<option value="/pokemon/magby/">Magby</option>
+<option value="/pokemon/magcargo/">Magcargo</option>
+<option value="/pokemon/magearna/">Magearna</option>
+<option value="/pokemon/magikarp/">Magikarp</option>
+<option value="/pokemon/magmar/">Magmar</option>
+<option value="/pokemon/magmortar/">Magmortar</option>
+<option value="/pokemon/magnemite/">Magnemite</option>
+<option value="/pokemon/magneton/">Magneton</option>
+<option value="/pokemon/magnezone/">Magnezone</option>
+<option value="/pokemon/makuhita/">Makuhita</option>
+<option value="/pokemon/malamar/">Malamar</option>
+<option value="/pokemon/mamoswine/">Mamoswine</option>
+<option value="/pokemon/manaphy/">Manaphy</option>
+<option value="/pokemon/mandibuzz/">Mandibuzz</option>
+<option value="/pokemon/manectric/">Manectric</option>
+<option value="/pokemon/mankey/">Mankey</option>
+<option value="/pokemon/mantine/">Mantine</option>
+<option value="/pokemon/mantyke/">Mantyke</option>
+<option value="/pokemon/maractus/">Maractus</option>
+<option value="/pokemon/mareanie/">Mareanie</option>
+<option value="/pokemon/mareep/">Mareep</option>
+<option value="/pokemon/marill/">Marill</option>
+<option value="/pokemon/marowak/">Marowak</option>
+<option value="/pokemon/marshadow/">Marshadow</option>
+<option value="/pokemon/marshtomp/">Marshtomp</option>
+<option value="/pokemon/maschiff/">Maschiff</option>
+<option value="/pokemon/masquerain/">Masquerain</option>
+<option value="/pokemon/maushold/">Maushold</option>
+<option value="/pokemon/mawile/">Mawile</option>
+<option value="/pokemon/medicham/">Medicham</option>
+<option value="/pokemon/meditite/">Meditite</option>
+<option value="/pokemon/meganium/">Meganium</option>
+<option value="/pokemon/melmetal/">Melmetal</option>
+<option value="/pokemon/meloetta/">Meloetta</option>
+<option value="/pokemon/meltan/">Meltan</option>
+<option value="/pokemon/meowscarada/">Meowscarada</option>
+<option value="/pokemon/meowstic/">Meowstic</option>
+<option value="/pokemon/meowth/">Meowth</option>
+<option value="/pokemon/mesprit/">Mesprit</option>
+<option value="/pokemon/metagross/">Metagross</option>
+<option value="/pokemon/metang/">Metang</option>
+<option value="/pokemon/metapod/">Metapod</option>
+<option value="/pokemon/mew/">Mew</option>
+<option value="/pokemon/mewtwo/">Mewtwo</option>
+<option value="/pokemon/mienfoo/">Mienfoo</option>
+<option value="/pokemon/mienshao/">Mienshao</option>
+<option value="/pokemon/mightyena/">Mightyena</option>
+<option value="/pokemon/milcery/">Milcery</option>
+<option value="/pokemon/milotic/">Milotic</option>
+<option value="/pokemon/miltank/">Miltank</option>
+<option value="/pokemon/mimejr./">Mime Jr.</option>
+<option value="/pokemon/mimikyu/">Mimikyu</option>
+<option value="/pokemon/minccino/">Minccino</option>
+<option value="/pokemon/minior/">Minior</option>
+<option value="/pokemon/minun/">Minun</option>
+<option value="/pokemon/miraidon/">Miraidon</option>
+<option value="/pokemon/misdreavus/">Misdreavus</option>
+<option value="/pokemon/mismagius/">Mismagius</option>
+<option value="/pokemon/moltres/">Moltres</option>
+<option value="/pokemon/monferno/">Monferno</option>
+<option value="/pokemon/morelull/">Morelull</option>
+<option value="/pokemon/morgrem/">Morgrem</option>
+<option value="/pokemon/morpeko/">Morpeko</option>
+<option value="/pokemon/mothim/">Mothim</option>
+<option value="/pokemon/mr.mime/">Mr. Mime</option>
+<option value="/pokemon/mr.rime/">Mr. Rime</option>
+<option value="/pokemon/mudbray/">Mudbray</option>
+<option value="/pokemon/mudkip/">Mudkip</option>
+<option value="/pokemon/mudsdale/">Mudsdale</option>
+<option value="/pokemon/muk/">Muk</option>
+<option value="/pokemon/munchlax/">Munchlax</option>
+<option value="/pokemon/munna/">Munna</option>
+<option value="/pokemon/murkrow/">Murkrow</option>
+<option value="/pokemon/musharna/">Musharna</option>
+<option value="/pokemon/nacli/">Nacli</option>
+<option value="/pokemon/naclstack/">Naclstack</option>
+<option value="/pokemon/naganadel/">Naganadel</option>
+<option value="/pokemon/natu/">Natu</option>
+<option value="/pokemon/necrozma/">Necrozma</option>
+<option value="/pokemon/nickit/">Nickit</option>
+<option value="/pokemon/nidoking/">Nidoking</option>
+<option value="/pokemon/nidoqueen/">Nidoqueen</option>
+<option value="/pokemon/nidoranf/">Nidoran&#9792;</option>
+<option value="/pokemon/nidoranm/">Nidoran&#9794;</option>
+<option value="/pokemon/nidorina/">Nidorina</option>
+<option value="/pokemon/nidorino/">Nidorino</option>
+<option value="/pokemon/nihilego/">Nihilego</option>
+<option value="/pokemon/nincada/">Nincada</option>
+<option value="/pokemon/ninetales/">Ninetales</option>
+<option value="/pokemon/ninjask/">Ninjask</option>
+<option value="/pokemon/noctowl/">Noctowl</option>
+<option value="/pokemon/noibat/">Noibat</option>
+<option value="/pokemon/noivern/">Noivern</option>
+<option value="/pokemon/nosepass/">Nosepass</option>
+<option value="/pokemon/numel/">Numel</option>
+<option value="/pokemon/nuzleaf/">Nuzleaf</option>
+<option value="/pokemon/nymble/">Nymble</option>
+<option value="/pokemon/obstagoon/">Obstagoon</option>
+<option value="/pokemon/octillery/">Octillery</option>
+<option value="/pokemon/oddish/">Oddish</option>
+<option value="/pokemon/oinkologne/">Oinkologne</option>
+<option value="/pokemon/omanyte/">Omanyte</option>
+<option value="/pokemon/omastar/">Omastar</option>
+<option value="/pokemon/onix/">Onix</option>
+<option value="/pokemon/oranguru/">Oranguru</option>
+<option value="/pokemon/orbeetle/">Orbeetle</option>
+<option value="/pokemon/oricorio/">Oricorio</option>
+<option value="/pokemon/orthworm/">Orthworm</option>
+<option value="/pokemon/oshawott/">Oshawott</option>
+<option value="/pokemon/pachirisu/">Pachirisu</option>
+<option value="/pokemon/palafin/">Palafin</option>
+<option value="/pokemon/palkia/">Palkia</option>
+<option value="/pokemon/palossand/">Palossand</option>
+<option value="/pokemon/palpitoad/">Palpitoad</option>
+<option value="/pokemon/pancham/">Pancham</option>
+<option value="/pokemon/pangoro/">Pangoro</option>
+<option value="/pokemon/panpour/">Panpour</option>
+<option value="/pokemon/pansage/">Pansage</option>
+<option value="/pokemon/pansear/">Pansear</option>
+<option value="/pokemon/paras/">Paras</option>
+<option value="/pokemon/parasect/">Parasect</option>
+<option value="/pokemon/passimian/">Passimian</option>
+<option value="/pokemon/patrat/">Patrat</option>
+<option value="/pokemon/pawmi/">Pawmi</option>
+<option value="/pokemon/pawmo/">Pawmo</option>
+<option value="/pokemon/pawmot/">Pawmot</option>
+<option value="/pokemon/pawniard/">Pawniard</option>
+<option value="/pokemon/pelipper/">Pelipper</option>
+<option value="/pokemon/perrserker/">Perrserker</option>
+<option value="/pokemon/persian/">Persian</option>
+<option value="/pokemon/petilil/">Petilil</option>
+<option value="/pokemon/phanpy/">Phanpy</option>
+<option value="/pokemon/phantump/">Phantump</option>
+<option value="/pokemon/pheromosa/">Pheromosa</option>
+<option value="/pokemon/phione/">Phione</option>
+<option value="/pokemon/pichu/">Pichu</option>
+<option value="/pokemon/pidgeot/">Pidgeot</option>
+<option value="/pokemon/pidgeotto/">Pidgeotto</option>
+<option value="/pokemon/pidgey/">Pidgey</option>
+<option value="/pokemon/pidove/">Pidove</option>
+<option value="/pokemon/pignite/">Pignite</option>
+<option value="/pokemon/pikachu/">Pikachu</option>
+<option value="/pokemon/pikipek/">Pikipek</option>
+<option value="/pokemon/piloswine/">Piloswine</option>
+<option value="/pokemon/pincurchin/">Pincurchin</option>
+<option value="/pokemon/pineco/">Pineco</option>
+<option value="/pokemon/pinsir/">Pinsir</option>
+<option value="/pokemon/piplup/">Piplup</option>
+<option value="/pokemon/plusle/">Plusle</option>
+<option value="/pokemon/poipole/">Poipole</option>
+<option value="/pokemon/politoed/">Politoed</option>
+<option value="/pokemon/poliwag/">Poliwag</option>
+<option value="/pokemon/poliwhirl/">Poliwhirl</option>
+<option value="/pokemon/poliwrath/">Poliwrath</option>
+<option value="/pokemon/polteageist/">Polteageist</option>
+<option value="/pokemon/ponyta/">Ponyta</option>
+<option value="/pokemon/poochyena/">Poochyena</option>
+<option value="/pokemon/popplio/">Popplio</option>
+<option value="/pokemon/porygon/">Porygon</option>
+<option value="/pokemon/porygon2/">Porygon2</option>
+<option value="/pokemon/porygon-z/">Porygon-Z</option>
+<option value="/pokemon/primarina/">Primarina</option>
+<option value="/pokemon/primeape/">Primeape</option>
+<option value="/pokemon/prinplup/">Prinplup</option>
+<option value="/pokemon/probopass/">Probopass</option>
+<option value="/pokemon/psyduck/">Psyduck</option>
+<option value="/pokemon/pumpkaboo/">Pumpkaboo</option>
+<option value="/pokemon/pupitar/">Pupitar</option>
+<option value="/pokemon/purrloin/">Purrloin</option>
+<option value="/pokemon/purugly/">Purugly</option>
+<option value="/pokemon/pyroar/">Pyroar</option>
+<option value="/pokemon/pyukumuku/">Pyukumuku</option>
+<option value="/pokemon/quagsire/">Quagsire</option>
+<option value="/pokemon/quaquaval/">Quaquaval</option>
+<option value="/pokemon/quaxly/">Quaxly</option>
+<option value="/pokemon/quaxwell/">Quaxwell</option>
+<option value="/pokemon/quilava/">Quilava</option>
+<option value="/pokemon/quilladin/">Quilladin</option>
+<option value="/pokemon/qwilfish/">Qwilfish</option>
+<option value="/pokemon/raboot/">Raboot</option>
+<option value="/pokemon/rabsca/">Rabsca</option>
+<option value="/pokemon/raichu/">Raichu</option>
+<option value="/pokemon/raikou/">Raikou</option>
+<option value="/pokemon/ralts/">Ralts</option>
+<option value="/pokemon/rampardos/">Rampardos</option>
+<option value="/pokemon/rapidash/">Rapidash</option>
+<option value="/pokemon/raticate/">Raticate</option>
+<option value="/pokemon/rattata/">Rattata</option>
+<option value="/pokemon/rayquaza/">Rayquaza</option>
+<option value="/pokemon/regice/">Regice</option>
+<option value="/pokemon/regidrago/">Regidrago</option>
+<option value="/pokemon/regieleki/">Regieleki</option>
+<option value="/pokemon/regigigas/">Regigigas</option>
+<option value="/pokemon/regirock/">Regirock</option>
+<option value="/pokemon/registeel/">Registeel</option>
+<option value="/pokemon/relicanth/">Relicanth</option>
+<option value="/pokemon/rellor/">Rellor</option>
+<option value="/pokemon/remoraid/">Remoraid</option>
+<option value="/pokemon/reshiram/">Reshiram</option>
+<option value="/pokemon/reuniclus/">Reuniclus</option>
+<option value="/pokemon/revavroom/">Revavroom</option>
+<option value="/pokemon/rhydon/">Rhydon</option>
+<option value="/pokemon/rhyhorn/">Rhyhorn</option>
+<option value="/pokemon/rhyperior/">Rhyperior</option>
+<option value="/pokemon/ribombee/">Ribombee</option>
+<option value="/pokemon/rillaboom/">Rillaboom</option>
+<option value="/pokemon/riolu/">Riolu</option>
+<option value="/pokemon/roaringmoon/">Roaring Moon</option>
+<option value="/pokemon/rockruff/">Rockruff</option>
+<option value="/pokemon/roggenrola/">Roggenrola</option>
+<option value="/pokemon/rolycoly/">Rolycoly</option>
+<option value="/pokemon/rookidee/">Rookidee</option>
+<option value="/pokemon/roselia/">Roselia</option>
+<option value="/pokemon/roserade/">Roserade</option>
+<option value="/pokemon/rotom/">Rotom</option>
+<option value="/pokemon/rowlet/">Rowlet</option>
+<option value="/pokemon/rufflet/">Rufflet</option>
+<option value="/pokemon/runerigus/">Runerigus
+</option></SELECT> </FORM></td>
+<td colspan="2" align="center"> <FORM NAME="mount">
+ <SELECT NAME="SelectURL" onChange="document.location.href=document.mount.SelectURL.options[document.mount.SelectURL.selectedIndex].value" style="color:#383838; font-size: 8pt; background:#CEBC77" size=1>
+ <option value="#">Pokédex: S - Z</option>
+
+<option value="/pokemon/sableye/">Sableye</option>
+<option value="/pokemon/salamence/">Salamence</option>
+<option value="/pokemon/salandit/">Salandit</option>
+<option value="/pokemon/salazzle/">Salazzle</option>
+<option value="/pokemon/samurott/">Samurott</option>
+<option value="/pokemon/sandaconda/">Sandaconda</option>
+<option value="/pokemon/sandile/">Sandile</option>
+<option value="/pokemon/sandshrew/">Sandshrew</option>
+<option value="/pokemon/sandslash/">Sandslash</option>
+<option value="/pokemon/sandyshocks/">Sandy Shocks</option>
+<option value="/pokemon/sandygast/">Sandygast</option>
+<option value="/pokemon/sawk/">Sawk</option>
+<option value="/pokemon/sawsbuck/">Sawsbuck</option>
+<option value="/pokemon/scatterbug/">Scatterbug</option>
+<option value="/pokemon/sceptile/">Sceptile</option>
+<option value="/pokemon/scizor/">Scizor</option>
+<option value="/pokemon/scolipede/">Scolipede</option>
+<option value="/pokemon/scorbunny/">Scorbunny</option>
+<option value="/pokemon/scovillain/">Scovillain</option>
+<option value="/pokemon/scrafty/">Scrafty</option>
+<option value="/pokemon/scraggy/">Scraggy</option>
+<option value="/pokemon/screamtail/">Scream Tail</option>
+<option value="/pokemon/scyther/">Scyther</option>
+<option value="/pokemon/seadra/">Seadra</option>
+<option value="/pokemon/seaking/">Seaking</option>
+<option value="/pokemon/sealeo/">Sealeo</option>
+<option value="/pokemon/seedot/">Seedot</option>
+<option value="/pokemon/seel/">Seel</option>
+<option value="/pokemon/seismitoad/">Seismitoad</option>
+<option value="/pokemon/sentret/">Sentret</option>
+<option value="/pokemon/serperior/">Serperior</option>
+<option value="/pokemon/servine/">Servine</option>
+<option value="/pokemon/seviper/">Seviper</option>
+<option value="/pokemon/sewaddle/">Sewaddle</option>
+<option value="/pokemon/sharpedo/">Sharpedo</option>
+<option value="/pokemon/shaymin/">Shaymin</option>
+<option value="/pokemon/shedinja/">Shedinja</option>
+<option value="/pokemon/shelgon/">Shelgon</option>
+<option value="/pokemon/shellder/">Shellder</option>
+<option value="/pokemon/shellos/">Shellos</option>
+<option value="/pokemon/shelmet/">Shelmet</option>
+<option value="/pokemon/shieldon/">Shieldon</option>
+<option value="/pokemon/shiftry/">Shiftry</option>
+<option value="/pokemon/shiinotic/">Shiinotic</option>
+<option value="/pokemon/shinx/">Shinx</option>
+<option value="/pokemon/shroodle/">Shroodle</option>
+<option value="/pokemon/shroomish/">Shroomish</option>
+<option value="/pokemon/shuckle/">Shuckle</option>
+<option value="/pokemon/shuppet/">Shuppet</option>
+<option value="/pokemon/sigilyph/">Sigilyph</option>
+<option value="/pokemon/silcoon/">Silcoon</option>
+<option value="/pokemon/silicobra/">Silicobra</option>
+<option value="/pokemon/silvally/">Silvally</option>
+<option value="/pokemon/simipour/">Simipour</option>
+<option value="/pokemon/simisage/">Simisage</option>
+<option value="/pokemon/simisear/">Simisear</option>
+<option value="/pokemon/sinistea/">Sinistea</option>
+<option value="/pokemon/sirfetch'd/">Sirfetch'd</option>
+<option value="/pokemon/sizzlipede/">Sizzlipede</option>
+<option value="/pokemon/skarmory/">Skarmory</option>
+<option value="/pokemon/skeledirge/">Skeledirge</option>
+<option value="/pokemon/skiddo/">Skiddo</option>
+<option value="/pokemon/skiploom/">Skiploom</option>
+<option value="/pokemon/skitty/">Skitty</option>
+<option value="/pokemon/skorupi/">Skorupi</option>
+<option value="/pokemon/skrelp/">Skrelp</option>
+<option value="/pokemon/skuntank/">Skuntank</option>
+<option value="/pokemon/skwovet/">Skwovet</option>
+<option value="/pokemon/slaking/">Slaking</option>
+<option value="/pokemon/slakoth/">Slakoth</option>
+<option value="/pokemon/sliggoo/">Sliggoo</option>
+<option value="/pokemon/slitherwing/">Slither Wing</option>
+<option value="/pokemon/slowbro/">Slowbro</option>
+<option value="/pokemon/slowking/">Slowking</option>
+<option value="/pokemon/slowpoke/">Slowpoke</option>
+<option value="/pokemon/slugma/">Slugma</option>
+<option value="/pokemon/slurpuff/">Slurpuff</option>
+<option value="/pokemon/smeargle/">Smeargle</option>
+<option value="/pokemon/smoliv/">Smoliv</option>
+<option value="/pokemon/smoochum/">Smoochum</option>
+<option value="/pokemon/sneasel/">Sneasel</option>
+<option value="/pokemon/snivy/">Snivy</option>
+<option value="/pokemon/snom/">Snom</option>
+<option value="/pokemon/snorlax/">Snorlax</option>
+<option value="/pokemon/snorunt/">Snorunt</option>
+<option value="/pokemon/snover/">Snover</option>
+<option value="/pokemon/snubbull/">Snubbull</option>
+<option value="/pokemon/sobble/">Sobble</option>
+<option value="/pokemon/solgaleo/">Solgaleo</option>
+<option value="/pokemon/solosis/">Solosis</option>
+<option value="/pokemon/solrock/">Solrock</option>
+<option value="/pokemon/spearow/">Spearow</option>
+<option value="/pokemon/spectrier/">Spectrier</option>
+<option value="/pokemon/spewpa/">Spewpa</option>
+<option value="/pokemon/spheal/">Spheal</option>
+<option value="/pokemon/spidops/">Spidops</option>
+<option value="/pokemon/spinarak/">Spinarak</option>
+<option value="/pokemon/spinda/">Spinda</option>
+<option value="/pokemon/spiritomb/">Spiritomb</option>
+<option value="/pokemon/spoink/">Spoink</option>
+<option value="/pokemon/sprigatito/">Sprigatito</option>
+<option value="/pokemon/spritzee/">Spritzee</option>
+<option value="/pokemon/squawkabilly/">Squawkabilly</option>
+<option value="/pokemon/squirtle/">Squirtle</option>
+<option value="/pokemon/stakataka/">Stakataka</option>
+<option value="/pokemon/stantler/">Stantler</option>
+<option value="/pokemon/staraptor/">Staraptor</option>
+<option value="/pokemon/staravia/">Staravia</option>
+<option value="/pokemon/starly/">Starly</option>
+<option value="/pokemon/starmie/">Starmie</option>
+<option value="/pokemon/staryu/">Staryu</option>
+<option value="/pokemon/steelix/">Steelix</option>
+<option value="/pokemon/steenee/">Steenee</option>
+<option value="/pokemon/stonjourner/">Stonjourner</option>
+<option value="/pokemon/stoutland/">Stoutland</option>
+<option value="/pokemon/stufful/">Stufful</option>
+<option value="/pokemon/stunfisk/">Stunfisk</option>
+<option value="/pokemon/stunky/">Stunky</option>
+<option value="/pokemon/sudowoodo/">Sudowoodo</option>
+<option value="/pokemon/suicune/">Suicune</option>
+<option value="/pokemon/sunflora/">Sunflora</option>
+<option value="/pokemon/sunkern/">Sunkern</option>
+<option value="/pokemon/surskit/">Surskit</option>
+<option value="/pokemon/swablu/">Swablu</option>
+<option value="/pokemon/swadloon/">Swadloon</option>
+<option value="/pokemon/swalot/">Swalot</option>
+<option value="/pokemon/swampert/">Swampert</option>
+<option value="/pokemon/swanna/">Swanna</option>
+<option value="/pokemon/swellow/">Swellow</option>
+<option value="/pokemon/swinub/">Swinub</option>
+<option value="/pokemon/swirlix/">Swirlix</option>
+<option value="/pokemon/swoobat/">Swoobat</option>
+<option value="/pokemon/sylveon/">Sylveon</option>
+<option value="/pokemon/tadbulb/">Tadbulb</option>
+<option value="/pokemon/taillow/">Taillow</option>
+<option value="/pokemon/talonflame/">Talonflame</option>
+<option value="/pokemon/tandemaus/">Tandemaus</option>
+<option value="/pokemon/tangela/">Tangela</option>
+<option value="/pokemon/tangrowth/">Tangrowth</option>
+<option value="/pokemon/tapubulu/">Tapu Bulu</option>
+<option value="/pokemon/tapufini/">Tapu Fini</option>
+<option value="/pokemon/tapukoko/">Tapu Koko</option>
+<option value="/pokemon/tapulele/">Tapu Lele</option>
+<option value="/pokemon/tarountula/">Tarountula</option>
+<option value="/pokemon/tatsugiri/">Tatsugiri</option>
+<option value="/pokemon/tauros/">Tauros</option>
+<option value="/pokemon/teddiursa/">Teddiursa</option>
+<option value="/pokemon/tentacool/">Tentacool</option>
+<option value="/pokemon/tentacruel/">Tentacruel</option>
+<option value="/pokemon/tepig/">Tepig</option>
+<option value="/pokemon/terrakion/">Terrakion</option>
+<option value="/pokemon/thievul/">Thievul</option>
+<option value="/pokemon/throh/">Throh</option>
+<option value="/pokemon/thundurus/">Thundurus</option>
+<option value="/pokemon/thwackey/">Thwackey</option>
+<option value="/pokemon/timburr/">Timburr</option>
+<option value="/pokemon/ting-lu/">Ting-Lu</option>
+<option value="/pokemon/tinkatink/">Tinkatink</option>
+<option value="/pokemon/tinkaton/">Tinkaton</option>
+<option value="/pokemon/tinkatuff/">Tinkatuff</option>
+<option value="/pokemon/tirtouga/">Tirtouga</option>
+<option value="/pokemon/toedscool/">Toedscool</option>
+<option value="/pokemon/toedscruel/">Toedscruel</option>
+<option value="/pokemon/togedemaru/">Togedemaru</option>
+<option value="/pokemon/togekiss/">Togekiss</option>
+<option value="/pokemon/togepi/">Togepi</option>
+<option value="/pokemon/togetic/">Togetic</option>
+<option value="/pokemon/torchic/">Torchic</option>
+<option value="/pokemon/torkoal/">Torkoal</option>
+<option value="/pokemon/tornadus/">Tornadus</option>
+<option value="/pokemon/torracat/">Torracat</option>
+<option value="/pokemon/torterra/">Torterra</option>
+<option value="/pokemon/totodile/">Totodile</option>
+<option value="/pokemon/toucannon/">Toucannon</option>
+<option value="/pokemon/toxapex/">Toxapex</option>
+<option value="/pokemon/toxel/">Toxel</option>
+<option value="/pokemon/toxicroak/">Toxicroak</option>
+<option value="/pokemon/toxtricity/">Toxtricity</option>
+<option value="/pokemon/tranquill/">Tranquill</option>
+<option value="/pokemon/trapinch/">Trapinch</option>
+<option value="/pokemon/treecko/">Treecko</option>
+<option value="/pokemon/trevenant/">Trevenant</option>
+<option value="/pokemon/tropius/">Tropius</option>
+<option value="/pokemon/trubbish/">Trubbish</option>
+<option value="/pokemon/trumbeak/">Trumbeak</option>
+<option value="/pokemon/tsareena/">Tsareena</option>
+<option value="/pokemon/turtonator/">Turtonator</option>
+<option value="/pokemon/turtwig/">Turtwig</option>
+<option value="/pokemon/tympole/">Tympole</option>
+<option value="/pokemon/tynamo/">Tynamo</option>
+<option value="/pokemon/type:null/">Type: Null</option>
+<option value="/pokemon/typhlosion/">Typhlosion</option>
+<option value="/pokemon/tyranitar/">Tyranitar</option>
+<option value="/pokemon/tyrantrum/">Tyrantrum</option>
+<option value="/pokemon/tyrogue/">Tyrogue</option>
+<option value="/pokemon/tyrunt/">Tyrunt</option>
+<option value="/pokemon/umbreon/">Umbreon</option>
+<option value="/pokemon/unfezant/">Unfezant</option>
+<option value="/pokemon/unown/">Unown</option>
+<option value="/pokemon/ursaring/">Ursaring</option>
+<option value="/pokemon/urshifu/">Urshifu</option>
+<option value="/pokemon/uxie/">Uxie</option>
+<option value="/pokemon/vanillish/">Vanillish</option>
+<option value="/pokemon/vanillite/">Vanillite</option>
+<option value="/pokemon/vanilluxe/">Vanilluxe</option>
+<option value="/pokemon/vaporeon/">Vaporeon</option>
+<option value="/pokemon/varoom/">Varoom</option>
+<option value="/pokemon/veluza/">Veluza</option>
+<option value="/pokemon/venipede/">Venipede</option>
+<option value="/pokemon/venomoth/">Venomoth</option>
+<option value="/pokemon/venonat/">Venonat</option>
+<option value="/pokemon/venusaur/">Venusaur</option>
+<option value="/pokemon/vespiquen/">Vespiquen</option>
+<option value="/pokemon/vibrava/">Vibrava</option>
+<option value="/pokemon/victini/">Victini</option>
+<option value="/pokemon/victreebel/">Victreebel</option>
+<option value="/pokemon/vigoroth/">Vigoroth</option>
+<option value="/pokemon/vikavolt/">Vikavolt</option>
+<option value="/pokemon/vileplume/">Vileplume</option>
+<option value="/pokemon/virizion/">Virizion</option>
+<option value="/pokemon/vivillon/">Vivillon</option>
+<option value="/pokemon/volbeat/">Volbeat</option>
+<option value="/pokemon/volcanion/">Volcanion</option>
+<option value="/pokemon/volcarona/">Volcarona</option>
+<option value="/pokemon/voltorb/">Voltorb</option>
+<option value="/pokemon/vullaby/">Vullaby</option>
+<option value="/pokemon/vulpix/">Vulpix</option>
+<option value="/pokemon/wailmer/">Wailmer</option>
+<option value="/pokemon/wailord/">Wailord</option>
+<option value="/pokemon/walrein/">Walrein</option>
+<option value="/pokemon/wartortle/">Wartortle</option>
+<option value="/pokemon/watchog/">Watchog</option>
+<option value="/pokemon/wattrel/">Wattrel</option>
+<option value="/pokemon/weavile/">Weavile</option>
+<option value="/pokemon/weedle/">Weedle</option>
+<option value="/pokemon/weepinbell/">Weepinbell</option>
+<option value="/pokemon/weezing/">Weezing</option>
+<option value="/pokemon/whimsicott/">Whimsicott</option>
+<option value="/pokemon/whirlipede/">Whirlipede</option>
+<option value="/pokemon/whiscash/">Whiscash</option>
+<option value="/pokemon/whismur/">Whismur</option>
+<option value="/pokemon/wigglytuff/">Wigglytuff</option>
+<option value="/pokemon/wiglett/">Wiglett</option>
+<option value="/pokemon/wimpod/">Wimpod</option>
+<option value="/pokemon/wingull/">Wingull</option>
+<option value="/pokemon/wishiwashi/">Wishiwashi</option>
+<option value="/pokemon/wobbuffet/">Wobbuffet</option>
+<option value="/pokemon/wo-chien/">Wo-Chien</option>
+<option value="/pokemon/woobat/">Woobat</option>
+<option value="/pokemon/wooloo/">Wooloo</option>
+<option value="/pokemon/wooper/">Wooper</option>
+<option value="/pokemon/wormadam/">Wormadam</option>
+<option value="/pokemon/wugtrio/">Wugtrio</option>
+<option value="/pokemon/wurmple/">Wurmple</option>
+<option value="/pokemon/wynaut/">Wynaut</option>
+<option value="/pokemon/xatu/">Xatu</option>
+<option value="/pokemon/xerneas/">Xerneas</option>
+<option value="/pokemon/xurkitree/">Xurkitree</option>
+<option value="/pokemon/yamask/">Yamask</option>
+<option value="/pokemon/yamper/">Yamper</option>
+<option value="/pokemon/yanma/">Yanma</option>
+<option value="/pokemon/yanmega/">Yanmega</option>
+<option value="/pokemon/yungoos/">Yungoos</option>
+<option value="/pokemon/yveltal/">Yveltal</option>
+<option value="/pokemon/zacian/">Zacian</option>
+<option value="/pokemon/zamazenta/">Zamazenta</option>
+<option value="/pokemon/zangoose/">Zangoose</option>
+<option value="/pokemon/zapdos/">Zapdos</option>
+<option value="/pokemon/zarude/">Zarude</option>
+<option value="/pokemon/zebstrika/">Zebstrika</option>
+<option value="/pokemon/zekrom/">Zekrom</option>
+<option value="/pokemon/zeraora/">Zeraora</option>
+<option value="/pokemon/zigzagoon/">Zigzagoon</option>
+<option value="/pokemon/zoroark/">Zoroark</option>
+<option value="/pokemon/zorua/">Zorua</option>
+<option value="/pokemon/zubat/">Zubat</option>
+<option value="/pokemon/zweilous/">Zweilous</option>
+<option value="/pokemon/zygarde/">Zygarde</option>
+
+</SELECT> </FORM></td>
+</tr></table></div>
+
+
+
+<div align="center"><table class="dextab">
+  <tr>
+    <td width="65%"><table  width="100%" border="0" cellspacing="0" cellpadding="0">
+  		<tr>
+    		<td width="32" align="center"><img src="/pokedex-sv/icon/711.png"></td>
+		<td><font size="4"><b>&nbsp;#0711 Gourgeist</td></tr></table></td>
+
+  </tr></table>
+<table class="dextab">
+      <tr ><td width="20%" class="pkmn"><a href="/pokedex-swsh/gourgeist">Gen VIII Dex</a></td><td width="20%" class="pkmn"><a href="/pokedex-sm/711.shtml">Gen VII Dex</a></td>	<td width="20%" class="pkmn"><a href="/pokedex-xy/711.shtml">Gen VI Dex</a></td>  </tr></table><p><a name="general"></a><table class="dextable">
+		<tr>
+			<td class="fooevo">Picture</td>
+			<td class="fooevo">Name</td>
+			<td class="fooevo">Numbers</td>
+			<td class="fooevo">Type</td>
+		</tr>
+		<tr>
+			<td class="fooinfo" align="center" rowspan="3"><img src="/pokemon/art/711.png" loading="lazy" width="300" alt="Gourgeist Artwork" />
+			<td class="fooinfo"><table width="120" cellspacing="0" cellpadding="0">
+			<tr> <td><b>English</b>: </td><td>Gourgeist</td></tr><tr><td><b>Japan</b>: </td><td>Pumpjin<br />&#12497;&#12531;&#12503;&#12472;&#12531;</td></tr>
+			<tr> <td><b>French</b>: </td><td>Banshitrouye</td></tr>
+			<tr> <td><b>German</b>: </td><td>Pumpdjinn</td></tr>
+			<tr> <td><b>Korean</b>: </td><td>&#54156;&#53416;&#51064;</td></tr>
+			</table></td>
+				<td class="fooinfo"><table width="140" cellspacing="0" cellpadding="0"><tr> <td width="75%"><b>National </b>: </td><td>#0711</td></tr><tr> <td><b>Mountain Kalos</b>: </td><td>#064</td></tr><tr> <td><b>Galar</b>: </td><td>#192</td></tr>
+			</table></td>
+			<td class="cen"><a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" alt="Ghost-type" /></a> <a href="/pokemon/type/grass"><img src="/pokedex-bw/type/grass.gif" border="0" alt="Grass-type" /></a></td>
+		</tr>
+		<tr>
+			<td class="foo">Classification</td>
+			<td class="foo">Height</td>
+			<td class="foo">Weight</td>
+		</tr>
+		<tr>
+					<td class="fooinfo">Pumpkin Pok&eacute;mon</td>
+			<td class="fooinfo">2'11"<br />
+			0.9m</td>
+			<td class="fooinfo">27.6lbs<br />
+			12.5kg</td></tr>
+</table></div><table class="dextable" align="center">
+		<tr>
+			<td class="fooevo">Evolutionary Chain</td>
+		</tr>
+		<tr>
+			<td class="fooinfo" align="center"><table class="evochain">
+			<tr><td class="pkmn"><a href="/pokemon/pumpkaboo"><img src="/pokemon/art/710.png" loading="lazy" border="0" alt="Pumpkaboo" width="100" /></a></td>
+			<td ><img src="/pokedex-swsh/evoicon/trade.png" loading="lazy" title="Trade" alt="Trade" /></td>
+			<td class="pkmn"><a href="/pokemon/gourgeist"><img src="/pokemon/art/711.png" loading="lazy" border="0" alt="Gourgeist" width="100" /></a></td></tr></table></td>
+		</tr>
+</table>
+		<table class="dextable" align="center">
+		<tr>
+			<td class="fooevo">Alternate Forms</td>
+		</tr>
+		<tr>
+			<td class="fooinfo" align="center"> <table >
+			<tr><td class="pkmn"><b>Small Size</b></td><td class="pkmn"><b>Average Size</b></td><td class="pkmn"><b>Large Size</b></td><td class="pkmn"><b>Super Size</b></td></tr><tr><td class="pkmn"><img src="/pokemon/art/711-s.png" loading="lazy" alt="Small Size" height="80" /></td><td class="pkmn"><img src="/pokemon/art/711-n.png" loading="lazy" alt="Average Size" height="80" /></td><td class="pkmn"><img src="/pokemon/art/711-l.png" loading="lazy" alt="Large Size" height="80" /></td><td class="pkmn"><img src="/pokemon/art/711-h.png" loading="lazy" alt="Super Size" height="80" /></td></tr><tr></tr></table><table class="pkmn"><tr>
+			<td>Gourgeist has a form difference based upon how it was when first encountered. This form cannot be changed</td></tr></table></td>
+		</tr>
+	</table><table width="100%"><tr><td align="center"><p><font size="3"><b><u>Game Databases</u></b></font></p>
+<div style="position:relative;margin:1em;"><div class="block_year"><div class="hubheader"><a href="/pokedex-swsh/gourgeist/"><b>Generation 8 Pok&eacute;Dex</b></a></div><a href="/pokedex-swsh/gourgeist/"><img src="/pokemon/gen8i.png" loading="lazy" alt="Generation VIII Details" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/pokedex-sm/711.shtml"><b>Generation 7 Pok&eacute;Dex</b></a></div><a href="/pokedex-sm/711.shtml"><img src="/pokemon/gen7i.png" loading="lazy" alt="Generation VII Pok&eacute;Dex" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/pokemongo/pokemon/711.shtml"><b>Pok&eacute;mon GO Pok&eacute;Dex</b></a></div><a href="/pokemongo/pokemon/711.shtml"><img src="/pokemon/pokemongo.png" loading="lazy" alt="Pok&eacute;mon GO Pok&eacute;Dex" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/pokedex-xy/711.shtml"><b>Generation 6 Pok&eacute;Dex</b></a></div><a href="/pokedex-xy/711.shtml"><img src="/pokemon/gen6.png" loading="lazy" alt="Generation VI Pok&eacute;Dex" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/events/dex/711.shtml"><b>Event Database</b></a></div><a href="/events/dex/711.shtml"><img src="/pokemon/events.png" loading="lazy" alt="Event Database" border="0" /></a></div></div></td></tr></table>
+<br /><table width="100%"><tr><td align="center"><p><font size="3"><b><u>Other Databases</u></b></font></p>
+<div style="position:relative;margin:1em;"><div class="block_year"><div class="hubheader"><a href="/anime/dex/711.shtml"><b>Anime Pok&eacute;Dex</b></a></div><a href="/anime/dex/711.shtml"><img src="/pokemon/anime.png" loading="lazy" alt="Anime Database" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/card/dex/711.shtml"><b>Trading Card Pok&eacute;Dex</b></a></div><a href="/card/dex/711.shtml"><img src="/pokemon/card.png" loading="lazy" alt="Trading Card Game Database" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/movies/dex/711.shtml"><b>Cinematic Pok&eacute;Dex</b></a></div><a href="/movies/dex/711.shtml"><img src="/pokemon/cinematic.png" loading="lazy" alt="Cinematic Database" border="0" /></a></div></div></td></tr></table>
+<br /><table width="100%"><tr><td align="center"><a name="spinoff"><p><font size="3"><b><u>Spin-off Databases</u></b></font></p>
+<div id="spinoffsvisible" style="display:block"><div style="position:relative;margin:1em;">
+<div class="block_year"><div class="hubheader"><a href="#spinoff" onclick="view()"><b>Pok&eacute;mon Spin-Off Games</b></a></div><a href="#spinoff" onclick="view()"><img src="/pokemon/spinoff/spinoffs.png" loading="lazy" alt="Pok&eacute;mon Spin-Off Games" border="0" /></a></div></div></div><div  id="spinoffs" style="display:none"><div style="position:relative;margin:1em;"><div class="block_year"><div class="hubheader"><a href="/pokemonmasters/pokemon/gourgeist.shtml"><b>Pok&eacute;mon Masters Sync Pairs</b></a></div><a href="/pokemonmasters/pokemon/gourgeist.shtml"><img src="/pokemon/spinoff/pokemonmasters.png" loading="lazy" alt="Pok&eacute;mon Masters Sync Pairs Database" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/rumblerush/pokemon/711.shtml"><b>Pok&eacute;mon Rumble Rush Pok&eacute;Dex</b></a></div><a href="/rumblerush/pokemon/711.shtml"><img src="/pokemon/spinoff/rumblerush.png" loading="lazy" alt="Pok&eacute;mon Rumble Rush Database" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/duel/pokemon/711.shtml"><b>Pok&eacute;mon Duel Figure Listing</b></a></div><a href="/duel/pokemon/711.shtml"><img src="/pokemon/spinoff/pokemonduel.png" loading="lazy" alt="Pok&eacute;mon Duel Figure Listing" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/shuffle/pokemon.shtml"><b>Pok&eacute;mon Shuffle Listing</b></a></div><a href="/shuffle/pokemon.shtml"><img src="/pokemon/spinoff/shuffle.png" loading="lazy" alt="Pok&eacute;mon Shuffle Listing" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/rumbleworld/pokemon.shtml"><b>Pok&eacute;mon Rumble World Listing</b></a></div><a href="/rumbleworld/pokemon.shtml"><img src="/pokemon/spinoff/rumbleworld.png" loading="lazy" alt="Pok&eacute;mon Rumble World Listing" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/supermysterydungeon/pokemon.shtml"><b>Pok&eacute;mon Super Mystery Dungeon Listing</b></a></div><a href="/supermysterydungeon/pokemon.shtml"><img src="/pokemon/spinoff/supermysterydungeon.png" loading="lazy" alt="Pok&eacute;mon Super Mystery Dungeon Listing" border="0" /></a></div><div class="block_year"><div class="hubheader"><a href="/battletrozei/pokemon.shtml"><b>Pok&eacute;mon Battle Trozei Listing</b></a></div><a href="/battletrozei/pokemon.shtml"><img src="/pokemon/spinoff/battletrozei.png" loading="lazy" alt="Pok&eacute;mon Battle Trozei Listing" border="0" /></a></div></div></div></td></tr></table>
+<p>
+<table width="100%" border="0" cellpadding="4">
+	<tr>
+		<td width="50%" align="left">
+		
+<table border="0">
+	<tr>
+		<td width="left">
+		<--- 
+		</td>
+		<td>
+		<a href="/pokemon/pumpkaboo/"><img src="/pokedex-sv/icon/710.png" alt="Previous: Pumpkaboo Link" border="0"></a>
+		</td>
+		<td align="center">
+		<a href="/pokemon/pumpkaboo/">#0710<br />Pumpkaboo
+		</td>
+	</tr>
+</table>
+
+		</td>
+		<td width="50%" align="right">
+		<table border="0">
+	<tr>
+		<td align="center">
+		<a href="/pokemon/bergmite/">#0712<br />Bergmite
+		</td>
+		<td>
+		<a href="/pokemon/bergmite/"><img src="/pokedex-sv/icon/712.png" border="0" alt="Previous: Bergmite Link"></a>
+		</td>
+		<td width="right">
+		---> 
+		</td>
+	</tr>
+</table>
+
+		</td>
+	</tr>
+</table>
+</main></div><!-- END id="content" -->
+
+
+<aside id="rbar">
+<div class="navheader">Picture</div><br /><table width="140" class="art" cellspacing="0" cellpadding="0"><tr><td align="center"><a href="/pokemon/gourgeist/"><img src="/art/th/711.png" border="0" alt="Gourgeist Art" /></a></td></tr></table>
+<table width="140" class="tooltab"><tr><td class="tooltabhead" width="50%">Name</td><td class="tooltabhead">Jp. Name</td></tr><tr><td class="tooltabcon">Gourgeist</td><td class="tooltabcon">Pumpjin<br />&#12497;&#12531;&#12503;&#12472;&#12531;</td></tr></table>
+<table width="140" class="tooltab"><tr><td class="tooltabhead" width="50%">Gender</td><td class="tooltabhead">Type</td></tr><tr><td class="tooltabcon"><table width="60" cellspacing="0" cellpadding="0"><tr> <td>&nbsp;<font color="#499FFF" size="1">&#9794;</font>:</td><td>50%</td></tr><tr><td>&nbsp;<font color="#F6807A" size="1">&#9792;</font>:</td><td>50%</td></tr></table></td><td class="tooltabcon"><a href="/pokedex-sm/ghost.shtml"><img src="/pokedex-bw/type/ghost.gif" border="0" alt="Ghost-type" /></a> <a href="/pokedex-sm/grass.shtml"><img src="/pokedex-bw/type/grass.gif" border="0" alt="Grass-type" /></a></td></tr></table>
+<table width="140" class="tooltab"><tr><td class="tooltabhead" width="50%">Classification</td></tr><tr><td class="tooltabcon">Pumpkin Pokémon</td></tr></table>
+<table width="140" class="tooltab"><tr><td class="tooltabhead" width="50%">Height</td><td class="tooltabhead">Weight</td></tr><tr><td class="tooltabcon">2’11”<br />
+			0.9m</td><td class="tooltabcon">27.6lbs<br />
+			12.5kg</td></tr></table>
+
+			
+			<br />
+<div class="alterdex"><br /><a href="/pokedex-swsh/gourgeist/"><b>Pokédex</b></a><br /></div><div class="alterdex"><br /><a href="/events/dex/711.shtml"><b>Events</b></a><br /></div>
+<div class="alterdex"><br /><a href="/anime/dex/711.shtml"><b>Anime Appearances</b></a><br /></div>
+<div class="alterdex"><br /><a href="/card/dex/711.shtml"><b>Cards</b></a><br /></div>
+<div class="alterdex"><br /><a href="/movies/dex/711.shtml"><b>Cinematic Pok&eacute;dex</b></a><br /></div>
+<div class="alterdex"><br /><a href="/manga/dex/711.shtml"><b>Manga Appearances</b></a><br /></div>
+<div class="alterdex"><br /><a href="/pokemongo/pokemon/711.shtml"><b>Pokémon GO</b></a><br /></div>
+<table width="140" class="tooltab">
+<tr><td class="tooltabhead" width="34">Prev.</td><td  width="99%">&nbsp;</td><td class="tooltabhead" width="32">Next</td></tr>
+<tr><td class="tooltabcon" width="34"><a href="/pokemon/pumpkaboo"><img src="/pokedex-sv/icon/710.png" border="0" /></a></td><td  width="99%">&nbsp;</td><td class="tooltabcon" width="32"><a href="/pokemon/bergmite"><img src="/pokedex-sv/icon/712.png" border="0" /></a></td></tr></table>
+
+</div>
+</aside>
+
+</div><!-- END id="wrapper" -->
+
+
+
+<footer id="footer">
+	<div class="copyright">
+		<a href="#top" alt="Top of Page" title="Top of Page" class="totop"></a>
+
+		All Content is &copy; Copyright of Serebii.net 1999-2024. |
+		<a href="/privacy.shtml">Privacy Policy</a> |
+		<a class="nn-cmp-show" href="#">Manage Cookie Settings</a><br/>
+		Pokémon and All Respective Names are Trademark &amp; &copy; of Nintendo 1996-2024
+	</div>
+
+	<div style="height:102px">
+		<div id="nn_lb2"></div><div id="nn_mobile_lb2"></div>
+	</div>
+</footer>
+
+
+</body>
+</html>

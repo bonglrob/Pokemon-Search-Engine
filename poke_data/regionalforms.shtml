@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Regional Forms - Serebii.net</title>
+
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin>
+<link rel="preconnect" href="https://cdn.consentmanager.mgr.consensu.org/" crossorigin>
+<link rel="preconnect" href="https://kumo.network-n.com/" crossorigin>
+<meta http-equiv="imagetoolbar" CONTENT="no">
+	<link rel="stylesheet" type="text/css" href="/style/layout.css" />
+<meta name="viewport" content="width=device-width,initial-scale=1" id="viewport-meta">
+
+<!-- GDPR Compliancy -->
+<style>
+body {
+	--cmpBgColor: #507C36;
+	--cmpTextColor: #000000;
+	--cmpLinkColor: #ffffff;
+	--cmpPurposesColor: #000000;
+	--cmpBrandColor: #000000;
+	--cmpLogo: url('https://www.serebii.net/extralogo.png');
+}
+</style>
+<!-- GDPR Compliancy -->
+
+<link rel="search" href="/serebii-opensearch.xml" type="application/opensearchdescription+xml" title="Serebii Open Search" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128947957-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-128947957-1');
+</script>
+<!-- Place the below code anywhere you like in the <head> (higher is better) -->
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+
+<script async  src="https://kumo.network-n.com/dist/app.js" site="serebii"></script>
+
+<meta name="keywords" content="Serebii, Pokemon, Pokémon, Regional Forms " />
+<link rel="stylesheet" href="/style/tablenew.css" type="text/css" media="screen" />
+<link rel="canonical" href="https://www.serebii.net/pokemon/megaevolution.shtml" />
+<meta property="og:title" content="Regional Forms - Serebii.net">
+<meta property="og:description" content="Full details and lists on all Regional Forms including Alola, Galarian & Hisuian Forms">
+<meta name="description" content="Full details and lists on all Regional Forms including Alola, Galarian & Hisuian Forms">
+<meta name="twitter:card" content="summary_large_image">
+
+
+</head>
+<body>
+<script type="text/javascript">
+	var viewport_meta = document.getElementById('viewport-meta');
+	var viewport_timer;
+
+	// these body*Class are reused in the lbar mobile menu
+	function bodyAddClass(className){
+		if(document.body) document.body.classList.add(className);
+	}
+	function bodyRemoveClass(className){
+		if(document.body) document.body.className = document.body.className.replace(className,"");
+	}
+
+	function viewport_set() {
+		// Define our viewport meta values
+		var viewports = {
+			default: viewport_meta.getAttribute('content'),
+			mobileL: 'width=device-width,initial-scale=0.75',
+			mobileM: 'width=device-width,initial-scale=0.5',
+			mobileS: 'width=device-width,initial-scale=0.4'
+		};
+
+		// Change the viewport value based on screen.width
+		if(screen.width < 370){
+			viewport_meta.setAttribute('content', viewports.mobileS);
+			bodyAddClass("nav_mobileS");
+			bodyRemoveClass("nav_mobileM");
+			bodyRemoveClass("nav_mobileL");
+		} else if(screen.width < 505){
+			viewport_meta.setAttribute('content', viewports.mobileM);
+			bodyRemoveClass("nav_mobileS");
+			bodyAddClass("nav_mobileM");
+			bodyRemoveClass("nav_mobileL");
+		} else if (screen.width < 760){
+			viewport_meta.setAttribute('content', viewports.mobileL);
+			bodyRemoveClass("nav_mobileS");
+			bodyRemoveClass("nav_mobileM");
+			bodyAddClass("nav_mobileL");
+		} else{
+			viewport_meta.setAttribute('content', viewports.default);
+			bodyRemoveClass("nav_mobileS");
+			bodyRemoveClass("nav_mobileM");
+			bodyRemoveClass("nav_mobileL");
+		}
+	}
+
+	// Set the correct viewport value on page load
+	viewport_set();
+
+	/* attach listener to (delay) set the correct viewport after device orientation change or resize. also onload so the nav_mobile* class gets added to body AFTER <body> has loaded */
+	if(window.addEventListener){
+		window.addEventListener('load', viewport_set);
+		window.addEventListener('resize', function(){
+			clearTimeout(viewport_timer);
+			viewport_timer = setTimeout(viewport_set, 100);
+		})
+	} else{
+		window.attachEvent('onload', viewport_set)
+		window.attachEvent('onresize', function(){
+			clearTimeout(viewport_timer);
+			viewport_timer = setTimeout(viewport_set, 100);
+		})
+	}
+
+</script>
+
+
+<header id="header">
+	<div class="banner">
+		<a href="/"><img src="/Banner.jpg" alt="Serebii.net Header" style="height:139px"></a>
+	</div>
+
+	<nav class="quicklinks">
+		<ul>
+			<li><b>Quick Links</b></li>
+			<li><a href="/index2.shtml">Home</a></li>
+			<li><a href="https://forums.serebii.net/" target="blank">Forums</a></li>
+			<li><a href="mailto:webmaster@serebii.net">Contact</a></li>
+			<li><a href="/discord.shtml">Discord</a></li>
+			<li><a href="/pokemon">Pokédex Hub</a></li>
+			<li><a href="/pokemongo/pokemon">GO Pokédex</a></li>
+			<li><a href="/pokedex-sv">Scarlet & Violet Pokédex</a></li>
+			<li><a href="/pokearth">Pokéarth</a></li>
+
+			<li class="search">
+				<form id="searchbox_018410473690156091934:6gahkiyodbi" action="/search.shtml" style="margin:0px;">
+					<input type="hidden" name="cx" value="018410473690156091934:6gahkiyodbi" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<input name="q" type="text" size="20" />
+					<input type="submit" name="sa" value="Search" />
+				</form>
+				<script type="text/javascript" src="//www.google.com/coop/cse/brand?form=searchbox_018410473690156091934%3A6gahkiyodbi"></script>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+
+
+<div id="wrapper">
+
+<ul id="tbar_sticky">
+	<li>
+		<a href="#lbar" class="navheader" id="tbar_lbar_open"><img src="/hidden/2019-04/burger.svg"></a>
+	</li>
+	<li>
+		<form id="searchbox_018410473690156091934:6gahkiyodbi" action="/search.shtml" style="margin:0px;">
+			<input type="hidden" name="cx" value="018410473690156091934:6gahkiyodbi" />
+			<input type="hidden" name="cof" value="FORID:11" />
+			<input name="q" type="search" placeholder="Search Serebii.net..." />
+		</form>
+	</li>
+	<li>
+		<a href="#rbar" class="navheader" id="tbar_rbar_open" style="padding-right:20px"><img src="/hidden/2019-04/burger.svg"></a>
+	</li>
+</ul>
+<div id="tbar_backdrop"></div>
+
+<nav id="lbar">
+	<ul id="lbar_ul">
+		<li>
+			<a href="/" class="navheader">Databases</a>
+			<ul>
+				<li><a href="/index2.shtml">News</a>
+				<li><a href="/archive.shtml">Archived news</a></li>
+				<li><a href="/pokemon/"><b>Pokédex</b></a></li>
+				<li><a href="/pokedex/">-Red/Blue Pokédex</a></li>
+				<li><a href="/pokedex-gs/">-Gold/Silver Pokédex</a></li>
+				<li><a href="/pokedex-rs/">-Ruby/Sapphire Pokédex</a></li>
+				<li><a href="/pokedex-dp/">-Diamond/Pearl Pokédex</a></li>
+				<li><a href="/pokedex-bw/">-Black/White Pokédex</a></li>
+				<li><a href="/pokedex-xy/">-X & Y Pokédex</a></li>
+				<li><a href="/pokedex-sm/">-Sun & Moon Pokédex</a></li>
+				<li><a href="/pokedex-sm/">-Let's Go Pokédex</a></li>
+				<li><a href="/pokedex-swsh/">-Sword & Shield Pokédex</a></li>
+				<li><a href="/pokedex-swsh/">-BDSP Pokédex</a></li>
+				<li><a href="/pokedex-swsh/">-Legends Pokédex</a></li>
+				<li><a href="/pokemongo/pokemon/">-GO Pokédex</a></li>
+				<li><a href="/pokedex-sv/">-Scarlet & Violet Pokédex</a></li>
+
+				<li><strong>Attackdex</strong></li>
+				<li><a href="/attackdex-rby/">-Gen 1 Attackdex</a></li>
+				<li><a href="/attackdex-gs/">-Gen 2 Attackdex</a></li>
+				<li><a href="/attackdex/">-Gen 3 Attackdex</a></li>
+				<li><a href="/attackdex-dp/">-Gen 4 Attackdex</a></li>
+				<li><a href="/attackdex-bw/">-Gen 5 Attackdex</a></li>
+				<li><a href="/attackdex-xy/">-Gen 6 Attackdex</a></li>
+				<li><a href="/attackdex-sm/">-Gen 7 Attackdex</a></li>
+				<li><a href="/attackdex-swsh/">-Gen 8 Attackdex</a></li>
+				<li><a href="/attackdex-sv/">-Gen 9 Attackdex</a></li>
+				<li><a href="/itemdex/">ItemDex</a></li>
+				<li><a href="/pokearth/">Pokéarth</a></li>
+				<li><a href="/abilitydex/">Abilitydex</a></li>
+				<li><a href="/spindex/">Spin-Off Pokédex</a></li>
+				<li><a href="/spindex-dp/">Spin-Off Pokédex DP</a></li>
+				<li><a href="/spindex-bw/">Spin-Off Pokédex BW</a></li>
+				<li><a href="/card/dex/">Cardex</a></li>
+				<li><a href="/movies/dex/">Cinematic Pokédex</a></li>
+				<li><a href="/games/mechanics.shtml">Game Mechanics</a></li>
+				<li><a href="/games/iv-calcsv.shtml">-Scarlet/Violet IV Calc.</a></li>
+				<li><a href="/potw-sv">Pokémon of the Week</a></li>
+				<li><a href="/potw-sv/">-9th Gen</a></li>
+				<li><a href="/potw-swsh/">-8th Gen</a></li>
+				<li><a href="/potw-sm/">-7th Gen</a></li>
+				<li><a href="/pokemon/timeline.shtml">Pokémon Timeline</a></li>
+				<li><a href="/pokemoncenter/">Pokémon Centers</a></li>
+				<li><a href="/playpokemon">Pokémon Championship Series</a></li>
+				<li><a href="/music/projectvoltage">Hatsune Miku Project Voltage</a></li>
+				<li><a href="/museums/">Pokémon in Museums & Exhibitions</a></li>
+				<li><a href="/pokemon/vangoghmuseum/">-Pokémon x Van Gogh</a></li>
+				<li><a href="/pokemonday/">Pokémon Day</a></li>
+				<li><a href="/presentations">Pokémon Presentations</a></li>
+				<li><a href="/pokemonshirts/">Pokémon Shirts</a></li>
+				<li><a href="/themeparks/">Theme Parks</a></li>
+				<li><a href="https://forums.serebii.net" target="blank">Forums</a></li>
+				<li><a href="/discord.shtml">Discord Chat</a></li>
+				<li><a href="/games/currentevents.shtml">Current & Upcoming Events</a></li>
+				<li><a href="/events">Event Database</a></li>
+				<li><a href="/scarletviolet/pokemon.shtml">9th Generation Pokémon</a></li>
+				<li><a href="/scarletviolet/dlc-pokemon.shtml">-New Pokémon in DLC</a></li>
+				<li><a href="/scarletviolet/paldeanforms.shtml">-Paldean Form Pokémon</a></li>
+
+			</ul>
+		</li>
+
+
+		<li>
+			<a href="/anime/" class="navheader">Anime & TV</a>
+			<ul>
+				<li><a href="/anime/epiguide/">Episode Listings & Pictures</a></li>
+				<li><a href="/anime/dex/">AniméDex</a></li>
+				<li><a href="/anime/characters/">Character Bios</a></li>
+				<li><a href="/anime/epiguide/indigo/">The Indigo League</a></li>
+				<li><a href="/anime/epiguide/orange/">The Orange League</a></li>
+				<li><a href="/anime/epiguide/johto/">The Johto Saga</a></li>
+				<li><a href="/anime/epiguide/houen/">The Saga in Hoenn!</a></li>
+				<li><a href="/anime/epiguide/kanto/">Kanto Battle Frontier Saga!</a></li>
+				<li><a href="/anime/epiguide/shinou/">The Sinnoh Saga!</a></li>
+				<li><a href="/anime/epiguide/bestwishes/">Best Wishes - Unova Saga</a></li>
+				<li><a href="/anime/epiguide/xy/">XY - Kalos Saga</a></li>
+				<li><a href="/anime/epiguide/sunmoon/">Sun & Moon - Alola Saga</a></li>
+				<li><a href="/anime/epiguide/pokemon/">Pokémon Journeys - Galar Saga</a></li>
+				<li><a href="/anime/epiguide/pokemonmaster/">Pokémon Aim To Be A Pokémon Master</a></li>
+				<li><a href="/anime/epiguide/pokemon2023/">Pokémon Horizons - Paldea Saga</a></li>
+				<li><a href="/anime/epiguide/chronicles/">Pokémon Chronicles</a></li>	
+				<li><a href="/anime/epiguide/specials/">The Special Episodes</a></li>
+				<li><a href="/anime/banned.shtml">The Banned Episodes</a></li>
+				<li><a href="/anime/shiny/">Shiny Pokémon</a></li>
+<li><b>Other Web Series</b></li>
+				<li><a href="/anime/epiguide/generations/">Pokémon Generations</a></li>
+				<li><a href="/anime/epiguide/twilightwings/">Pokémon Twilight Wings</a></li>
+				<li><a href="/anime/epiguide/evolutions/">Pokémon Evolutions</a></li>
+				<li><a href="/anime/hisuiansnow/">Pokémon: Hisuian Snow</a></li>
+				<li><a href="/anime/paldeanwinds/">Pokémon: Paldean Winds</a></li>
+				<li><a href="/anime/poketoon/">PokéToon</a></li>
+				<li><a href="/anime/other/pathtothepeak/">Path to the Peak</a></li>
+				<li><a href="/anime/other/pokeminutes/">PokéMinutes</a></li>
+				<li><a href="/anime/other/">Other Animations</a></li>
+				<li><b>Other Series</b></li>
+				<li><a href="/pokemonconcierge/">Pokémon Concierge</a></li>
+
+				<li><b>Live Action</b></li>
+				<li><a href="/poketsume/">PokéTsume</a></li>
+
+
+			</ul>
+		</li>
+
+		<li>
+			<a href="/games/" class="navheader">Video Games</a>
+			<ul>
+				<li><a href="/pokemon/generation9.shtml"><b>Gen IX</b></a></li>
+				<li><a href="/scarletviolet/">Scarlet & Violet</a></li>
+				<li><a href="/legendsz-a/">Legends: Z-A</a></li>
+				<li><a href="/pokemongo/">Pokémon GO</a></li>
+				<li><a href="/cafemix/">Pokémon Café ReMix</a></li>
+				<li><a href="/pokemonmasters/">Pokémon Masters EX</a></li>
+				<li><a href="/pokemonunite/">Pokémon UNITE</a></li>
+				<li><a href="/pokemonsleep/">Pokémon Sleep</a></li>
+				<li><a href="/detectivepikachureturns/">Detective Pikachu Returns</a></li>
+				<li><a href="/tcgpocket/">Pokémon TCG Pocket</a></li>
+
+				<li><a href="/pokemon/generation8.shtml"><b>Gen VIII</b></a></li>
+				<li><a href="/swordshield/">Sword & Shield</a></li>
+				<li><a href="/brilliantdiamondshiningpearl/">Brilliant Diamond & Shining Pearl</a></li>
+				<li><a href="/legendsarceus/">Pokémon Legends: Arceus</a></li>
+				<li><a href="/pokemonhome/">Pokémon HOME</a></li>
+				<li><a href="/pokemongo/">Pokémon GO</a></li>
+				<li><a href="/pokemonmasters/">Pokémon Masters EX</a></li>
+				<li><a href="/dungeonrescueteamdx/">Pokémon Mystery Dungeon Rescue Team DX</a></li>
+				<li><a href="/pokemonsmile/">Pokémon Smile</a></li>
+				<li><a href="/cafemix/">Pokémon Café ReMix</a></li>
+				<li><a href="/newpokemonsnap/">New Pokémon Snap</a></li>
+				<li><a href="/pokemonunite/">Pokémon UNITE</a></li>
+				<li><a href="/tcglive/">Pokémon TCG Live</a></li>
+
+				<li><a href="/pokemon/generation7.shtml"><b>Gen VII</b></a></li>
+				<li><a href="/sunmoon/">Sun & Moon</a></li>
+				<li><a href="/ultrasunultramoon/">Ultra Sun & Ultra Moon</a></li>
+				<li><a href="/letsgopikachueevee/">Let's Go, Pikachu! & Let's Go, Eevee!</a></li>
+				<li><a href="/pokemongo/">Pokémon GO</a></li>
+				<li><a href="/magikarpjump/">Pokémon: Magikarp Jump</a></li>
+				<li><a href="/rumblerush/">Pokémon Rumble Rush</a></li>
+				<li><a href="/pokkendx/">Pokkén Tournament DX</a></li>
+				<li><a href="/detective/">Detective Pikachu</a></li>
+				<li><a href="/quest/">Pokémon Quest</a></li>
+				<li><a href="/smashbrosultimate/">Super Smash Bros. Ultimate</a></li>
+				<li><a href="/pokemon/generation6.shtml"><b>Gen VI</b></a></li>
+				<li><a href="/xy/">X & Y</a></li>
+				<li><a href="/omegarubyalphasapphire/">Omega Ruby & Alpha Sapphire</a></li>
+				<li><a href="/bank/">Pokémon Bank</a></li>
+				<li><a href="/battletrozei/">Pokémon Battle TrozeiPokémon Link: Battle</a></li>
+				<li><a href="/artacademy/">Pokémon Art Academy</a></li>
+				<li><a href="/bandofthieves/">The Band of Thieves & 1000 Pokémon</a></li>
+				<li><a href="/shuffle/">Pokémon Shuffle</a></li>
+				<li><a href="/rumbleworld/">Pokémon Rumble World</a></li>
+				<li><a href="/supermysterydungeon/">Pokémon Super Mystery Dungeon</a></li>
+				<li><a href="/picross/">Pokémon Picross</a></li>
+				<li><a href="/detective/">Detective Pikachu</a></li>
+				<li><a href="/pokken/">Pokkén Tournament</a></li>
+				<li><a href="/duel/">Pokémon Duel</a></li>
+				<li><a href="/smashbros3dswiiu/">Smash Bros for 3DS/Wii U</a></li>
+				<li><a href="/games/badge/">Nintendo Badge Arcade</a></li>
+				<li><a href="/pokemon/generation5.shtml"><b>Gen V</b></a></li>
+				<li><a href="/blackwhite/">Black & White</a></li>
+				<li><a href="/black2white2/">Black 2 & White 2</a></li>
+				<li><a href="/dreamradar/">Pokémon Dream Radar</a></li>
+				<li><a href="/trettalab/">Pokémon Tretta Lab</a></li>
+				<li><a href="/rumbleu/">Pokémon Rumble U</a></li>
+				<li><a href="/dungeoninfinity/">Mystery Dungeon: Gates to Infinity</a></li>
+				<li><a href="/conquest/">Pokémon Conquest</a></li>
+				<li><a href="/pokepark2/">PokéPark 2: Wonders Beyond</a></li>
+				<li><a href="/rumble2/">Pokémon Rumble Blast</a></li>
+				<li><a href="/pokedex3d/">Pokédex 3D</a></li>
+				<li><a href="/pokedex3dpro/">Pokédex 3D Pro</a></li>
+				<li><a href="/typingds/">Learn With Pokémon: Typing Adventure</a></li>
+				<li><a href="/card/howtoplayds/">TCG How to Play DS</a></li>
+				<li><a href="/pokedexios/">Pokédex for iOS</a></li>
+				<li><a href="/pokemon/generation4.shtml"><b>Gen IV</b></a></li>
+				<li><a href="/diamondpearl/">Diamond & Pearl</a></li>
+				<li><a href="/platinum/">Platinum</a></li>
+				<li><a href="/heartgoldsoulsilver/">Heart Gold & Soul Silver</a></li>
+				<li><a href="/ranger3/">Pokémon Ranger: Guardian Signs</a></li>
+				<li><a href="/melee/">Pokémon Rumble</a></li>
+				<li><a href="/dungeon3/">Mystery Dungeon: Blazing, Stormy & Light Adventure Squad</a></li>
+				<li><a href="/pokepark/">PokéPark Wii - Pikachu's  Adventure</a></li>
+				<li><a href="/battle/">Pokémon Battle Revolution</a></li>
+				<li><a href="/dungeonsky/">Mystery Dungeon - Explorers of Sky</a></li>
+				<li><a href="/ranger2/">Pokémon Ranger: Shadows of Almia</a></li>
+				<li><a href="/dungeon2/">Mystery Dungeon - Explorers of Time & Darkness</a></li>
+				<li><a href="/ranch/">My Pokémon Ranch</a></li>
+				<li><a href="/ssbb/">Smash Bros Brawl</a></li>
+				<li><a href="/pokemon/generation3.shtml"><b>Gen III</b></a></li>
+				<li><a href="/rubysapphire/">Ruby & Sapphire</a></li>
+				<li><a href="/fireredleafgreen/">Fire Red & Leaf Green</a></li>
+				<li><a href="/emerald/">Emerald</a></li>
+				<li><a href="/colosseum/">Pokémon Colosseum</a></li>
+				<li><a href="/xd/">Pokémon XD: Gale of Darkness</a></li>
+				<li><a href="/dash/">Pokémon Dash</a></li>
+				<li><a href="/pokemon_channel/">Pokémon Channel</a></li>
+				<li><a href="/pokemon_box/">Pokémon Box: RS</a></li>
+				<li><a href="/pinball_rs/">Pokémon Pinball RS</a></li>
+				<li><a href="/ranger/">Pokémon Ranger</a></li>
+				<li><a href="/mysteriousdungeon/">Mystery Dungeon Red & Blue</a></li>
+				<li><a href="/torouze/">PokémonTrozei</a></li>
+				<li><a href="/pikachu/">Pikachu DS Tech Demo</a></li>
+				<li><a href="/pokeparkfish/">PokéPark Fishing Rally</a></li>
+				<li><a href="/e-reader/">The E-Reader</a></li>
+				<li><a href="/pokemate/">PokéMate</a></li>
+				<li><a href="/pokemon/generation2.shtml"><b>Gen II</b></a></li>
+				<li><a href="/gs/">Gold/Silver</a></li>
+				<li><a href="/crystal/">Crystal</a></li>
+				<li><a href="/stadium2/">Pokémon Stadium 2</a></li>
+				<li><a href="/puzzlechallenge/">Pokémon Puzzle Challenge</a></li>
+				<li><a href="/mini/">Pokémon Mini</a></li>
+				<li><a href="/smash_bros_2/">Super Smash Bros. Melee</a></li>
+				<li><a href="/pokemon/generation1.shtml"><b>Gen I</b></a></li>
+				<li><a href="/rb/">Red, Blue & Green</a></li>
+				<li><a href="/yellow/">Yellow</a></li>
+				<li><a href="/puzzleleague/">Pokémon Puzzle League</a></li>
+				<li><a href="/snap/">Pokémon Snap</a></li>
+				<li><a href="/pinball/">Pokémon Pinball</a></li>
+				<li><a href="/stadiumjp/">Pokémon Stadium (Japanese)</a></li>
+				<li><a href="/stadium/">Pokémon Stadium</a></li>
+				<li><a href="/tradingcardgamegb/">Pokémon Trading Card Game GB</a></li>
+				<li><a href="/smash_bros/">Super Smash Bros.</a></li>
+
+				<li><strong>Miscellaneous</strong></li>
+				<li><a href="/games/mechanics.shtml">Game Mechanics</a></li>
+				<li><a href="/playpokemon">Pokémon Championship Series</a></li>
+				<li><a href="/games/others.shtml">In Other Games</a></li>
+				<li><a href="/games/virtualconsole.shtml">Virtual Console</a></li>
+				<li><a href="/games/consoles.shtml">Special Edition Consoles</a></li>
+				<li><a href="/games/themes.shtml">Pokémon 3DS Themes</a></li>
+				<li><a href="/apps">Smartphone & Tablet Apps</a></li>
+				<li><a href="/virtualpet">Virtual Pets</a></li>
+				<li><a href="/amiibo">amiibo</a></li>
+				<li><strong>Arcade</strong></li>
+				<li><a href="/frienda">Pokémon FRIENDA</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/manga/" class="navheader">Manga</a>
+			<ul>
+				<li><a href="/manga/">General Information</a>
+				<li><a href="/manga/dex">MangaDex</a></li>
+				<li><a href="/manga/characters">Character BIOs</a></li>
+				<li><a href="/manga/characters-new">Detailed BIOs</a></li>
+				<li><a href="/manga/chapter.shtml">Chapter Guides</a></li>
+				<li><a href="/manga/volume.shtml">Volume Guides</a></li>
+				<li><a href="/manga/rby/">RBG Series</a></li>
+				<li><a href="/manga/yellow/">Yellow Series</a></li>
+				<li><a href="/manga/gsc/">GSC Series</a></li>
+				<li><a href="/manga/rs/">RS Series</a></li>
+				<li><a href="/manga/frlg/">FRLG Series</a></li>
+				<li><a href="/manga/bf/">Emerald Series</a></li>
+				<li><a href="/manga/dp/">DP Series</a></li>
+				<li><a href="/manga/pt/">Platinum Series</a></li>
+				<li><a href="/manga/hgss/">HGSS Series</a></li>
+				<li><a href="/manga/bw/">BW Series</a></li>
+				<li><a href="/manga/b2w2/">B2W2 Series</a></li>
+				<li><a href="/manga/xy/">XY Series</a></li>
+				<li><a href="/manga/oras/">ORAS Series</a></li>
+				<li><a href="/manga/sunmoon/">SM Series</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/movies/" class="navheader">Movies</a>
+			<ul>
+				<li><strong>Anime</strong></li>
+				<li><a href="/movies/mewtwo/origin/">The Origin of Mewtwo</a></li>
+				<li><a href="/movies/mewtwo/">Mewtwo Strikes Back</a></li>
+				<li><a href="/movies/lugia/">The Power of One</a></li>
+				<li><a href="/movies/entei/">Spell Of The Unown</a></li>
+				<li><a href="/anime/epiguide/specials/002.shtml">Mewtwo Returns</a></li>
+				<li><a href="/movies/serebii/">Celebi: Voice of the Forest</a></li>
+				<li><a href="/movies/latias_latios/">Pokémon Heroes</a></li>
+				<li><a href="/movies/jirachi/">Jirachi - Wish Maker</a></li>
+				<li><a href="/movies/deoxys/">Destiny Deoxys!</a></li>
+				<li><a href="/movies/mew/">Lucario and the Mystery of Mew!</a></li>
+				<li><a href="/movies/kyogre/">Pokémon Ranger & The Temple of the Sea!</a></li>
+				<li><a href="/movies/dp/">The Rise of Darkrai!</a></li>
+				<li><a href="/movies/giratina/">Giratina & The Sky Warrior!</a></li>
+				<li><a href="/movies/arceus/">Arceus and the Jewel of Life</a></li>
+				<li><a href="/movies/celebi/">Zoroark - Master of Illusions</a></li>
+				<li><a href="/movies/victini/">Black: Victini & ReshiramWhite: Victini & Zekrom</a></li>
+				<li><a href="/movies/kyurem/">Kyurem VS The Sword of Justice</a></li>
+				<li><a href="/movies/meloetta/">-Meloetta's Midnight Serenade</a></li>
+				<li><a href="/movies/genesect/">Genesect and the Legend Awakened</a></li>
+				<li><a href="/movies/xy/">Diancie & The Cocoon of Destruction</a></li>
+				<li><a href="/movies/hoopa/">Hoopa & The Clash of Ages</a></li>
+				<li><a href="/movies/volcanion/">Volcanion and the Mechanical Marvel</a></li>
+				<li><a href="/movies/pokemon20/">Pokémon I Choose You!</a></li>
+				<li><a href="/movies/thepowerofus/">Pokémon The Power of Us</a></li>
+				<li><a href="/movies/mewtwoevolution/">Mewtwo Strikes Back Evolution</a></li>
+				<li><a href="/movies/secretsofthejungle/">Secrets of the Jungle</a></li>
+				<li><strong>Live Action</strong></li>
+				<li><a href="/movies/detectivepikachu/">Pokémon Detective Pikachu</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/movies/" class="navheader">Pikachu Shorts</a>
+			<ul>
+				<li><a href="/movies/pikachu1/">Pikachu's Summer Vacation</a></li>
+				<li><a href="/movies/pikachureturns/">Pikachu's Rescue Adventure</a></li>
+				<li><a href="/movies/pikachu3/">Pikachu And Pichu</a></li>
+				<li><a href="/movies/pikachu4/">Pikachu's PikaBoo</a></li>
+				<li><a href="/movies/pikachu5/">Camp Pikachu!</a></li>
+				<li><a href="/movies/pikachu6/">Gotta Dance!!</a></li>
+				<li><a href="/movies/pikachu7/">Pikachu's Summer Festival!</a></li>
+				<li><a href="/movies/pikachu8/">Pikachu's Ghost Festival!</a></li>
+				<li><a href="/movies/pikachu9/">Pikachu's Island Adventure!</a></li>
+				<li><a href="/movies/pikachu10/">Pikachu's Exploration Club</a></li>
+				<li><a href="/movies/pikachu11/">Pikachu's Great Ice Adventure</a></li>
+				<li><a href="/movies/pikachu12/">Pikachu's Sparkling Search</a></li>
+				<li><a href="/movies/pikachu13/">Pikachu's Really Mysterious Adventure</a></li>
+				<li><a href="/movies/eevee/">Eevee & Friends</a></li>
+				<li><a href="/movies/klefki/">Pikachu, What's This Key?</a></li>
+				<li><a href="/movies/pikachumusic/">Pikachu & The Pokémon Music Squad</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href="/card/" class="navheader">Trading Cards</a>
+			<ul>
+				<li><a href="/tcglive/">Pokémon TCG Live</a></li>
+				<li><a href="/card/dex/">Cardex</a></li>
+				<li><a href="/card/dex/extra">-Extra Pokémon Types</a></li>
+				<li><a href="/card/dex/trainers">Trainer Cards</a></li>
+				<li><a href="/card/dex/energy">Energy Cards</a></li>
+				<li><a href="/card/dex/extra/altart.shtml">Alternate Art Cards</a></li>
+				<li><a href="/card/raidbattles">Raid Battles</a></li>
+				<li><a href="/card/classic/">Pokémon TCG Classic</a></li>
+				<li><a href="/card/english.shtml"><b>English Sets</b></a></li>
+				<li><a href="/card/surgingsparks/">-Surging Sparks</a></li>
+				<li><a href="/card/stellarcrown/">-Stellar Crown</a></li>
+				<li><a href="/card/shroudedfable/">-Shrouded Fable</a></li>
+				<li><a href="/card/twilightmasquerade/">-Twilight Masquerade</a></li>
+				<li><a href="/card/temporalforces/">-Temporal Forces</a></li>
+				<li><a href="/card/paldeanfates/">-Paldean Fates</a></li>
+				<li><a href="/card/paradoxrift/">-Paradox Rift</a></li>
+				<li><a href="/card/151/">-151</a></li>
+				<li><a href="/card/obsidianflames/">-Obsidian Flames</a></li>
+				<li><a href="/card/paldeaevolved/">-Paldea Evolved</a></li>
+				<li><a href="/card/scarletviolet/">-Scarlet Violet</a></li>
+				<li><a href="/card/crownzenith/">-Crown Zenith</a></li>
+				<li><a href="/card/silvertempest/">-Silver Tempest</a></li>
+				<li><a href="/card/lostorigin/">-Lost Origin</a></li>
+				<li><a href="/card/pokemongo">-Pokémon GO x Pokémon TCG</a></li>
+				<li><a href="/card/astralradiance">-Astral Radiance</a></li>
+				<li><a href="/card/brilliantstars">-Brilliant Stars</a></li>
+				<li><a href="/card/sm.shtml">-SM Series</a></li>
+				<li><a href="/card/xy.shtml">-XY Series</a></li>
+				<li><a href="/card/bw.shtml">-BW Series</a></li>
+				<li><a href="/card/dpt.shtml">-DPtHS Series</a></li>
+				<li><a href="/card/ex.shtml">-EX Series</a></li>
+				<li><a href="/card/neo.shtml">-Neo/eSeries</a></li>
+				<li><a href="/card/first.shtml">-First Gen Series</a></li>
+				<li><a href="/card/engpromo.shtml"><b>English Promos</b></a></li>
+				<li><a href="/card/svpromos">-SV Promos</a></li>
+				<li><a href="/card/swshpromos">-SWSH Promos</a></li>
+				<li><a href="/card/smpromos">-SM Promos</a></li>
+				<li><a href="/card/xypromos">-XY Promos</a></li>
+				<li><a href="/card/popseries.shtml">-POP Series</a></li>
+				<li><a href="/card/japanese.shtml"><b>Japanese Sets</b></a></li>
+				<li><a href="/card/superelectricbreaker/">-Super Electric Breaker</a></li>
+				<li><a href="/card/paradisedragona/">-Paradise Dragona</a></li>
+				<li><a href="/card/stellarmiracle/">-Stellar Miracle</a></li>
+				<li><a href="/card/nightwanderer/">-Night Wanderer</a></li>
+				<li><a href="/card/maskofchange/">-Mask of Change</a></li>
+				<li><a href="/card/crimsonhaze/">-Crimson Haze</a></li>
+				<li><a href="/card/wildforce/">-Wild Force</a></li>
+				<li><a href="/card/cyberjudge/">-Cyber Judge</a></li>
+				<li><a href="/card/shinytreasureex/">-Shiny Treasure ex</a></li>
+				<li><a href="/card/futureflash/">-Future Flash</a></li>
+				<li><a href="/card/ancientroar/">-Ancient Roar</a></li>
+				<li><a href="/card/ragingsurf/">-Raging Surf</a></li>
+				<li><a href="/card/pokemoncard151/">-Pokémon Card 151</a></li>
+				<li><a href="/card/snowhazard/">-Snow Hazard</a></li>
+				<li><a href="/card/clayburst/">-Clay Burst</a></li>
+				<li><a href="/card/tripletbeat/">-Triplet Beat</a></li>
+				<li><a href="/card/scarletex/">-Scarlet ex</a></li>
+				<li><a href="/card/violetex/">-Violet ex</a></li>
+				<li><a href="/card/vstaruniverse/">-VSTAR Universe</a></li>
+				<li><a href="/card/vs">-Pokémon VS</a></li>
+				<li><a href="/card/jppromo.shtml"><b>Japanese Promos</b></a></li>
+				<li><a href="/card/svpromo">-SV Promos</a></li>
+				<li><a href="/card/spromo">-S Promos</a></li>
+				<li><a href="/card/smpromo">-SM Promos</a></li>
+
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+
+<script type="text/javascript">
+
+function loadMobileLbar(){
+	var tbar_lbar_open=document.getElementById('tbar_lbar_open'),
+		tbar_backdrop=document.getElementById('tbar_backdrop'),
+		lbar=document.getElementById('lbar'),
+		lbarLIs=document.querySelectorAll("#lbar_ul>li .navheader"),
+		lbarLIULs=document.querySelectorAll("#lbar_ul>li>ul");
+
+	/* lbar display/hide */
+	tbar_lbar_open.onclick=function() {
+		if (lbar.className.indexOf("show") > -1){//hide
+			lbar.className = lbar.className.replace("show","");
+			bodyRemoveClass("nav_modal");
+		} else{//show
+			lbar.classList.add("show");
+			bodyAddClass("nav_modal");
+		}
+
+		return false;
+	}
+
+
+	/* background clicked when bar shown */
+	tbar_backdrop.onclick=function() {// if the backdrop is clicked, hide menus
+		lbar.className = lbar.className.replace("show","");
+		rbar.className = rbar.className.replace("show","");
+		bodyRemoveClass("nav_modal");
+		return false;
+	}
+
+	/* handle expand/collapse sub-menus in lbar by attaching click events */
+	for(i=0; i<lbarLIs.length; i++){
+		lbarLIs[i].onclick=function(i) {
+			var elem=this.parentNode.getElementsByTagName("UL")[0];
+			var elemDisp=(elem.className.indexOf("show") === -1)
+
+			// hide all ul, then open one if clicked
+			for(i2=0; i2<lbarLIULs.length; i2++){
+				lbarLIULs[i2].className = lbarLIULs[i2].className.replace("show","");
+			}
+
+			if(elemDisp){
+				elem.classList.add("show");
+			}
+
+			return false;
+		}
+	}
+}
+function loadMobileRbar(){
+	var tbar_rbar_open=document.getElementById('tbar_rbar_open'),
+		rbar=document.getElementById('rbar');
+
+	/* rbar display/hide */
+	tbar_rbar_open.onclick=function() {
+		if (rbar.className.indexOf("show") > -1){//hide
+			rbar.className = rbar.className.replace("show","");
+			bodyRemoveClass("nav_modal");
+		} else{//show
+			rbar.classList.add("show");
+			bodyAddClass("nav_modal");
+		}
+
+		return false;
+	}
+}
+
+loadMobileLbar();
+
+/* attach listener to for rbar events AFTER page loads (because #rbar hasn't loaded at this point in page ) */
+if(window.addEventListener){
+	window.addEventListener('load', loadMobileRbar)
+} else{
+	window.attachEvent('onload', loadMobileRbar)
+}
+</script>
+
+
+
+<div id="content">
+		<div class="center" style="margin-top:16px;height:100px"><div id="nn_lb1"></div><div id="nn_mobile_lb1"></div></div>
+<main>
+
+&nbsp;
+
+<div align="center"><h1>Regional Forms</h1></div></p>
+<p>Regional Forms are alternate forms of Pokémon based upon the region they are caught or hatched. This changes the Pokémon's appearance. This allows for old Pokémon to be used a different way than expected</p>
+
+
+<p><h2>Alola Forms</h2></p>
+
+<p>Alola Forms, otherwise known as Alolan Forms, are the Pokémon changed in Alola. They are all Pokémon whose species originated in Kanto. There are 18 different Alolan Form Pokémon.</p>
+
+<p><h3>List of Alolan Forms</h3></p>
+
+<table class="trainer" align="center"><tr><td class="interact" colspan="9">Alolan Pokémon</td></tr>
+<tr>
+
+
+<td  valign="top"><table><tr><td><a href="/pokemon/rattata/"><img src="/pokemonhome/pokemon/small/019-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/rattata/">Alolan Rattata</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a> <a href="/pokemon/type/normal"><img src="/pokedex-bw/type/normal.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/raticate/"><img src="/pokemonhome/pokemon/small/020-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/raticate/">Alolan Raticate</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a> <a href="/pokemon/type/normal"><img src="/pokedex-bw/type/normal.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/raichu/"><img src="/pokemonhome/pokemon/small/026-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/raichu/">Alolan Raichu</a></td></tr><tr><td align="center"><a href="/pokemon/type/electric"><img src="/pokedex-bw/type/electric.gif" border="0" /></a> <a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/sandshrew/"><img src="/pokemonhome/pokemon/small/027-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/sandshrew/">Alolan Sandshrew</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/sandslash/"><img src="/pokemonhome/pokemon/small/028-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/sandslash/">Alolan Sandslash</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/vulpix/"><img src="/pokemonhome/pokemon/small/037-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/vulpix/">Alolan Vulpix</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a></td></tr></table></td>
+
+</tr><tr><td  valign="top"><table><tr><td><a href="/pokemon/ninetales/"><img src="/pokemonhome/pokemon/small/038-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/ninetales/">Alolan Ninetales</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a> <a href="/pokemon/type/fairy"><img src="/pokedex-bw/type/fairy.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/diglett/"><img src="/pokemonhome/pokemon/small/050-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/diglett/">Alolan Diglett</a></td></tr><tr><td align="center"><a href="/pokemon/type/ground"><img src="/pokedex-bw/type/ground.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/dugtrio/"><img src="/pokemonhome/pokemon/small/051-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/dugtrio/">Alolan Dugtrio</a></td></tr><tr><td align="center"><a href="/pokemon/type/ground"><img src="/pokedex-bw/type/ground.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/meowth/"><img src="/pokemonhome/pokemon/small/052-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/meowth/">Alolan Meowth</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/persian/"><img src="/pokemonhome/pokemon/small/053-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/persian/">Alolan Persian</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/geodude/"><img src="/pokemonhome/pokemon/small/074-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/geodude/">Alolan Geodude</a></td></tr><tr><td align="center"><a href="/pokemon/type/rock"><img src="/pokedex-bw/type/rock.gif" border="0" /></a> <a href="/pokemon/type/electric"><img src="/pokedex-bw/type/electric.gif" border="0" /></a></td></tr></table></td>
+
+</tr><tr><td  valign="top"><table><tr><td><a href="/pokemon/graveler/"><img src="/pokemonhome/pokemon/small/075-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/graveler/">Alolan Graveler</a></td></tr><tr><td align="center"><a href="/pokemon/type/rock"><img src="/pokedex-bw/type/rock.gif" border="0" /></a> <a href="/pokemon/type/electric"><img src="/pokedex-bw/type/electric.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/golem/"><img src="/pokemonhome/pokemon/small/076-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/golem/">Alolan Golem</a></td></tr><tr><td align="center"><a href="/pokemon/type/rock"><img src="/pokedex-bw/type/rock.gif" border="0" /></a> <a href="/pokemon/type/electric"><img src="/pokedex-bw/type/electric.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/grimer/"><img src="/pokemonhome/pokemon/small/088-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/grimer/">Alolan Grimer</a></td></tr><tr><td align="center"><a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a> <a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/muk/"><img src="/pokemonhome/pokemon/small/089-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/muk/">Alolan Muk</a></td></tr><tr><td align="center"><a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a> <a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/exeggutor/"><img src="/pokemonhome/pokemon/small/103-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/exeggutor/">Alolan Exeggutor</a></td></tr><tr><td align="center"><a href="/pokemon/type/grass"><img src="/pokedex-bw/type/grass.gif" border="0" /></a> <a href="/pokemon/type/dragon"><img src="/pokedex-bw/type/dragon.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/marowak/"><img src="/pokemonhome/pokemon/small/105-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/marowak/">Alolan Marowak</a></td></tr><tr><td align="center"><a href="/pokemon/type/fire"><img src="/pokedex-bw/type/fire.gif" border="0" /></a> <a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" /></a></td></tr></table></td>
+</tr>
+</table>
+<p><h2>Galarian Forms</h2></p>
+
+<p>Galarian Forms are the Pokémon changed in Galarian. These Pokémon introduce the first time there are Regional Forms of Legendary Pokémon and 6 of these Galarian Form Pokémon can evolve further, beyond what could  be possible.</p>
+
+
+<p><h3>List of Galarian Forms</h3></p>
+
+<table class="trainer" align="center"><tr><td class="interact" colspan="9">Galarian Pokémon</td></tr>
+
+
+<td  valign="top"><table><tr><td><a href="/pokemon/meowth/"><img src="/pokemonhome/pokemon/small/052-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/meowth/">Galarian Meowth</a></td></tr><tr><td align="center"><a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/ponyta/"><img src="/pokemonhome/pokemon/small/077-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/ponyta/">Galarian Ponyta</a></td></tr><tr><td align="center"><a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/rapidash/"><img src="/pokemonhome/pokemon/small/078-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/rapidash/">Galarian Rapidash</a></td></tr><tr><td align="center"><a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a> <a href="/pokemon/type/fairy"><img src="/pokedex-bw/type/fairy.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/slowpoke/"><img src="/pokemonhome/pokemon/small/079-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/slowpoke/">Galarian Slowpoke</a></td></tr><tr><td align="center"><a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/slowbro/"><img src="/pokemonhome/pokemon/small/080-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/slowbro/">Galarian Slowbro</a></td></tr><tr><td align="center"><a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a> <a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/farfetch'd/"><img src="/pokemonhome/pokemon/small/083-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/farfetch'd/">Galarian Farfetch'd</a></td></tr><tr><td align="center"><a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a></td></tr></table></td>
+
+</tr><tr><td  valign="top"><table><tr><td><a href="/pokemon/weezing/"><img src="/pokemonhome/pokemon/small/110-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/weezing/">Galarian Weezing</a></td></tr><tr><td align="center"><a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a> <a href="/pokemon/type/fairy"><img src="/pokedex-bw/type/fairy.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/mr.mime/"><img src="/pokemonhome/pokemon/small/122-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/mr.mime/">Galarian Mr. Mime</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a> <a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/articuno/"><img src="/pokemonhome/pokemon/small/144-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/articuno/">Galarian Articuno</a></td></tr><tr><td align="center"><a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a> <a href="/pokemon/type/flying"><img src="/pokedex-bw/type/flying.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/zapdos/"><img src="/pokemonhome/pokemon/small/145-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/zapdos/">Galarian Zapdos</a></td></tr><tr><td align="center"><a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a> <a href="/pokemon/type/flying"><img src="/pokedex-bw/type/flying.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/moltres/"><img src="/pokemonhome/pokemon/small/146-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/moltres/">Galarian Moltres</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a> <a href="/pokemon/type/flying"><img src="/pokedex-bw/type/flying.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/slowking/"><img src="/pokemonhome/pokemon/small/199-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/slowking/">Galarian Slowking</a></td></tr><tr><td align="center"><a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a> <a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a></td></tr></table></td>
+</tr><tr>
+<td  valign="top"><table><tr><td><a href="/pokemon/corsola/"><img src="/pokemonhome/pokemon/small/222-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/corsola/">Galarian Corsola</a></td></tr><tr><td align="center"><a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/zigzagoon/"><img src="/pokemonhome/pokemon/small/263-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/zigzagoon/">Galarian Zigzagoon</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a> <a href="/pokemon/type/normal"><img src="/pokedex-bw/type/normal.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/linoone/"><img src="/pokemonhome/pokemon/small/264-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/linoone/">Galarian Linoone</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a> <a href="/pokemon/type/normal"><img src="/pokedex-bw/type/normal.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/darumaka/"><img src="/pokemonhome/pokemon/small/554-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/darumaka/">Galarian Darumaka</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/darmanitan/"><img src="/pokemonhome/pokemon/small/555-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/darmanitan/">Galarian Darmanitan</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/yamask/"><img src="/pokemonhome/pokemon/small/562-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/yamask/">Galarian Yamask</a></td></tr><tr><td align="center"><a href="/pokemon/type/ground"><img src="/pokedex-bw/type/ground.gif" border="0" /></a> <a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" /></a></td></tr></table></td>
+</tr><tr>
+<td  valign="top"><table><tr><td><a href="/pokemon/stunfisk/"><img src="/pokemonhome/pokemon/small/618-g.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/stunfisk/">Galarian Stunfisk</a></td></tr><tr><td align="center"><a href="/pokemon/type/ground"><img src="/pokedex-bw/type/ground.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+</tr>
+</table>
+
+<p><h2>Hisuian Forms</h2></p>
+
+<p>Hisuian Forms are Pokémon found in the Hisui Region, the region now known as Sinnoh. They are available within Pokémon Legends: Arceus. Even though Basculin isn't labelled as a Hisuian Basculin, it is considered a Hisuian Form.</p>
+
+<p><h3>List of Hisuian Forms</h3></p>
+
+<table class="trainer" align="center"><tr><td class="interact" colspan="9">Hisuian Pokémon</td></tr>
+<tr>
+
+
+<td  valign="top"><table><tr><td><a href="/pokemon/growlithe/"><img src="/pokemonhome/pokemon/small/058-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/growlithe/">Hisuian Growlithe</a></td></tr><tr><td align="center"><a href="/pokemon/type/fire"><img src="/pokedex-bw/type/fire.gif" border="0" /></a> <a href="/pokemon/type/rock"><img src="/pokedex-bw/type/rock.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/arcanine/"><img src="/pokemonhome/pokemon/small/059-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/arcanine/">Hisuian Arcanine</a></td></tr><tr><td align="center"><a href="/pokemon/type/fire"><img src="/pokedex-bw/type/fire.gif" border="0" /></a> <a href="/pokemon/type/rock"><img src="/pokedex-bw/type/rock.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/voltorb/"><img src="/pokemonhome/pokemon/small/100-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/voltorb/">Hisuian Voltorb</a></td></tr><tr><td align="center"><a href="/pokemon/type/electric"><img src="/pokedex-bw/type/electric.gif" border="0" /></a> <a href="/pokemon/type/grass"><img src="/pokedex-bw/type/grass.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/electrode/"><img src="/pokemonhome/pokemon/small/101-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/electrode/">Hisuian Electrode</a></td></tr><tr><td align="center"><a href="/pokemon/type/electric"><img src="/pokedex-bw/type/electric.gif" border="0" /></a> <a href="/pokemon/type/grass"><img src="/pokedex-bw/type/grass.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/typhlosion/"><img src="/pokemonhome/pokemon/small/157-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/typhlosion/">Hisuian Typhlosion</a></td></tr><tr><td align="center"><a href="/pokemon/type/fire"><img src="/pokedex-bw/type/fire.gif" border="0" /></a> <a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/qwilfish/"><img src="/pokemonhome/pokemon/small/211-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/qwilfish/">Hisuian Qwilfish</a></td></tr><tr><td align="center"><a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a> <a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a></td></tr></table></td>
+</tr><tr>
+<td  valign="top"><table><tr><td><a href="/pokemon/sneasel/"><img src="/pokemonhome/pokemon/small/215-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/sneasel/">Hisuian Sneasel</a></td></tr><tr><td align="center"><a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a> <a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/samurott/"><img src="/pokemonhome/pokemon/small/503-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/samurott/">Hisuian Samurott</a></td></tr><tr><td align="center"><a href="/pokemon/type/water"><img src="/pokedex-bw/type/water.gif" border="0" /></a> <a href="/pokemon/type/dark"><img src="/pokedex-bw/type/dark.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/lilligant/"><img src="/pokemonhome/pokemon/small/549-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/lilligant/">Hisuian Lilligant</a></td></tr><tr><td align="center"><a href="/pokemon/type/grass"><img src="/pokedex-bw/type/grass.gif" border="0" /></a> <a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/basculin/"><img src="/pokemonhome/pokemon/small/550-w.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/basculin/">Basculin White-Striped Form</a></td></tr><tr><td align="center"><a href="/pokemon/type/water"><img src="/pokedex-bw/type/water.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/zorua/"><img src="/pokemonhome/pokemon/small/570-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/zorua/">Hisuian Zorua</a></td></tr><tr><td align="center"><a href="/pokemon/type/normal"><img src="/pokedex-bw/type/normal.gif" border="0" /></a> <a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/zoroark/"><img src="/pokemonhome/pokemon/small/571-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/zorua/">Hisuian Zoroark</a></td></tr><tr><td align="center"><a href="/pokemon/type/normal"><img src="/pokedex-bw/type/normal.gif" border="0" /></a> <a href="/pokemon/type/ghost"><img src="/pokedex-bw/type/ghost.gif" border="0" /></a></td></tr></table></td>
+</tr><tr><td  valign="top"><table><tr><td><a href="/pokemon/braviary/"><img src="/pokemonhome/pokemon/small/628-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/braviary/">Hisuian Braviary</a></td></tr><tr><td align="center"><a href="/pokemon/type/psychic"><img src="/pokedex-bw/type/psychic.gif" border="0" /></a> <a href="/pokemon/type/flying"><img src="/pokedex-bw/type/flying.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/sliggoo/"><img src="/pokemonhome/pokemon/small/705-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/sliggoo/">Hisuian Sliggoo</a></td></tr><tr><td align="center"><a href="/pokemon/type/dragon"><img src="/pokedex-bw/type/dragon.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/goodra/"><img src="/pokemonhome/pokemon/small/706-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/goodra/">Hisuian Goodra</a></td></tr><tr><td align="center"><a href="/pokemon/type/dragon"><img src="/pokedex-bw/type/dragon.gif" border="0" /></a> <a href="/pokemon/type/steel"><img src="/pokedex-bw/type/steel.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/avalugg/"><img src="/pokemonhome/pokemon/small/713-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/avalugg/">Hisuian Avalugg</a></td></tr><tr><td align="center"><a href="/pokemon/type/ice"><img src="/pokedex-bw/type/ice.gif" border="0" /></a> <a href="/pokemon/type/rock"><img src="/pokedex-bw/type/rock.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/decidueye/"><img src="/pokemonhome/pokemon/small/724-h.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/decidueye/">Hisuian Decidueye</a></td></tr><tr><td align="center"><a href="/pokemon/type/grass"><img src="/pokedex-bw/type/grass.gif" border="0" /></a> <a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a></td></tr></table></td>
+
+
+
+</table>
+
+<p><h2>Paldean Forms</h2></p>
+
+<p>Paldean Forms are Pokémon found in the Paldea Region. They are available within Pokémon Scarlet & Violet but only when caught or bred in Paldea. If caught or bred in Kitakami, you'll get their standard form.</p>
+
+<p><h3>List of Paldean Forms</h3></p>
+
+<table class="trainer" align="center"><tr><td class="interact" colspan="9">Paldean Pokémon</td></tr>
+<tr>
+
+
+<td  valign="top"><table><tr><td><a href="/pokemon/wooper/"><img src="/pokemonhome/pokemon/small/194-p.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/wooper/">Paldean Wooper</a></td></tr><tr><td align="center"><a href="/pokemon/type/poison"><img src="/pokedex-bw/type/poison.gif" border="0" /></a> <a href="/pokemon/type/ground"><img src="/pokedex-bw/type/ground.gif" border="0" /></a></td></tr></table></td>
+
+<td  valign="top"><table><tr><td><a href="/pokemon/tauros/"><img src="/scarletviolet/pokemon/small/128-p.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/tauros/">Paldean Tauros</a></td></tr><tr><td align="center"><a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/tauros/"><img src="/scarletviolet/pokemon/small/128-b.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/tauros/">Paldean Tauros</a></td></tr><tr><td align="center"><a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a> <a href="/pokemon/type/fire"><img src="/pokedex-bw/type/fire.gif" border="0" /></a></td></tr></table></td>
+<td  valign="top"><table><tr><td><a href="/pokemon/tauros/"><img src="/scarletviolet/pokemon/small/128-a.png" class="pkmn" width="120" /></a></td></tr>
+<tr><td align="center"><a href="/pokemon/tauros/">Paldean Tauros</a></td></tr><tr><td align="center"><a href="/pokemon/type/fighting"><img src="/pokedex-bw/type/fighting.gif" border="0" /></a> <a href="/pokemon/type/water"><img src="/pokedex-bw/type/water.gif" border="0" /></a></td></tr></table></td>
+
+
+
+</table>
+
+ </main></div><!-- END id="content" -->
+
+
+<aside id="rbar">
+	<div class="navheader">Databases</div>
+<div><ul><li><b>Pok&eacute;dex</b></li>
+<li>-<a href="/pokemon">Pok&eacute;dex Hub</a></li>
+<li>-<a href="/pokedex">RBY Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-gs">GSC Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-rs">RSEFRLG Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-dp">DPPtHGSS Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-bw">BW Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-xy">XY Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-sm">SM Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-swsh">SWSH Pok&eacute;dex</a></li>
+<li>-<a href="/pokedex-sv">SV Pok&eacute;dex</a></li>
+<li>-<a href="/pokemon/all.shtml">All Pok&eacute;mon List</a></li>
+<li><b>Attackdex</b></li>
+<li>-<a href="/attackdex">RSEFRLG AttackDex</a></li>
+<li>-<a href="/attackdex-dp">DPPtHGSS AttackDex</a></li>
+<li>-<a href="/attackdex-bw">BW AttackDex</a></li>
+<li>-<a href="/attackdex-xy">XY AttackDex</a></li>
+<li>-<a href="/attackdex-sm">SM AttackDex</a></li>
+<li>-<a href="/attackdex-swsh">SWSH AttackDex</a></li>
+<li>-<a href="/attackdex-sv">SV AttackDex</a></li>
+<li><b>Other</b></li>
+<li>-<a href="/itemdex">ItemDex</a></li>
+<li>-<a href="/pokearth">Pok&eacute;arth</a></li>
+<li>-<a href="/abilitydex">AbilityDex</a></li></ul></div>
+	<div class="navheader">Mechanics</div>
+<div><ul><li><b>In-Depth Mechanics</b></li>
+<li><a href="/games/evs.shtml">Effort Values</a></li>
+<li><a href="/games/ivs.shtml">Individual Values</a></li>
+<li><a href="/games/dvs.shtml">Dynamic Values</a></li>
+<li><a href="/games/iv-calcdp.shtml">IV Calculator</a></li>
+<li><a href="/games/iv-calcxy.shtml">IV Calculator XY</a></li>
+<li><a href="/games/iv-calcsm.shtml">IV Calculator SM</a></li>
+<li><a href="/games/iv-calcswsh.shtml">IV Calculator SWSH</a></li>
+<li><a href="/games/moveset.shtml">Moveset Calculator</a></li>
+<li><a href="/games/moveset-bw.shtml">Gen V Moveset Calculator</a></li>
+<li><a href="/games/moveset-xy.shtml">Gen VI Moveset Calculator</a></li>
+<li><a href="/games/moveset-sm.shtml">Sun/Moon Moveset Calculator</a></li>
+<li><a href="/games/hidden-power.shtml">Hidden Power</a></li>
+<li><a href="/games/exp.shtml">EXP</a></li>
+<li><a href="/games/happiness.shtml">Happiness</a></li>
+<li><a href="/games/capture.shtml">Capturing Pok&eacute;mon</a></li>
+<li><a href="/games/breed.shtml">Breeding</a></li>
+<li><a href="/games/damage.shtml">Damage Calculation</a></li>
+<li><a href="/games/criticalhits.shtml">Critical Hits</a></li>
+<li><a href="/games/hitpoints.shtml">Hit Points</a></li>
+<li><a href="/games/stats.shtml">Stats</a></li>
+<li><a href="/games/status.shtml">Status Afflictions</a></li>
+<li><a href="/games/speedpriority.shtml">Speed Priority</a></li>
+<li><a href="/games/recoil.shtml">Recoil</a></li>
+<li><a href="/games/type.shtml">Type Chart - Gen 2 to 5</a></li>
+<li><a href="/games/typexy.shtml">Type Chart - Gen 6 Onwards</a></li>
+<li><b>Pok&eacute;mon Pages</b></li>
+<li><a href="/games/forms.shtml">Alternate Forms</a></li>
+<li><a href="/games/deoxys.shtml">Deoxys Factor</a></li>
+<li><a href="/games/eevee.shtml">Eevee Factor</a></li>
+<li><a href="/games/entryanimation.shtml">Entry Animations</a></li>
+<li><a href="/games/events.shtml">Events</a></li>
+<li><a href="/games/feebas.shtml">Feebas Factor</a></li>
+<li><a href="/games/gender.shtml">Gender Mechanics</a></li>
+<li><a href="/games/hiddenability.shtml">Hidden Abilities</a></li>
+<li><a href="/games/hiddenabilityaccess.shtml">-Available Abilities</a></li>
+<li><a href="/pokemon/legendary.shtml">Legendary Pokémon</a></li>
+<li><a href="/pokemon/legendary.shtml">Mythical Pokémon</a></li>
+<li><a href="/pokemon/specialpokemon.shtml">Special Pokémon</a></li>
+<li><a href="/games/natures.shtml">Natures</a></li>
+<li><a href="/games/characteristics.shtml">Characteristics</a></li>
+<li><a href="/games/pokeball.shtml">Pok&eacute;Ball Levels</a></li>
+<li><a href="/abilitydex">Pok&eacute;mon Abilities</a></li>
+<li><a href="/games/pokerus.shtml">Pok&eacute;Rus</a></li>
+<li><a href="/games/shadow.shtml">Shadow Pok&eacute;mon</a></li>
+<li><a href="/games/shiny.shtml">Shiny Pok&eacute;mon</a></li>
+<li><b>In-Depth Attack Details</b></li>
+<li><a href="/games/combo.shtml">Attack Combos</a></li>
+<li><a href="/games/chatter.shtml">Chatter</a></li>
+<li><a href="/games/wringout.shtml">Crush Grip & Wring Out</a></li>
+<li><a href="/games/entryhazards.shtml">Entry Hazards</a></li>
+<li><a href="/games/eruptionwtrspout.shtml">Eruption & Water Spout</a></li>
+<li><a href="/games/escape.shtml">Escaping Battle</a></li>
+<li><a href="/games/eventmoves.shtml">Event-Only Moves</a></li>
+<li><a href="/games/fling.shtml">Fling</a></li>
+<li><a href="/games/field.shtml">Field Moves</a></li>
+<li><a href="/games/gravity.shtml">Gravity Effects</a></li>
+<li><a href="/games/gyroball.shtml">Gyro Ball</a></li>
+<li><a href="/games/hidden-power.shtml">Hidden Power</a></li>
+<li><a href="/games/magnitude.shtml">Magnitude</a></li>
+<li><a href="/games/naturalgift.shtml">Natural Gift</a></li>
+<li><a href="/games/onehitko.shtml">One Hit KO Moves</a></li>
+<li><a href="/games/powder.shtml">Powder Moves</a></li>
+<li><a href="/games/protection.shtml">Protection Moves</a></li>
+<li><a href="/games/punishment.shtml">Punishment</a></li>
+<li><a href="/games/returnfrust.shtml">Return & Frustration</a></li>
+<li><a href="/games/reversalflail.shtml">Reversal & Flail</a></li>
+<li><a href="/games/secretpower.shtml">Secret Power</a></li>
+<li><a href="/games/typecompatibility.shtml">Special Typed Moves</a></li>
+<li><a href="/games/stockpile.shtml">Stockpile</a></li>
+<li><a href="/games/substitute.shtml">Substitute</a></li>
+<li><a href="/games/terrain.shtml">Terrain Alteration</a></li>
+<li><a href="/games/transform.shtml">Transform</a></li>
+<li><a href="/games/trumpcard.shtml">Trump Card</a></li>
+<li><a href="/games/typechange.shtml">Type Changing</a></li>
+<li><a href="/games/variedstats.shtml">Varied Stats</a></li>
+<li><a href="/games/weather.shtml">Weather Effects</a></li>
+<li><a href="/games/weight.shtml">Weight Mechanics</a></li>
+<li><b>Miscellaneous Aspects</b></li>
+<li><a href="/games/contest.shtml">3rd Gen Contests</a></li>
+<li><a href="/games/4thgen-changes.shtml">4th Gen Battle Changes</a></li>
+<li><a href="/games/berrygrowing.shtml">Berry Growing</a></li>
+<li><a href="/games/trade.shtml">Cross-Gen Trading</a></li>
+<li><a href="/games/mirage.shtml">Mirage Island</a></li>
+<li><a href="/games/mixing.shtml">Mixing Records</a></li>
+<li><a href="/games/tiers.shtml">Pok&eacute;mon Tiers</a></li>
+<li><a href="/games/ribbons.shtml">Ribbons</a></li>
+<li><a href="/games/quick.shtml">Quick Training</a></li>
+<li><a href="/games/shadow.shtml">Shadow Pok&eacute;mon</a></li></ul></div>
+
+
+	</aside>
+
+</div><!-- END id="wrapper" -->
+
+
+
+<footer id="footer">
+	<div class="copyright">
+		<a href="#top" alt="Top of Page" title="Top of Page" class="totop"></a>
+
+		All Content is &copy; Copyright of Serebii.net 1999-2024. |
+		<a href="/privacy.shtml">Privacy Policy</a> |
+		<a class="nn-cmp-show" href="#">Manage Cookie Settings</a><br/>
+		Pokémon and All Respective Names are Trademark &amp; &copy; of Nintendo 1996-2024
+	</div>
+
+	<div style="height:102px">
+		<div id="nn_lb2"></div><div id="nn_mobile_lb2"></div>
+	</div>
+</footer>
+
+
+
+
+
+</body>
+
+</html>
