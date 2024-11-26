@@ -1,10 +1,15 @@
 <html>
 <head>
 	<title>Pokedex</title>
-</head>
+	<!-- Import Bootstrap's classnames from CSS File -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Import Google's Material Icons CSS File -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+<head>
 
 <body>
 
+<div class="container">
 <h1>Pokedex</h1>
 <p>This is a search page for pokemon.</p>
 <p>Try searching for Bulbasaur (Pokemon names) or Grass (Pokemon types).</p>
@@ -56,6 +61,8 @@
   		exec("rm output");
    		}
 ?>
+
+	</div>
 
 </body>
 </html>
