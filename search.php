@@ -7,6 +7,7 @@
 
 <h1>Pokedex</h1>
 <p>This is a search page for pokemon.</p>
+<p>Try searching for Bulbasaur (Pokemon names) or Grass (Pokemon types).</p>
 <form action="search.php" method="post">
 	<input type="text" size=40 name="search_string" value="<?php echo $_POST["search_string"];?>"/>
 	<input type="submit" value="Search"/>
