@@ -33,6 +33,10 @@
 
 <!-- other pokemon -->
 
+
+
+<!-- logging -->
+
 <?php
 	if (isset($_POST["search_string"])) {
 		$search_string = $_POST["search_string"];
