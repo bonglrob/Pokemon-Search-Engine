@@ -18,25 +18,6 @@
 	<input type="submit" value="Search"/>
 </form>
 
-<!-- recommended box -->
-<?php { ?>
-	<div class="card">
-		<div class="card-body">
-			<h5 class="card-title">Recommended</h5>
-			<img src="[insert pokemon img]">
-			<div>
-				<p>[Insert Pokemon name]</p>
-				<p>Types: [Insert Pokemon type]</p>
-			</div>
-<?php }
-?>
-
-<!-- other pokemon -->
-
-
-
-<!-- logging -->
-
 <?php
 	if (isset($_POST["search_string"])) {
 		$search_string = $_POST["search_string"];
@@ -80,6 +61,30 @@
   		exec("rm output");
    		}
 ?>
+
+<!-- recommended box -->
+<div class="card">
+	<div class="card-body">
+		<h5 class="card-title">Recommended</h5>
+			<img src="[retrieve pokemon img]">
+			<div>
+				<p>[retrieve Pokemon name]</p>
+				<p>Type: [retrieve Pokemon types]</p>
+			</div>
+
+<!-- other pokemon -->
+
+<ul class="list-group">
+    <?php { // probably needs for loop after php to create this card for each pokemon?>
+        <li class="list-group-item d-flex align-items-center">
+            <img src="[retrieve pokemon img]">
+            <div>
+                <p>[retrieve pokemon name]</p>
+                <p>Type: [retrieve pokemon types]</p>
+            </div>
+        </li>
+    <?php } ?>
+</ul>
 
 	</div>
 
