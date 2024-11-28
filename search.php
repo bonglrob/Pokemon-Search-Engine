@@ -18,6 +18,7 @@
 	<input type="submit" value="Search"/>
 </form>
 
+<!-- recommended box -->
 <?php { ?>
 	<div class="card">
 		<div class="card-body">
@@ -29,6 +30,8 @@
 			</div>
 <?php }
 ?>
+
+<!-- other pokemon -->
 
 <?php
 	if (isset($_POST["search_string"])) {
