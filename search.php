@@ -10,13 +10,25 @@
 <body>
 
 <div class="container">
-<h1>Pokedex</h1>
-<p>This is a search page for pokemon.</p>
+<h1 style="color: #CAA81D;">Pokedex</h1>
+<p>Collection of all 1000 Pokemon from every generation.</p>
 <p>Try searching for Bulbasaur (Pokemon names) or Grass (Pokemon types).</p>
 <form action="search.php" method="post">
 	<input type="text" size=40 name="search_string" value="<?php echo $_POST["search_string"];?>"/>
 	<input type="submit" value="Search"/>
 </form>
+
+<?php { ?>
+	<div class="card">
+		<div class="card-body">
+			<h5 class="card-title">Recommended</h5>
+			<img src="[insert pokemon img]">
+			<div>
+				<p>[Insert Pokemon name]</p>
+				<p>Types: [Insert Pokemon type]</p>
+			</div>
+<?php }
+?>
 
 <?php
 	if (isset($_POST["search_string"])) {
