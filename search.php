@@ -62,15 +62,8 @@
    		}
 ?>
 
-<!-- recommended box -->
-<div class="card">
-	<div class="card-body">
-		<h5 class="card-title">Recommended</h5>
-			<img src="[retrieve pokemon img]">
-			<div>
-				<p>[retrieve Pokemon name]</p>
-				<p>Type: [retrieve Pokemon types]</p>
-			</div>
+<!-- recommended line -->
+<p>Related query: [insert here later based off previous queries]</p>
 
 <!-- other pokemon -->
 
