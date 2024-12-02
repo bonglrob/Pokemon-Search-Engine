@@ -28,20 +28,18 @@
 
 		fwrite($qfile, "import pyterrier as pt\nif not pt.started():\n\tpt.init()\n\n");
 		fwrite($qfile, "import pandas as pd\nqueries = pd.DataFrame([[\"q1\", \"$search_string\"]], columns=[\"qid\",\"query\"])\n");
-		fwrite($qfile, "index = pt.IndexFactory.of(\"./poke_data_index/\")\n"); #Make sure to change the index name here
+		fwrite($qfile, "index = pt.IndexFactory.of(\"./pokedex_index_v4/\")\n"); #Make sure to change the index name here
 		fwrite($qfile, "tf_idf = pt.BatchRetrieve(index, wmodel=\"TF_IDF\")\n"); #Make sure to change the model here
 		fwrite($qfile, "results = tf_idf.transform(queries)\n");
 
 		for ($i=0; $i<5; $i++) {
-			fwrite($qfile, "print(index.getMetaIndex().getItem(\"filename\",results.docid[$i]))\n");
-			fwrite($qfile, "if index.getMetaIndex().getItem(\"title\", results.docid[$i]).strip() != \"\":\n");
-			fwrite($qfile, "\tprint(index.getMetaIndex().getItem(\"title\",results.docid[$i]))\n");
-			fwrite($qfile, "else:\n\tprint(index.getMetaIndex().getItem(\"filename\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"name\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"description\",results.docid[$i]))\n");
    		}
    
    		fclose($qfile);
 
-   		exec("ls | nc -u 127.0.0.1 10037"); #Make sure to change the port num here
+   		exec("ls | nc -u 127.0.0.1 10025"); #Make sure to change the port num here
    		sleep(3);
 
    		$stream = fopen("output", "r");
@@ -49,10 +47,10 @@
    		$line=fgets($stream);
 
    		while(($line=fgets($stream))!=false) {
-   			$clean_line = preg_replace('/\s+/',',',$line);
-   			$record = explode("./", $clean_line);
-   			$line = fgets($stream);
-   			echo "<a href=\"http://$record[1]\">".$line."</a><br/>\n";
+			$name = trim($line); // First line is name
+			$description = trim(fgets($stream)); // Next line is description
+			$line = fgets($stream);
+			echo "<a href=\"$url\">$name</a>: $description<br/>\n";
    		}
 
    		fclose($stream);
