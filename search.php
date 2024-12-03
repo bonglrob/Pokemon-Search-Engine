@@ -55,6 +55,7 @@
    		$line=fgets($stream);
 
    		while(($line=fgets($stream))!=false) {
+			echo "<img src=\"$img\">\n";
 			$name = trim($line); // First line is name
 			$description = trim(fgets($stream)); // Next line is description
 			$line = fgets($stream);
