@@ -61,8 +61,8 @@
     		$type = trim(fgets($stream)); // Pokémon type (if needed elsewhere)
 			$img = trim(fgets($stream));
     		$url = trim(fgets($stream)); // Read URL
-			echo "<img src=\"$img\">\n";
-			echo "<a href=\"$url\">$name #$dexno</a>: $description $url<br/>\n";
+			echo "<img src=\"$img\" style=\"width:80%; height:auto;\">\n";
+			echo "<a href=\"$url\">$name #$dexno</a>: $description Types: $type. $url<br/>\n";
    		}
 
    		fclose($stream);
