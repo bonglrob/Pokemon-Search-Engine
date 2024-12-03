@@ -38,6 +38,11 @@
 		for ($i=0; $i<5; $i++) {
 			fwrite($qfile, "print(index.getMetaIndex().getItem(\"name\",results.docid[$i]))\n");
 			fwrite($qfile, "print(index.getMetaIndex().getItem(\"description\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"dexno\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"type\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"img\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"url\",results.docid[$i]))\n");
+
    		}
    
    		fclose($qfile);
