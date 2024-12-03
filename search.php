@@ -18,6 +18,10 @@
 	<input type="submit" value="Search"/>
 </form>
 
+<!-- recommended line -->
+<p>Related query: [insert here later based off previous queries]</p>
+
+
 <?php
 	if (isset($_POST["search_string"])) {
 		$search_string = $_POST["search_string"];
@@ -59,10 +63,6 @@
   		exec("rm output");
    		}
 ?>
-
-<!-- recommended line -->
-<p>Related query: [insert here later based off previous queries]</p>
-
 <!-- other pokemon -->
 
 <ul class="list-group">
