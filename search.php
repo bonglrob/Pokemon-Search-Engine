@@ -55,11 +55,14 @@
    		$line=fgets($stream);
 
    		while(($line=fgets($stream))!=false) {
-			echo "<img src=\"$img\">\n";
+			$img = trim(fgets($stream));
 			$name = trim($line); // First line is name
 			$description = trim(fgets($stream)); // Next line is description
-			$line = fgets($stream);
-			echo "<a href=\"$url\">$name</a>: $description<br/>\n";
+			$dexno = trim(fgets($stream)); // Dex number
+    		$type = trim(fgets($stream)); // Pokémon type (if needed elsewhere)
+    		$url = trim(fgets($stream)); // Read URL
+			echo "<a href=\"$url\"><img src=\"$img\" alt=\"$name\"></a>\n";
+			echo "<a href=\"$url\">#$dexno $name</a>: $description<br/>\n";
    		}
 
    		fclose($stream);
