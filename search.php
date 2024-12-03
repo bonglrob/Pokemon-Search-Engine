@@ -18,14 +18,19 @@
 	<input type="submit" value="Search"/>
 </form>
 
-<!-- recommended line -->
-<p>Related query: [insert here later based off previous queries]</p>
-
 <?php
 	if (isset($_POST["search_string"])) {
 		$search_string = $_POST["search_string"];
 		
 		file_put_contents("logs.txt", $search_string.PHP_EOL, FILE_APPEND | LOCK_EX);
+
+		# Top 1 related queries
+		$related_query = trim(shell_exec("python3 related_queries.py \"$search_string\" 2>&1"));
+		echo "<p>Similar Query: $related_query</p>";
+
+		# Top 1 popular queries
+		$popular_query = trim(shell_exec("python3 popular_queries.py"));
+		echo "<p>Most Popular Query: $popular_query</p>";
 
 		$qfile = fopen("query.py", "w");
 
@@ -47,7 +52,7 @@
    
    		fclose($qfile);
 
-   		exec("ls | nc -u 127.0.0.1 10025"); #Make sure to change the port num here
+   		exec("ls | nc -u 127.0.0.1 10021"); #Make sure to change the port num here
    		sleep(3);
 
    		$stream = fopen("output", "r");
