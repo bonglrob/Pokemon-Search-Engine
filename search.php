@@ -62,7 +62,7 @@
 			$img = trim(fgets($stream));
     		$url = trim(fgets($stream)); // Read URL
 			echo "<div style=\"border: 2px solid black; padding: 10px; margin-bottom: 10px; width: 80%;\">";
-			echo "<img src=\"$img\" style=\"width:80%; height: 80%;\">\n";
+			echo "<img src=\"$img\" width=\"100\" height=\"100\">\n";
 			echo "<a href=\"$url\">$name #$dexno</a>: $description Types: $type. $url<br/>\n";
 			echo "</div>";
    		}
