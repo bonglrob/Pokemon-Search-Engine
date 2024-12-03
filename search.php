@@ -21,7 +21,6 @@
 <!-- recommended line -->
 <p>Related query: [insert here later based off previous queries]</p>
 
-
 <?php
 	if (isset($_POST["search_string"])) {
 		$search_string = $_POST["search_string"];
@@ -39,6 +38,9 @@
 		for ($i=0; $i<5; $i++) {
 			fwrite($qfile, "print(index.getMetaIndex().getItem(\"name\",results.docid[$i]))\n");
 			fwrite($qfile, "print(index.getMetaIndex().getItem(\"description\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"dexno\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"img\",results.docid[$i]))\n");
+			fwrite($qfile, "print(index.getMetaIndex().getItem(\"href\",results.docid[$i]))\n");
    		}
    
    		fclose($qfile);
