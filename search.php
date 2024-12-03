@@ -62,19 +62,6 @@
   		exec("rm output");
    		}
 ?>
-<!-- other pokemon -->
-
-<ul class="list-group">
-    <?php { // probably needs for loop after php to create this card for each pokemon?>
-        <li class="list-group-item d-flex align-items-center">
-            <img src="[retrieve pokemon img]">
-            <div>
-                <p>[retrieve pokemon name]</p>
-                <p>Type: [retrieve pokemon types]</p>
-            </div>
-        </li>
-    <?php } ?>
-</ul>
 
 	</div>
 
