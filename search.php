@@ -12,7 +12,7 @@
 <div class="container">
 <h1 style="color: #CAA81D;">Pokedex</h1>
 <p>Collection of all 1000 Pokemon from every generation.</p>
-<p>Try searching for Bulbasaur (Pokemon names) or Grass (Pokemon types).</p>
+<p>Try searching for Bulbasaur (Pokemon names), green bulb (Pokemon descriptions), or Grass (Pokemon types).</p>
 <form action="search.php" method="post">
 	<input type="text" size=40 name="search_string" value="<?php echo $_POST["search_string"];?>"/>
 	<input type="submit" value="Search"/>
@@ -38,9 +38,6 @@
 		for ($i=0; $i<5; $i++) {
 			fwrite($qfile, "print(index.getMetaIndex().getItem(\"name\",results.docid[$i]))\n");
 			fwrite($qfile, "print(index.getMetaIndex().getItem(\"description\",results.docid[$i]))\n");
-			fwrite($qfile, "print(index.getMetaIndex().getItem(\"dexno\",results.docid[$i]))\n");
-			fwrite($qfile, "print(index.getMetaIndex().getItem(\"img\",results.docid[$i]))\n");
-			fwrite($qfile, "print(index.getMetaIndex().getItem(\"href\",results.docid[$i]))\n");
    		}
    
    		fclose($qfile);
