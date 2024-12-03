@@ -10,12 +10,19 @@
 <body>
 
 <div class="container">
-<h1 style="color: #CAA81D;">Pokedex</h1>
-<p>Collection of all 1000 Pokemon from every generation.</p>
-<p>Try searching for Bulbasaur (Pokemon names), green bulb (Pokemon descriptions), or Grass (Pokemon types).</p>
+<h1 style="color: #FFCC00;">Pokedex</h1>
+<p class="lead">Collection of all 1025 Pokemon from every generation sourced from <a href="https://pokemondb.net/pokedex/national" style="color: #FFCC00;">PokemonDB</a></p>
+<p>Try searching for Pokemon <strong>names</strong> (e.g. Bulbasaur), or <strong>descriptions</strong> (e.g. green bulb).</p>
+
 <form action="search.php" method="post">
-	<input type="text" size=40 name="search_string" value="<?php echo $_POST["search_string"];?>"/>
-	<input type="submit" value="Search"/>
+	<div class="input-group" style="width: 33%;">
+		<input class="form-control" type="text" size=40 name="search_string" placeholder="Search the dex..." value="<?php echo $_POST["search_string"];?>"/>
+		<div class="input-group-append">
+			<button type="submit" class="btn btn-outline-secondary">
+				<span class="material-symbols-outlined">search</span>
+			</button>			
+		</div>
+	</div>
 </form>
 
 <?php
@@ -52,7 +59,7 @@
    
    		fclose($qfile);
 
-   		exec("ls | nc -u 127.0.0.1 10021"); #Make sure to change the port num here
+   		exec("ls | nc -u 127.0.0.1 10025"); #Make sure to change the port num here
    		sleep(3);
 
    		$stream = fopen("output", "r");
@@ -65,10 +72,19 @@
 			$dexno = trim(fgets($stream)); // Dex number
     		$type = trim(fgets($stream)); // Pokémon type (if needed elsewhere)
 			$img = trim(fgets($stream));
-    		$url = trim(fgets($stream)); // Read URL
-			echo "<div style=\"border: 2px solid black; padding: 10px; margin-bottom: 10px; width: 80%;\">";
+    		$url = trim(fgets($stream)); // Read URL		
+
+			echo "<div class=\"card mb-4\">";
+			echo "<div class=\"d-flex\">";
+			echo "<div class=\"d-flex flex-column align-items-center m-4\">";
+			echo "<h5 class=\"card-title\"><a style=\"color: #FFCC00;\" href=\"$url\">$dexno: $name</a></h5>";
 			echo "<img src=\"$img\" width=\"100\" height=\"100\">\n";
-			echo "<a href=\"$url\">$name #$dexno</a>: $description Types: $type. $url<br/>\n";
+			echo "<p>$type</p>";
+			echo "</div>";
+			echo "<div class=\"card-body\">";
+			echo "<p>$description</p>\n";
+			echo "</div>";
+			echo "</div>";
 			echo "</div>";
    		}
 
