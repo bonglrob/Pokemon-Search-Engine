@@ -44,7 +44,7 @@
 		fwrite($qfile, "import pyterrier as pt\nif not pt.started():\n\tpt.init()\n\n");
 		fwrite($qfile, "import pandas as pd\nqueries = pd.DataFrame([[\"q1\", \"$search_string\"]], columns=[\"qid\",\"query\"])\n");
 		fwrite($qfile, "index = pt.IndexFactory.of(\"./pokedex_index_v4/\")\n"); #Make sure to change the index name here
-		fwrite($qfile, "tf_idf = pt.BatchRetrieve(index, wmodel=\"TF_IDF\")\n"); #Make sure to change the model here
+		fwrite($qfile, "tf_idf = pt.BatchRetrieve(index, wmodel=\"Hiemstra_LM\")\n"); #Make sure to change the model here
 		fwrite($qfile, "results = tf_idf.transform(queries)\n");
 
 		for ($i=0; $i<5; $i++) {
